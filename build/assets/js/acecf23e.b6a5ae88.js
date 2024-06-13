@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdani_portfolio=self.webpackChunkdani_portfolio||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Blog"}')}}]);
