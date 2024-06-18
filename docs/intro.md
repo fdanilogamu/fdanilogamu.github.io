@@ -1,47 +1,44 @@
 ---
-sidebar_position: 1
+layout: default
+title: "Introduction"
 ---
 
-# Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## What's this all about?
 
-## Getting Started
+Interviews and CVs can only go so far when it comes to truly figuring out who a person is in the professional world. You usually have very little time (and frankly, information) to deduce how they behave, what their average learning curve looks like, and ultimately, what value they can potentially bring to your company.
 
-Get started by **creating a new site**.
+  
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+This is an approach to achieving just that, for you: the person who is considering me as a possible future asset.
 
-### What you'll need
+  
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+What must first be taken into account when getting to know me as a professional, is that although I have sixteen years of work experience, I’ve worked in more than five different industries, and types of roles.
 
-## Generate a new site
+  
 
-Generate a new Docusaurus site using the **classic template**.
+Throughout this portfolio, you will find details about each job I’ve had:
 
-The classic template will automatically be added to your project after you run the command:
+-   How I grew in each company.
+    
+-   What types of projects I executed.
+    
+-   The makeup of my team, if applicable.
+    
+-   Challenges overcome
+    
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+-   Feedback and recognition
+    
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+-   What I took away with me as a learned lesson, applicable from then on.
+    
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+  
 
-## Start your site
+You will also learn about what I call **“Concentrate Work”** *(think of concentrate like when making juice)*. It consists of short bursts of high-quality production that achieve tangible results comparable to, or more often better than, those of people who work longer hours.
 
-Run the development server:
+  
 
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+If you are interested in “full-time” quality, without having to pay for full-time hours, look no further.
