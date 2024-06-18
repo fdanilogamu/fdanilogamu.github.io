@@ -1,3 +1,8 @@
-#Hello Everyone this might work
+---
+layout: default
+title: "Test"
+---
 
-Testity test
+# Testtttt
+
+This is a test Markdown file with proper formatting.
