@@ -138,29 +138,3 @@ const config = {
     }),
 };
 
-module.exports = {
-  title: 'Fletcher Danilo Portfolio', // Your site title
-  tagline: 'My personal portfolio',
-  url: 'https://fdanilogamu.github.io', // Your site URL
-  baseUrl: '/', // Base URL for your project
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'fdanilogamu', // Your GitHub username or organization name
-  projectName: 'fdanilogamu.github.io', // Your repository name
-
-  presets: [
-    [
-      '@docusaurus/preset-classic',
-      {
-        docs: {
-          routeBasePath: '/',
-          sidebarPath: require.resolve('./sidebars.js'),
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      },
-    ],
-  ],
-};
