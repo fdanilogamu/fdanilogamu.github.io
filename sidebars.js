@@ -30,4 +30,16 @@ const sidebars = {
    */
 };
 
-export default sidebars;
+module.exports = {
+  docs: [
+    {
+      type: 'doc',
+      id: 'intro', // Document ID from intro.md
+    },
+    {
+      type: 'doc',
+      id: 'tutorial', // Document ID from tutorial.md
+    },
+  ],
+};
+

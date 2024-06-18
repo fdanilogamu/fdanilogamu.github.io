@@ -7,6 +7,54 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
+
+
+
+
+
+
+
+
+import React from 'react';
+import Layout from '@theme/Layout';
+
+export default function Home() {
+  return (
+    <Layout title="Welcome" description="Welcome to my portfolio">
+      <div>
+        <header>
+          <h1>Welcome to My Portfolio!!!</h1>
+        </header>
+        <nav>
+          <ul>
+            <li><a href="/test">Test Link</a></li>
+                      </ul>
+        </nav>
+        <footer>
+          <p>&copy; 2024 My GitHub Page</p>
+        </footer>
+      </div>
+    </Layout>
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
