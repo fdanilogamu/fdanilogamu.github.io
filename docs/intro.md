@@ -21,7 +21,7 @@ is that although I have sixteen years of work experience, I’ve worked in more
 than five different industries, and types of roles.
 <br>
 <br>
-Throughout this portfolio, you will find details about each job I’ve had:
+Throughout this portfolio, you will find details about each role I’ve held:
 <br>
 <br>
 

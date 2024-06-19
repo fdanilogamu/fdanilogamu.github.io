@@ -1,0 +1,31 @@
+{
+  "name": "dani-portfolio",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "bundle exec jekyll serve"
+  },
+  "dependencies": {
+    "@mdx-js/react": "^3.0.0",
+    "clsx": "^2.0.0",
+    "prism-react-renderer": "^2.3.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {},
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 3 chrome versions",
+      "last 3 firefox versions",
+      "last 5 safari versions"
+    ]
+  },
+  "engines": {
+    "node": ">=18.0"
+  }
+}
