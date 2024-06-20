@@ -13,18 +13,14 @@ title: "Working at Traze"
 <br>
 ## Industry
 <br>
-<br>
 **Industry:** Software: Supply Chain Management
 <br>
 <br>
 ## Projects
 <br>
-<br>
 **Key Projects:**
 <br>
-<br>
 ### Documentation Creation
-<br>
 <br>
 - **Description:** I created the company's documentation from the ground up, encompassing over 250 articles. This involved detailing processes, user guides, and technical specifications.  
 - **Role in project:** Sole Documentation Engineer responsible for planning, writing, and organizing all documentation.  
