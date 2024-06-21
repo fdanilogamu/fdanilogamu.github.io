@@ -3,7 +3,7 @@ layout: default
 title: "Working at Friendcodes"
 ---
 
-# Company Name: Friendcodes
+# Company Name: FriendCodes
 
 ## Role(s)
 <br>
