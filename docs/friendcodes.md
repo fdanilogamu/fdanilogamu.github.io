@@ -10,6 +10,11 @@ title: "Working at Friendcodes"
 **Position(s):** Events - Moderation - Administration - Manager
 <br>
 <br>
+## How did this role help me as a future Documentation Engineer?
+<br>
+This role enhanced my ability to manage and coordinate large teams, develop clear communication protocols, and ensure that complex guidelines were easily understood and implemented by diverse community members.
+<br>
+<br>
 ## Industry
 <br>
 **Industry:** Online Forums: Video Games
@@ -29,7 +34,7 @@ title: "Working at Friendcodes"
 ## Growth
 <br>
 **Professional Growth:**  
-Gained more power and respect, as well as increased responsibilities over time, which enhanced leadership and management skills.
+Gained increased responsibilities over time, which enhanced leadership and management skills.
 <br>
 <br>
 ## Team
@@ -41,7 +46,7 @@ Worked with about a dozen people at any given time, coordinating efforts for com
 ## Challenges
 <br>
 **Challenges Faced:**  
-The community of the forum was very large, with 160,000 members, leading to significant challenges in managing disputes and maintaining a positive environment.
+Managing a large community of 160,000 members presented challenges in maintaining a positive environment and resolving disputes effectively.
 <br>
 <br>
 ## Type of Work
@@ -51,17 +56,14 @@ The community of the forum was very large, with 160,000 members, leading to sign
 <br>
 ## Impact on Company
 <br>
-**Impact on the Company:**  
-Not specified.
+Helped establish and maintain a positive community environment, contributing to the forum's success and growth.
 <br>
 <br>
 ## Feedback/Recognition
 <br>
-**Feedback and Recognition:**  
-Received a few accolades during the yearly awards within the forum community.
+Received several accolades during the yearly awards within the forum community.
 <br>
 <br>
 ## Lessons Learned
 <br>
-**Lessons Learned:**  
-Learned how to manage people as staff and as volunteers, developed skills in conflict resolution and community management.
+Learned how to manage people effectively, resolve conflicts, and develop clear, enforceable policies.

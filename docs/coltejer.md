@@ -10,6 +10,11 @@ title: "Working at Coltejer"
 **Position(s):** Engineering Intern
 <br>
 <br>
+## How did this role help me as a future Documentation Engineer?
+<br>
+This role provided me with valuable experience in technical analysis and problem-solving, which are crucial for creating accurate and effective documentation. It also enhanced my ability to collaborate with diverse teams and understand complex industrial processes.
+<br>
+<br>
 ## Industry
 <br>
 **Industry:** Textile: Manufacturing
