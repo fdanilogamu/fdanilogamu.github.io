@@ -12,7 +12,7 @@ title: "Working at Superna"
 <br>
 ## How did this role help me as a future Documentation Engineer?
 <br>
-This role allowed me to deepen my expertise in documentation methodologies, particularly the docs-as-code approach. It enhanced my leadership skills and my ability to manage and collaborate with a team effectively.
+This role allows me to deepen my expertise in documentation methodologies, particularly the docs-as-code approach. It has enhanced my leadership skills and my ability to manage and collaborate with a team effectively.
 <br>
 <br>
 ## Industry
@@ -28,7 +28,7 @@ This role allowed me to deepen my expertise in documentation methodologies, part
 <br>
 - **Description:** Rebuild the entire documentation from scratch using a docs-as-code method.  
 - **Role in project:** Lead the project, overseeing two other team members.  
-- **Outcome:** Successfully rebuilt the documentation, streamlining processes and improving accessibility and maintainability.
+- **Outcome:** Successfully rebuilding the documentation and streamlining processes.
 <br>
 <br>
 ## Growth
