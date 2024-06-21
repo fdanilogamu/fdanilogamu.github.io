@@ -51,7 +51,7 @@ I left them an entire 250+ article documentation database that became a cornerst
 <br>
 <br>
 ## Feedback/Recognition
-I once received the news that an important client was satisfied with the documentation, which was a significant accomplishment given the lack of support.
+I once received the news that an important client was satisfied with the documentation, to the point that they decided to use it instead of the work of a Technical Writing agency.
 <br>
 <br>
 ## Lessons Learned
