@@ -7,7 +7,7 @@ title: "Working at Traze"
 
 ## Role(s)
 <br>
-**Position(s):** Documentation Engineer
+**Position(s):** Documentation Engineer *(Samples of Documentation can be provided upon request)*
 <br>
 <br>
 ## How did this role help me as a future Documentation Engineer?
