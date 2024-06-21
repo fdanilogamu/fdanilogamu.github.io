@@ -15,6 +15,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     color: #333;
+    margin: 0;
 }
 
 /* Centered content for the home page */
@@ -35,7 +36,7 @@ body {
 }
 
 header {
-    background-color: #C77E2B;
+    background-color: #8D728E;
     color: white;
     padding: 1rem 0;
     width: 100%;
@@ -81,7 +82,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: #C77E2B;
+    background-color: #8D728E;
     color: white;
     padding: 1rem 0;
     width: 100%;
@@ -97,7 +98,7 @@ footer {
 }
 
 .sidebar {
-    width: 200px;
+    width: 250px; /* Increased width from 200px to 250px */
     padding: 15px;
     background: #f4f4f4;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
