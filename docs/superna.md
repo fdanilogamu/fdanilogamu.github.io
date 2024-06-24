@@ -28,45 +28,42 @@ This role allows me to deepen my expertise in documentation methodologies, parti
 <br>
 - **Description:** Rebuild the entire documentation from scratch using a docs-as-code method.  
 - **Role in project:** Lead the project, overseeing two other team members.  
-- **Outcome:** Successfully rebuilding the documentation and streamlining processes.
+- **Outcome so far:** Successfully rebuilding the documentation and streamlining processes.
 <br>
 <br>
 ## Growth
 <br>
-**Professional Growth:**  
 Still evaluating, but positive steps have been made in leadership and documentation practices.
 <br>
 <br>
 ## Team
 <br>
-**Team Dynamics:**  
-Led a small team of two people working on the documentation rebuild.
+Leading a small team of two people working on the documentation rebuild.
 <br>
 <br>
 ## Challenges
 <br>
-**Challenges Faced:**  
 Learning and implementing the docs-as-code methodology, which was new and challenging.
 <br>
 <br>
 ## Type of Work
 <br>
-**Type of Work:** Remote
+Remote
 <br>
 <br>
 ## Impact on Company
 <br>
-**Impact:**  
-Contributed to better organized and more maintainable documentation, though too early for significant company-wide impacts.
+
+Contributing to better organized and more maintainable documentation, though too early for significant company-wide impacts.
 <br>
 <br>
 ## Feedback/Recognition
 <br>
-**Feedback/Recognition:**  
-Received positive recognition from coworkers and management for leadership and initiative.
+ 
+Receiving positive recognition from coworkers and management for leadership and initiative.
 <br>
 <br>
 ## Lessons Learned
 <br>
-**Lessons Learned:**  
-Gained valuable experience in implementing the docs-as-code methodology and leading a documentation team, which are crucial skills for any Documentation Engineer.
+ 
+Gaining valuable experience in implementing the docs-as-code methodology and leading a documentation team, which are crucial skills for any Documentation Engineer.
