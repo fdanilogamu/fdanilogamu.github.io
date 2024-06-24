@@ -7,7 +7,7 @@ title: "Working at TWL"
 
 ## Role(s)
 <br>
-**Position(s):** Model Monitor, Satellite Coordinator, BongaCams Project Manager
+**Position(s):** Monitor, Coordinator, Project Manager
 <br>
 <br>
 ## How did this role help me as a future Documentation Engineer?
@@ -26,32 +26,31 @@ This role enhanced my ability to manage multiple projects simultaneously, develo
 <br>
 ### Multi-Project Management
 <br>
-- **Description:** Managed up to 13 simultaneous projects, overseeing various aspects of the business from model monitoring to satellite coordination.  
+- **Description:** Managed up to 13 simultaneous projects.
 - **Role in project:** Led project planning, execution, and team coordination to ensure successful outcomes.  
 - **Outcome:** Improved operational efficiency and achieved project goals within deadlines.
 <br>
 <br>
 ## Growth
 <br>
-**Professional Growth:**  
-Promoted 4 times in just 2 years, reflecting rapid professional development and recognition of my skills and contributions.
+Promoted 4 times in just 2 years, which reflects rapid professional development.
 <br>
 <br>
 ## Team
 <br>
-**Team Dynamics:**  
-Supervised multiple teams and coordinated various projects, fostering collaboration and achieving project success.
+
+Supervised multiple teams (over 50 people at once) and coordinated various projects, fostering collaboration and achieving project success.
 <br>
 <br>
 ## Challenges
 <br>
-**Challenges Faced:**  
+
 The work environment was extremely intense, requiring quick decision-making and efficient multitasking to handle multiple responsibilities effectively.
 <br>
 <br>
 ## Type of Work
 <br>
-**Type of Work:** Hybrid
+Hybrid
 <br>
 <br>
 ## Impact on Company
