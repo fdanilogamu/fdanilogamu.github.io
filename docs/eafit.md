@@ -44,14 +44,10 @@ Advanced from a regular teacher to a teacher trainer, gaining experience in lead
 <br>
 <br>
 ## Team
-<br>
-
 No specific team, but collaborated closely with colleagues to enhance teaching methods and curriculum design.
 <br>
 <br>
 ## Challenges
-<br>
- 
 High workload density and the demand of constantly creating engaging lessons were significant challenges that required creative and efficient solutions.
 <br>
 <br>
