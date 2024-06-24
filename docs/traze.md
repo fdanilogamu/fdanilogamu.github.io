@@ -7,7 +7,7 @@ title: "Working at Traze"
 
 ## Role(s)
 <br>
-**Position(s):** Documentation Engineer *(Samples of Documentation can be provided upon request)*
+**Position(s):** Documentation Engineer / Technical Writer *(Samples of Documentation can be provided upon request)*
 <br>
 <br>
 ## How did this role help me as a future Documentation Engineer?
@@ -33,25 +33,25 @@ This role taught me self-reliance and resilience, as I was responsible for creat
 <br>
 ## Growth
 <br>
-**Professional Growth:**  
+
 I gained significant experience working independently, which helped develop my problem-solving skills and ability to work autonomously.
 <br>
 <br>
 ## Team
 <br>
-**Team Dynamics:**  
-I worked independently, coordinating remotely with various stakeholders.
+
+I worked on my own, coordinating remotely with various stakeholders.
 <br>
 <br>
 ## Challenges
 <br>
-**Challenges Faced:**  
+
 Managing the entire documentation process independently presented challenges, but it also provided an opportunity to develop innovative solutions and enhance my technical writing skills.
 <br>
 <br>
 ## Type of Work
 <br>
-**Type of Work:** Remote
+ Remote
 <br>
 <br>
 ## Impact on Company
@@ -61,7 +61,7 @@ I created a comprehensive 250+ article documentation database that became a corn
 <br>
 ## Feedback/Recognition
 <br>
-I received positive feedback from an important client, highlighting the effectiveness and quality of the documentation.
+I received positive feedback from an important client, highlighting the effectiveness and quality of the documentation, and preferring it over a Technical Writing firm's work.
 <br>
 <br>
 ## Lessons Learned
