@@ -12,7 +12,7 @@ title: "Working at Fig Tree"
 <br>
 ## How did this role help me as a future Documentation Engineer?
 <br>
-This role developed my skills in communication, data analysis, and team management, all of which are essential for effective documentation. Managing a team and interacting with customers also enhanced my ability to convey information clearly and handle complex tasks.
+This role developed my skills in communication, data analysis, and team management. Managing a team and interacting with customers also enhanced my ability to convey information clearly and handle complex tasks.
 <br>
 <br>
 ## Industry
@@ -33,25 +33,22 @@ This role developed my skills in communication, data analysis, and team manageme
 <br>
 ## Growth
 <br>
-**Professional Growth:**  
 Quickly moved from the Sales team to the Collections team and then promoted to Supervisor, demonstrating adaptability and leadership skills.
 <br>
 <br>
 ## Team
 <br>
-**Team Dynamics:**  
 Worked in a team of about 7 people, including agents and a supervisor, fostering collaboration and team performance.
 <br>
 <br>
 ## Challenges
 <br>
-**Challenges Faced:**  
 Transitioning from Sales to Collections was challenging, and managing the collections team required balancing customer service with recovery targets.
 <br>
 <br>
 ## Type of Work
 <br>
-**Type of Work:** On-site
+On-site
 <br>
 <br>
 ## Impact on Company
