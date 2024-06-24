@@ -33,25 +33,22 @@ This role enhanced my ability to manage and coordinate large teams, develop clea
 <br>
 ## Growth
 <br>
-**Professional Growth:**  
 Gained increased responsibilities over time, which enhanced leadership and management skills.
 <br>
 <br>
 ## Team
 <br>
-**Team Dynamics:**  
 Worked with about a dozen people at any given time, coordinating efforts for community events and moderation.
 <br>
 <br>
 ## Challenges
 <br>
-**Challenges Faced:**  
 Managing a large community of 160,000 members presented challenges in maintaining a positive environment and resolving disputes effectively.
 <br>
 <br>
 ## Type of Work
 <br>
-**Type of Work:** Remote
+Remote
 <br>
 <br>
 ## Impact on Company
