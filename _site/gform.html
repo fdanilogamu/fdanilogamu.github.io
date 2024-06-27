@@ -3,20 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
-  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
+  <title>Contact</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon"> <!-- Add this line -->
+</head>
+<body>
+  <header>
+    <h1>FDG Portfolio</h1>
+  </header>
+  <div class="main-content">
+    <div class="sidebar">
+  <h2>Navigation</h2>
+  <ul>
+<li><a href="/index.html">Home</a></li>    
+<li><a href="/docs/intro.html">Introduction</a></li>
+<li><a href="/docs/friendcodes.html">Working at FC (2008-2012)</a></li>
+<li><a href="/docs/eafit.html">Working at EAFIT (2013-2018)</a></li> 
+<li><a href="/docs/coltejer.html">Working at Coltejer (2014)</a></li> 
+<li><a href="/docs/figtree.html">Working at Fig Tree (2018)</a></li>  
+<li><a href="/docs/twl.html">Working at TWL (2018-2020)</a></li> 
+<li><a href="/docs/traze.html">Working at Traze (2020-2023)</a></li> 
+<li><a href="/docs/superna.html">Working at Superna (2023-...)</a></li> 
+<li><a href="/gform.html">Contact</a></li> 
+
+  </ul>
+</div>
+
+    <div class="content">
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
   <header>
     <h1>Want to get in touch with me?</h1>
   </header>
-  <div class="main-content">
-    {% include sidebar.html %}
-    <div class="content">
-      {{ content }}
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSemJ3R5_kWyPPlM4eobGa6OXJEwUFxNYA-eBKcEdr0uWTHmww/viewform?embedded=true" width="640" height="412" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  <div class="centered-content">
+       <div class="content">
       
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSemJ3R5_kWyPPlM4eobGa6OXJEwUFxNYA-eBKcEdr0uWTHmww/viewform?embedded=true" width="800" height="412" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      
+    </div>
+  </div>
+ 
+</body>
+</html>
+
     </div>
   </div>
   <footer>
@@ -24,3 +61,8 @@
   </footer>
 </body>
 </html>
+
+
+
+
+
