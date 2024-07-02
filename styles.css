@@ -13,7 +13,10 @@ html, body {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+
+  
+    background-color: #D7D9D8;
+
     color: #333;
     margin: 0;
 }
@@ -40,7 +43,11 @@ ul {
 }
 
 header {
+
     background-color: #8D728E;
+
+    background-color: #5C8E65;
+
     color: white;
     padding: 1rem 0;
     width: 100%;
@@ -86,7 +93,9 @@ nav a:hover {
 }
 
 footer {
-    background-color: #8D728E;
+
+    background-color: #5C8E65;
+
     color: white;
     padding: 1rem 0;
     width: 100%;
@@ -104,7 +113,10 @@ footer {
 .sidebar {
     width: 250px; /* Increased width from 200px to 250px */
     padding: 15px;
-    background: #f4f4f4;
+
+
+    background: #E7E8E7;
+
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
