@@ -13,10 +13,7 @@ html, body {
 
 body {
     font-family: Arial, sans-serif;
-
-  
     background-color: #D7D9D8;
-
     color: #333;
     margin: 0;
 }
@@ -43,9 +40,7 @@ ul {
 }
 
 header {
-
     background-color: #433448;
-
     color: white;
     padding: 1rem 0;
     width: 100%;
@@ -91,9 +86,7 @@ nav a:hover {
 }
 
 footer {
-
     background-color: #816F87;
-
     color: white;
     padding: 1rem 0;
     width: 100%;
@@ -111,10 +104,7 @@ footer {
 .sidebar {
     width: 250px; /* Increased width from 200px to 250px */
     padding: 15px;
-
-
     background: #E7E8E7;
-
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -145,3 +135,35 @@ footer {
     padding: 15px;
 }
 
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .sidebar h2, .sidebar ul {
+        text-align: center;
+    }
+
+    .content {
+        padding: 1rem;
+    }
+
+    .centered-content, .left-aligned-content {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 0.5rem 0;
+    }
+}
