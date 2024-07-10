@@ -167,3 +167,21 @@ footer {
         margin: 0.5rem 0;
     }
 }
+
+/* Add these styles to your existing CSS file */
+
+/* Container for the profile photo */
+.photo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+/* Profile photo styling */
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
