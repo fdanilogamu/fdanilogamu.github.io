@@ -38,7 +38,7 @@ Still evaluating, but positive steps have been made in leadership and documentat
 <br>
 ## Team
 <br>
-Leading a small team of two people working on the documentation rebuild.
+Leading a team of two people working on the documentation rebuild.
 <br>
 <br>
 ## Challenges
@@ -53,17 +53,9 @@ Remote
 <br>
 ## Impact on Company
 <br>
-
-Contributing to better organized and more maintainable documentation, though too early for significant company-wide impacts.
+Contributing to better organized and more maintainable documentation. There are a few dozen articles up and live already on their new public site.
 <br>
 <br>
 ## Feedback/Recognition
 <br>
- 
-Receiving positive recognition from coworkers and management for leadership and initiative.
-<br>
-<br>
-## Lessons Learned
-<br>
- 
-Gaining valuable experience in implementing the docs-as-code methodology and leading a documentation team, which are crucial skills for any Documentation Engineer.
+I earned the title "Vest In Class" along with my coworker from the Docs team, as part of the Bi-Weekly Global Meeting. This title comes along with an actual physical vest, which was mailed to me by the company.
