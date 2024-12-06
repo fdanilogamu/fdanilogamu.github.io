@@ -10,7 +10,7 @@ title: "Working at Superna"
 **Position:** Documentation Engineer
 <br>
 <br>
-## How does this role help me as a Documentation Engineer?
+## How does this role help me as a Documentation Engineer and Project Manager?
 <br>
 This role allows me to deepen my expertise in documentation methodologies, particularly the docs-as-code approach. It has enhanced my leadership skills and my ability to manage and collaborate with a team effectively.
 <br>

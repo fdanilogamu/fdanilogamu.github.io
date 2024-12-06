@@ -10,7 +10,7 @@ title: "Working at Traze"
 **Position(s):** Documentation Engineer / Technical Writer *(Samples of Documentation can be provided upon request)*
 <br>
 <br>
-## How did this role help me as a future Documentation Engineer?
+## How did this role help me as a Documentation Engineer and Project Manager?
 <br>
 This role taught me self-reliance and resilience, as I was responsible for creating and managing comprehensive documentation independently. It honed my skills in organizing information and ensuring clarity and precision in technical writing.
 <br>
