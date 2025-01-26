@@ -12,7 +12,7 @@ title: "Working at Traze"
 <br>
 ## How did this role help me as a Documentation Engineer and Project Manager?
 <br>
-This role taught me self-reliance and resilience, as I was responsible for creating and managing comprehensive documentation independently. It honed my skills in organizing information and ensuring clarity and precision in technical writing.
+Working at Traze taught me self-reliance and resilience, as I was responsible for creating and managing comprehensive documentation independently. It honed my skills in organizing information and ensuring clarity and precision in technical writing.
 <br>
 <br>
 ## Industry
