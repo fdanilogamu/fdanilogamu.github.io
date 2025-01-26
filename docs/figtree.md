@@ -12,7 +12,7 @@ title: "Working at Fig Tree"
 <br>
 ## How did this role help me as a future Documentation Engineer?
 <br>
-This role developed my skills in communication, data analysis, and team management. Managing a team and interacting with customers also enhanced my ability to convey information clearly and handle complex tasks.
+Working at Fig Tree I learned about communication, data analysis, and team management. Interacting with customers while managing my coworkers also enhanced my ability to convey information clearly and handle complex tasks.
 <br>
 <br>
 ## Industry
