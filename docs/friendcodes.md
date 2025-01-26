@@ -29,8 +29,9 @@ This role enhanced my ability to manage and coordinate large teams, develop clea
 - **Description:** Developed and implemented a code of conduct and moderation policies for the forum to ensure a positive and engaging community environment.  
 - **Role in project:** Managed the creation and enforcement of the moderation code, including training and overseeing moderators.  
 - **Outcome:** Successfully maintained a high standard of behavior within the community, contributing to a safer and more welcoming environment for all members.
+
 <br>
-<br>
+
 ## Growth
 <br>
 Gained increased responsibilities over time, which enhanced leadership and management skills.
