@@ -35,31 +35,30 @@ This role enhanced my ability to manage and coordinate large teams, develop clea
 <br>
 Gained increased responsibilities over time, which enhanced leadership and management skills.
 <br>
-<br>
+
 ## Team
 <br>
 Worked with about a dozen people at any given time, coordinating efforts for community events and moderation.
 <br>
-<br>
+
 ## Challenges
 <br>
 Managing a large community of 160,000 members presented challenges in maintaining a positive environment and resolving disputes effectively.
 <br>
-<br>
+
 ## Type of Work
 <br>
 Remote
 <br>
-<br>
+
 ## Impact on Company
 <br>
 Helped establish and maintain a positive community environment, contributing to the forum's success and growth.
 <br>
-<br>
+
 ## Feedback/Recognition
 <br>
 Received several accolades during the yearly awards within the forum community.
-<br>
 <br>
 ## Lessons Learned
 <br>
