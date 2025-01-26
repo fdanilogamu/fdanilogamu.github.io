@@ -29,12 +29,13 @@ This role enhanced my ability to manage multiple projects simultaneously, develo
 - **Description:** Managed up to 13 simultaneous projects.
 - **Role in project:** Led project planning, execution, and team coordination to ensure successful outcomes.  
 - **Outcome:** Improved operational efficiency and achieved project goals within deadlines.
+
 <br>
-<br>
+
 ## Growth
+
 <br>
 Promoted 4 times in just 2 years, which reflects rapid professional development.
-<br>
 <br>
 ## Team
 <br>
