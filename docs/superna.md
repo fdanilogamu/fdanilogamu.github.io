@@ -29,33 +29,34 @@ This role allows me to deepen my expertise in documentation methodologies, parti
 - **Description:** Rebuild the entire documentation from scratch using a docs-as-code method.  
 - **Role in project:** Lead the project, overseeing two other team members.  
 - **Outcome so far:** Successfully rebuilding the documentation and streamlining processes.
+
 <br>
-<br>
+
 ## Growth
 <br>
 Still evaluating, but positive steps have been made in leadership and documentation practices.
 <br>
-<br>
+
 ## Team
 <br>
 Leading a team of two people working on the documentation rebuild.
 <br>
-<br>
+
 ## Challenges
 <br>
 Learning and implementing the docs-as-code methodology, which was new and challenging.
 <br>
-<br>
+
 ## Type of Work
 <br>
 Remote
 <br>
-<br>
+
 ## Impact on Company
 <br>
-Contributing to better organized and more maintainable documentation. There are a few dozen articles up and live already on their new public site.
+Contributing to better organized and more maintainable documentation. There are 100+ articles up and live already on their new public site.
 <br>
-<br>
+
 ## Feedback/Recognition
 <br>
 I earned the title "Vest In Class" along with my coworker from the Docs team, as part of the Bi-Weekly Global Meeting. This title comes along with an actual physical vest, which was mailed to me by the company.
