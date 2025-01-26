@@ -12,7 +12,7 @@ title: "Working at EAFIT"
 <br>
 ## How did this role help me as a future Documentation Engineer?
 <br>
-This role honed my skills in clear communication, lesson planning, and public speaking. It also provided experience in training others and developing educational materials.
+Being a teacher honed my skills in clear communication, lesson planning, and public speaking. It also provided experience in training others and developing educational materials.
 <br>
 <br>
 ## Industry
