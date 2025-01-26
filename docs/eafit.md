@@ -41,33 +41,50 @@ Being a teacher honed my skills in clear communication, lesson planning, and pub
 <br>
 
 ## Growth
-<br>
+
+
+
 **Professional Growth:**  
 Advanced from a regular teacher to a teacher trainer, gaining experience in leadership and professional development.
 <br>
 
 ## Team
+
+
+
 No specific team, but collaborated closely with colleagues to enhance teaching methods and curriculum design.
 <br>
 
 ## Challenges
+
+
+
 High workload density and the demand of constantly creating engaging lessons were significant challenges that required creative and efficient solutions.
 <br>
 
 ## Type of Work
-<br>
+
+
+
 On-site
 <br>
 
 ## Impact on Company
+
+
+
 <br>
 Recognized as one of the best teachers; conducted an interview for the university's training courses.
 <br>
 
 ## Feedback/Recognition
+
+
+
 <br>
 Recognized as one of the best teachers in the university by multiple peers and superiors, highlighting my commitment to educational excellence.
 <br>
 ## Lessons Learned
-<br>
+
+
 Learned public speaking, lesson planning, and how to engage students effectively, all of which are crucial for creating clear and comprehensive documentation.
