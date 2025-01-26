@@ -29,42 +29,44 @@ Being a teacher honed my skills in clear communication, lesson planning, and pub
 - **Description:** Developed an Excel-based course to help teachers organize their data.
 - **Role in project:** Created and presented the course. 
 - **Outcome:** Improved efficiency in those who chose to use the material learned.
+
 <br>
+
 ### Rehearsal Tasks: Kill the Comfort Zone
 <br>
 - **Description:** Presented a hypothesis along with a proposal, for teaching more efficiently and questioning the status quo of English-teaching.
 - **Role in project:** I developed the seminar and taught it on two occasions. 
 - **Outcome:** Enhanced student engagement and improved conversational skills.
+
 <br>
-<br>
+
 ## Growth
 <br>
 **Professional Growth:**  
 Advanced from a regular teacher to a teacher trainer, gaining experience in leadership and professional development.
 <br>
-<br>
+
 ## Team
 No specific team, but collaborated closely with colleagues to enhance teaching methods and curriculum design.
 <br>
-<br>
+
 ## Challenges
 High workload density and the demand of constantly creating engaging lessons were significant challenges that required creative and efficient solutions.
 <br>
-<br>
+
 ## Type of Work
 <br>
 On-site
 <br>
-<br>
+
 ## Impact on Company
 <br>
 Recognized as one of the best teachers; conducted an interview for the university's training courses.
 <br>
-<br>
+
 ## Feedback/Recognition
 <br>
 Recognized as one of the best teachers in the university by multiple peers and superiors, highlighting my commitment to educational excellence.
-<br>
 <br>
 ## Lessons Learned
 <br>
