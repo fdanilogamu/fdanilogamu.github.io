@@ -29,8 +29,7 @@ Working at Traze taught me self-reliance and resilience, as I was responsible fo
 - **Description:** I created the company's documentation from the ground up, encompassing over 250 articles. This involved detailing processes, user guides, and technical specifications.  
 - **Role in project:** Sole Documentation Engineer responsible for planning, writing, and organizing all documentation.  
 - **Outcome:** Successfully provided comprehensive documentation that became essential for the company's operations and client onboarding.
-<br>
-<br>
+
 ## Growth
 <br>
 
