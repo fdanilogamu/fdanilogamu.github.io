@@ -29,37 +29,39 @@ Working at Fig Tree I learned about communication, data analysis, and team manag
 - **Description:** Redesigned the team's control spreadsheet to improve tracking of collections activities and performance metrics.  
 - **Role in project:** Led the redesign and implementation, ensuring it met the team's needs.  
 - **Outcome:** Enhanced efficiency and accuracy in tracking team performance and collection efforts.
+
 <br>
-<br>
+
 ## Growth
+
 <br>
 Quickly moved from the Sales team to the Collections team and then promoted to Supervisor, demonstrating adaptability and leadership skills.
 <br>
-<br>
+
 ## Team
 <br>
 Worked in a team of about 7 people, including agents and a supervisor, fostering collaboration and team performance.
+
 <br>
-<br>
+
 ## Challenges
 <br>
 Transitioning from Sales to Collections was challenging, and managing the collections team required balancing customer service with recovery targets.
 <br>
-<br>
+
 ## Type of Work
 <br>
 On-site
 <br>
-<br>
+
 ## Impact on Company
 <br>
 Recognized by the CEO as one of the most effective team members, contributing to improved collection rates and overall team performance.
 <br>
-<br>
+
 ## Feedback/Recognition
 <br>
 Recognized by the CEO for outstanding performance, highlighting my contributions and effectiveness in the role.
-<br>
 <br>
 ## Lessons Learned
 <br>
