@@ -41,7 +41,7 @@ Throughout this portfolio, you will find details about each role I’ve held:
 
 ## Most valuable soft skills
 
-1. Execution Intelligence
+1. Execution-Focused
    1. I'm known for rapid, high-quality delivery⁣
 
 2. Reality Perception⁣
@@ -62,7 +62,7 @@ Throughout this portfolio, you will find details about each role I’ve held:
       ⁣
 
 
-5. Productive Discomfort⁣
+5. Productive Approach to Discomfort⁣
    1. I seek out difficult conversations⁣
    2. I challenge the status quo constructively⁣
    3. I take calculated risks others avoid⁣
