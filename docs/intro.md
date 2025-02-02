@@ -39,10 +39,30 @@ Throughout this portfolio, you will find details about each role I’ve held:
 <br>
 <br>
 
-You will also learn about what I call **“Concentrate Work”** *(think of concentrate like when making juice)*. 
-<br>
-<br>
-It consists of short bursts of high-quality production that achieve tangible results comparable to, or more often better than, those of people who work longer hours.
-<br>
-<br>
-If you are interested in “full-time” quality, without having to pay for full-time hours, look no further.
+## Most valuable soft skills
+
+1. Execution Intelligence⁣
+
+- I'm known for rapid, high-quality delivery⁣
+⁣
+2. Reality Perception⁣
+
+- I see situations as they are, not as wished⁣
+- I accurately gauge my capabilities and understand my shortcomings
+- I never oversell or overpromise
+⁣
+3. People Intelligence⁣
+
+- I read rooms instinctively⁣
+- I can adapt my communication to any audience⁣
+⁣
+4. Strategic Simplification⁣
+
+- I can make the complex sound obvious
+- I reduce everything to its core elements⁣
+⁣
+5. Productive Discomfort⁣
+
+- I seek out difficult conversations⁣
+- I challenge the status quo constructively⁣
+- I take calculated risks others avoid⁣
