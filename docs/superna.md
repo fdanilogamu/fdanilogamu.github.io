@@ -12,7 +12,7 @@ title: "Working at Superna"
 <br>
 ## How does this role help me as a Documentation Engineer and Project Manager?
 <br>
-This role allows me to deepen my expertise in documentation methodologies, particularly the docs-as-code approach. It has enhanced my leadership skills and my ability to manage and collaborate with a team effectively.
+This role allowed me to deepen my expertise in documentation methodologies, particularly the docs-as-code approach. It enhanced my leadership skills and my ability to manage and collaborate with a team effectively.
 <br>
 <br>
 ## Industry
@@ -28,18 +28,18 @@ This role allows me to deepen my expertise in documentation methodologies, parti
 <br>
 - **Description:** Rebuild the entire documentation from scratch using a docs-as-code method.  
 - **Role in project:** Lead the project, overseeing two other team members.  
-- **Outcome so far:** Successfully rebuilding the documentation and streamlining processes.
+- **Outcome** Successfully rebuilt the legacy documentation and streamlined processes.
 
 <br>
 
 ## Growth
 <br>
-Still evaluating, but positive steps have been made in leadership and documentation practices.
+The solidification of my skills in docs-as-code are invaluable.
 <br>
 
 ## Team
 <br>
-Leading a team of two people working on the documentation rebuild.
+Led a team of two people working on the documentation rebuild.
 <br>
 
 ## Challenges
@@ -54,7 +54,7 @@ Remote
 
 ## Impact on Company
 <br>
-Contributing to better organized and more maintainable documentation. There are 100+ articles up and live already on their new public site.
+Contributed to better organized and more maintainable documentation. There are 100+ articles up and live on their new public site.
 <br>
 
 ## Feedback/Recognition
