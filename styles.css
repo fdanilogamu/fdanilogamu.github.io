@@ -30,13 +30,12 @@ body {
 
 .left-aligned-content {
     padding: 2rem;
-    max-width: 500px;
+    max-width: 70%;
     margin: 2rem auto; /* Keeps it centered */
     text-align: left;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-right: 3rem; /* Added specific right margin */
 }
 
 
