@@ -15,7 +15,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #f7f9fc;
     color: #333;
-    margin: 0;
+    margin: 50px;
     line-height: 1.6;
 }
 
@@ -31,7 +31,7 @@ body {
 /* Left-aligned content for markdown articles */
 .left-aligned-content {
     padding: 2rem;
-    max-width: 600px;
+    max-width: 500px;
     margin: 2rem auto;
     text-align: left;
     background-color: #fff;
@@ -41,7 +41,7 @@ body {
 
 ul {
     padding-left: 25px; 
-    padding-right: 25px;
+    padding-right: 100px;
 }
 
 header {
