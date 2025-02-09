@@ -215,5 +215,16 @@ button {
 
 button:hover {
     background-color: #008080;
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
+
+.collapsible {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0.5rem 0;
+}
+
+.collapsible:hover {
+    color: #004d66;
+}
+
