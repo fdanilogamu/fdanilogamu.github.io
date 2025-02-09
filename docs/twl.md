@@ -7,7 +7,7 @@ title: "Working at TWL"
 
 ## Role(s)
 <br>
-**Position(s):** Monitor, Coordinator, Project Manager
+**Position(s):** Project Manager / Internal Control Manager
 <br>
 <br>
 ## How did this role help me as a future Documentation Engineer?
