@@ -1,18 +1,40 @@
 <div class="sidebar">
   <h2>Navigation</h2>
   <ul>
-    <li><a href="/index.html">Home</a></li>    
+    <li><a href="/index.html">Home</a></li>
     <li><a href="/docs/intro.html">Introduction</a></li>
 
-    <h3>➜ Recent Work Experience</h3>
-     <li><a href="/docs/superna.html">Working at Superna (2023-2025)</a></li>
-     <li><a href="/docs/traze.html">Working at Traze (2020-2023)</a></li> 
-     <li><a href="/docs/twl.html">Working at TWL (2018-2020)</a></li> 
-    <h3>➜ Jobs prior to 2020</h3>
-     <li><a href="/old_jobs.html">Experience as far back as 2008</a></li> 
+    <!-- Recent Work Experience -->
+    <h3 class="collapsible" onclick="toggleSection('recent-work')">➜ Recent Work Experience</h3>
+    <ul id="recent-work" class="collapsible-content">
+      <li><a href="/docs/superna.html">Working at Superna (2023-2025)</a></li>
+      <li><a href="/docs/traze.html">Working at Traze (2020-2023)</a></li>
+      <li><a href="/docs/twl.html">Working at TWL (2018-2020)</a></li>
+    </ul>
 
-    <h3>➜ Other</h3>
-    <li><a href="/testimonials.html">Testimonials</a></li> 
-    <li><a href="/gform.html">Contact</a></li>
+    <!-- Jobs Prior to 2020 -->
+    <h3 class="collapsible" onclick="toggleSection('prior-jobs')">➜ Jobs prior to 2020</h3>
+    <ul id="prior-jobs" class="collapsible-content">
+      <li><a href="/old_jobs.html">Experience as far back as 2008</a></li>
+    </ul>
+
+    <!-- Other -->
+    <h3 class="collapsible" onclick="toggleSection('other')">➜ Other</h3>
+    <ul id="other" class="collapsible-content">
+      <li><a href="/testimonials.html">Testimonials</a></li>
+      <li><a href="/gform.html">Contact</a></li>
+    </ul>
   </ul>
 </div>
+
+<script>
+  function toggleSection(id) {
+    const section = document.getElementById(id);
+    if (section.style.display === "none" || !section.style.display) {
+      section.style.display = "block";
+    } else {
+      section.style.display = "none";
+    }
+  }
+</script>
+
