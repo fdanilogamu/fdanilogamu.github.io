@@ -7,7 +7,6 @@ title: "Introduction"
 ## What's this all about?
 <br>
 <br>
-<a href="/docs/Ana-Fletcher-Galeano.pdf" download class="download-button">Download My CV</a>
 
 Interviews and CVs can only go so far when it comes to truly figuring out who a person is in the professional world. 
 You usually have very little time (and frankly, information) to deduce how they behave, what their average learning curve looks like, and ultimately, 
@@ -38,6 +37,9 @@ Throughout this portfolio, you will find details about each role I’ve held:
 
 -   What I took away with me as a learned lesson, applicable from then on.  
 <br>
+<br>
+<a href="/docs/Ana-Fletcher-Galeano.pdf" download class="download-button">Download My CV</a>
+
 <br>
 
 ## Most valuable soft skills
