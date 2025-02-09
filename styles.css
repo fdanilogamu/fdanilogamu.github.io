@@ -228,3 +228,14 @@ button:hover {
     color: #004d66;
 }
 
+footer a {
+    color: white; /* Makes the hyperlink text white */
+    text-decoration: none; /* Optional: Removes underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Optional: Adds underline on hover */
+    color: #b3e6e6; /* Optional: A light color for hover effect */
+}
+
+
