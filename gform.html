@@ -1,3 +1,9 @@
+---
+layout: default
+title: Contact
+---
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,42 +12,18 @@
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
-  <style>
-    /* Make the iframe responsive */
-    .responsive-iframe {
-      width: 100%;
-      max-width: 800px; /* Limit maximum width for large screens */
-      height: 412px; /* Default height */
-      border: none; /* Remove border */
-    }
-
-    /* Adjust height on smaller screens */
-    @media (max-width: 768px) {
-      .responsive-iframe {
-        height: 600px; /* Increase height for better usability on smaller screens */
-      }
-    }
-
-    /* Center the content */
-    .centered-content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 1rem;
-    }
-  </style>
 </head>
 <body>
   <header>
     <h1>Want to get in touch with me?</h1>
   </header>
   <div class="centered-content">
-    <div class="content">
-      <iframe 
-        src="https://docs.google.com/forms/d/e/1FAIpQLSemJ3R5_kWyPPlM4eobGa6OXJEwUFxNYA-eBKcEdr0uWTHmww/viewform?embedded=true" 
-        class="responsive-iframe">
-      </iframe>
+       <div class="content">
+      
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSemJ3R5_kWyPPlM4eobGa6OXJEwUFxNYA-eBKcEdr0uWTHmww/viewform?embedded=true" width="80%" height="80%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      
     </div>
   </div>
+ 
 </body>
 </html>
