@@ -7,7 +7,7 @@ title: "Working at Superna"
 
 ## Role(s)
 <br>
-**Position:** Documentation Engineer
+**Position:** Documentation Lead
 <br>
 <br>
 ## How does this role help me as a Documentation Engineer and Project Manager?
