@@ -68,3 +68,17 @@ Throughout this portfolio, you will find details about each role I’ve held:
    2. I challenge the status quo constructively
    3. I take calculated risks others avoid
 
+
+## Technical Skills
+
+- Confluence
+- Docs-as-code methodology
+- Git
+- VSCode
+- BitBucket
+- AI prompt engineering
+- Jira
+- Document360
+- Monday
+- ClickUp
+- Trello
