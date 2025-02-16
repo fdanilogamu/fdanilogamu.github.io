@@ -26,8 +26,8 @@ This role allowed me to deepen my expertise in documentation methodologies, part
 <br>
 ### Documentation Rebuild Project
 <br>
-- **Description:** Rebuild the entire documentation from scratch using a docs-as-code method.  
-- **Role in project:** Lead the project, overseeing two other team members.  
+- **Description:** Rebuild the entire documentation from scratch using docs-as-code method.  
+- **Role in project:** Led the project, overseeing two other team members.  
 - **Outcome** Successfully rebuilt the legacy documentation and streamlined processes.
 
 <br>
@@ -54,7 +54,7 @@ Remote
 
 ## Impact on Company
 <br>
-Contributed to better organized and more maintainable documentation. There are 100+ articles up and live on their new public site.
+Contributed to better organized and more maintainable documentation. There are more than 100 articles up and live on their new public site.
 <br>
 
 ## Feedback/Recognition
