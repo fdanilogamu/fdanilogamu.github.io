@@ -24,14 +24,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
 }
 
 .left-aligned-content {
-    padding: 2rem;
-    max-width: 90%;
-    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 100%;
+    margin: 1rem auto;
     text-align: left;
     background-color: #fff;
     border-radius: 8px;
