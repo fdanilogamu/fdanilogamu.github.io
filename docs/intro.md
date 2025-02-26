@@ -69,14 +69,16 @@ Throughout this portfolio, you will find details about each role I’ve held:
    3. I take calculated risks others avoid
 
 
-## Technical Skills
+## Most Relevant Technical Skills
 
 - Confluence
+- Project Management
+- Scrum
 - Docs-as-code methodology
 - Git
 - VSCode
 - BitBucket
-- AI prompt engineering
+- AI prompt design
 - Jira
 - Document360
 - Monday
