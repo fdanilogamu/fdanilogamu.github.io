@@ -38,7 +38,7 @@ Throughout this portfolio, you will find details about each role I’ve held:
 -   What I took away with me as a learned lesson, applicable from then on.  
 <br>
 <br>
-<a href="/docs/Ana-Fletcher-Galeano.pdf" download class="download-button">Download My CV</a>
+<a href="/docs/ana_fletcher_galeano.pdf" download class="download-button">Download My CV</a>
 
 <br>
 
