@@ -8,34 +8,32 @@ title: "Introduction"
 <br>
 <br>
 
-Interviews and CVs can only go so far when it comes to truly figuring out who a person is in the professional world. 
-You usually have very little time (and frankly, information) to deduce how they behave, what their average learning curve looks like, and ultimately, 
-what value they can potentially bring to your company.
-<br>
-<br>
-This is an approach to achieving just that, for you: the person who is considering me as a possible future asset.
-<br>
-<br>
-What must first be taken into account when getting to know me as a professional, 
-is that although I have sixteen years of work experience, I’ve worked in more 
-than five different industries, and types of roles.
-<br>
-<br>
-Throughout this portfolio, you will find details about each role I’ve held:
-<br>
-<br>
+Interviews and CVs can only go so far when it comes to understanding who someone really is in a professional context.
+You’re often left with a few bullet points and a CV snapshot, which isn’t enough to assess learning curve, adaptability, or how a person actually thinks through problems.
 
--   How I grew in each company.
-    
--   What types of projects I executed.
-    
--   The makeup of my team, if applicable.
-    
--   Challenges overcome    
+This portfolio is my way of closing that gap.
 
--   Feedback and recognition    
+Here, you’ll find details on every role I’ve held:
 
--   What I took away with me as a learned lesson, applicable from then on.  
+- How I grew in each company
+
+- The types of projects I executed
+
+- The makeup of my team (when applicable)
+
+- Challenges I overcame
+
+- Feedback and recognition
+
+- What I took away from each experience
+
+But let me start by giving you some context:
+
+I have a background in production engineering, with formal training in lean methodologies, process improvement, and automation. I’ve been working in operations and project management for over seven years, primarily in the SaaS space. I've led teams, improved systems, and helped things run smoother from the inside.
+
+I’m fluent in tools like JIRA, Notion, Monday.com, ClickUp, and more. Honestly, learning new software is second nature at this point. It’s like riding a bike, just a different color each time.
+
+If you're trying to figure out whether I'm a good fit, this is the clearest window into how I work. 
 <br>
 <br>
 <a href="/docs/ana_fletcher_galeano.pdf" download class="download-button">Download My CV</a>
