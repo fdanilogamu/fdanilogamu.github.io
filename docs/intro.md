@@ -36,7 +36,9 @@ Here, you’ll find details on every role I’ve held:
 
 <br>
 
-But let me start by giving you some context:
+However, let me start by giving you some context:
+
+<br>
 
 I have a background in production engineering, with formal training in lean methodologies, process improvement, and automation. I’ve been working in operations and project management for over seven years, primarily in the SaaS space. I've led teams, improved systems, and helped things run smoother from the inside.
 
