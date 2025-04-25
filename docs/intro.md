@@ -9,9 +9,12 @@ title: "Introduction"
 <br>
 
 Interviews and CVs can only go so far when it comes to understanding who someone really is in a professional context.
+
 You’re often left with a few bullet points and a CV snapshot, which isn’t enough to assess learning curve, adaptability, or how a person actually thinks through problems.
 
+
 This portfolio is my way of closing that gap.
+
 
 Here, you’ll find details on every role I’ve held:
 
@@ -26,6 +29,7 @@ Here, you’ll find details on every role I’ve held:
 - Feedback and recognition
 
 - What I took away from each experience
+
 
 But let me start by giving you some context:
 
