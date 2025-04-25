@@ -12,11 +12,15 @@ Interviews and CVs can only go so far when it comes to understanding who someone
 
 You’re often left with a few bullet points and a CV snapshot, which isn’t enough to assess learning curve, adaptability, or how a person actually thinks through problems.
 
+<br>
 
 This portfolio is my way of closing that gap.
 
+<br>
 
 Here, you’ll find details on every role I’ve held:
+
+<br>
 
 - How I grew in each company
 
@@ -30,6 +34,7 @@ Here, you’ll find details on every role I’ve held:
 
 - What I took away from each experience
 
+<br>
 
 But let me start by giving you some context:
 
