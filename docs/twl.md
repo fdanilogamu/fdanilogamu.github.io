@@ -12,7 +12,7 @@ title: "Working at TWL"
 <br>
 ## How did this role help me as a future Documentation Engineer?
 <br>
-This role enhanced my ability to manage multiple projects simultaneously, develop clear and efficient communication strategies, and handle high-pressure situations, all of which are crucial for creating effective documentation. At TWL, I wore multiple hats: Project Manager, Internal Control Manager, and community initiative lead. I worked directly with the CEO and CFO to bring structure to fast-moving projects, while also shaping internal processes and supporting collaboration across the company.
+This role enhanced my ability to manage multiple projects simultaneously, develop clear and efficient communication strategies, and handle high-pressure situations. At this company, I wore multiple hats: Project Manager, Internal Control Manager, and community initiative lead. I worked directly with the CEO and CFO to bring structure to fast-moving projects, while also shaping internal processes and supporting collaboration across the company.
 <br>
 <br>
 ## Industry
