@@ -10,7 +10,7 @@ title: "Introduction"
 
 Interviews and CVs can only go so far when it comes to understanding who someone really is in a professional context.
 
-You’re often left with a few bullet points and a CV snapshot, which isn’t enough to assess learning curve, adaptability, or how a person actually thinks through problems.
+You’re often left with a few bullet points and a CV, which isn’t enough to assess learning curve, adaptability, or how a person actually thinks through problems.
 
 <br>
 
@@ -36,13 +36,13 @@ Here, you’ll find details on every role I’ve held:
 
 <br>
 
-However, let me start by giving you some context:
+Either way, let me start by giving you some context:
 
 <br>
 
-I have a background in production engineering, with formal training in lean methodologies, process improvement, and automation. I’ve been working in operations and project management for over seven years, primarily in the SaaS space. I've led teams, improved systems, and helped things run smoother from the inside.
+I have a background in Production Engineering, with formal training in lean methodologies, process improvement, and automation. I’ve been working in operations and project management for over seven years, primarily in the SaaS space. I've led teams, improved systems, and helped things run smoother from the inside.
 
-I’m fluent in tools like JIRA, Notion, Monday.com, ClickUp, and more. Honestly, learning new software is second nature at this point. It’s like riding a bike, just a different color each time.
+I’m fluent in tools like JIRA, Notion, Monday.com, ClickUp, and more. Honestly, to me, learning new software is like riding a bike, just a different color each time.
 
 If you're trying to figure out whether I'm a good fit, this is the clearest window into how I work. 
 <br>
