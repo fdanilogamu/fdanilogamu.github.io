@@ -12,7 +12,7 @@ title: "Working at Traze"
 <br>
 ## How did this role help me as a Documentation Engineer and Project Manager?
 <br>
-I served as the sole documentation owner, creating over 250 articles that continue to guide users today. This role sharpened my ability to build systems from scratch, speak the language of both users and stakeholders, and deliver high-impact documentation which was trusted even over third-party vendors. Working at Traze taught me self-reliance and resilience, as I was responsible for creating and managing comprehensive documentation independently, working only directly with SMEs (of which one of the main ones was the CEO himself). 
+I served as the sole documentation owner, creating over 250 articles that continue to guide users today. This role sharpened my ability to build systems from scratch, speak the language of both users and stakeholders, and deliver documentation which was trusted even over third-party vendors. Working at Traze taught me self-reliance and resilience, as I was responsible for creating and managing comprehensive documentation independently, working only directly with SMEs (of which one of the main ones was the CEO himself). 
 <br>
 <br>
 ## Industry
