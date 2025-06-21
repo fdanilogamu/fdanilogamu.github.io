@@ -238,4 +238,34 @@ footer a:hover {
     color: #b3e6e6; /* Optional: A light color for hover effect */
 }
 
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #eeeeee;
+}
+
+a {
+    color: #80cbc4;
+}
+
+header, footer {
+    background-color: #1e1e1e;
+}
+}
+
+:root {
+  --bg: #ffffff;
+  --fg: #111111;
+}
+
+[data-theme="dark"] {
+  --bg: #121212;
+  --fg: #eeeeee;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+}
 
