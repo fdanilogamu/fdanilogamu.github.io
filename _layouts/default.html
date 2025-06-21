@@ -7,6 +7,23 @@
   <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon"> 
 </head>
+
+<script>
+  const toggle = document.getElementById('theme-toggle');
+  const currentTheme = localStorage.getItem('theme');
+
+  if (currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+  }
+
+  toggle.addEventListener('click', () => {
+    const theme = document.documentElement.getAttribute('data-theme');
+    const newTheme = theme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+  });
+</script>
+
 <body>
   <header>
     <h1>Portfolio: Fletcher</h1>
@@ -15,12 +32,18 @@
     {% include sidebar.html %}
     <div class="left-aligned-content">
       {{ content }}
+      <button id="theme-toggle" style="position: fixed; top: 1rem; right: 1rem; z-index: 1000;">
+      🌓
+      </button>
+
     </div>
   </div>
   <footer>
    <p>&copy; 2025 Built with <a href="https://github.com/fdanilogamu/fdanilogamu.github.io" target="_blank" rel="noopener noreferrer">Git</a> and grit by Fletcher Galeano ... <a href="mailto:fletcherdgaleano@gmail.com
 ">fletcherdgaleano@gmail.com</a></p>
   </footer>
+  <button id="theme-toggle">Toggle Dark Mode</button>
+
 </body>
 </html>
 
