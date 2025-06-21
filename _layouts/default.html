@@ -16,10 +16,10 @@
     document.documentElement.setAttribute('data-theme', currentTheme);
   }
 
-  toggle.addEventListener('click', () => {
-    const theme = document.documentElement.getAttribute('data-theme');
-    const newTheme = theme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
+  toggle?.addEventListener('click', () => {
+    const html = document.documentElement;
+    const newTheme = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    html.setAttribute('data-theme', newTheme);
     localStorage.setItem('theme', newTheme);
   });
 </script>
