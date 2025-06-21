@@ -8,21 +8,7 @@
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon"> 
 </head>
 
-<script>
-  const toggle = document.getElementById('theme-toggle');
-  const currentTheme = localStorage.getItem('theme');
 
-  if (currentTheme) {
-    document.documentElement.setAttribute('data-theme', currentTheme);
-  }
-
-  toggle?.addEventListener('click', () => {
-    const html = document.documentElement;
-    const newTheme = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-    html.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-  });
-</script>
 
 <body>
   <header>
@@ -42,6 +28,23 @@
    <p>&copy; 2025 Built with <a href="https://github.com/fdanilogamu/fdanilogamu.github.io" target="_blank" rel="noopener noreferrer">Git</a> and grit by Fletcher Galeano ... <a href="mailto:fletcherdgaleano@gmail.com
 ">fletcherdgaleano@gmail.com</a></p>
   </footer>
+
+<script>
+  const toggle = document.getElementById('theme-toggle');
+  const currentTheme = localStorage.getItem('theme');
+
+  if (currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+  }
+
+  toggle?.addEventListener('click', () => {
+    const html = document.documentElement;
+    const newTheme = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    html.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+  });
+</script>
+
 </body>
 </html>
 
