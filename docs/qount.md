@@ -1,23 +1,23 @@
 ---
 layout: default
-title: "Working at Superna"
+title: "Working at Qount"
 ---
 
-# Company Name: Superna
+# Company Name: Qount
 
 ## Role(s)
 <br>
-**Position:** Documentation Lead
+**Position:** Technical Writer
 <br>
 <br>
-## How did this role help me as a Documentation Engineer and Project Manager?
+## How has this role helped me as a Documentation Engineer and Project Manager?
 <br>
-This role allowed me to deepen my expertise in documentation methodologies, particularly the docs-as-code approach. It enhanced my leadership skills and my ability to manage and collaborate with a team effectively. I led a team of three writers (myself included) through a complete documentation overhaul, rebuilding more than 100 articles. Working closely with the VP of R&D, I refined my leadership, editorial strategy, and information architecture skills. The result was that we turned a fragmented knowledge base into a cohesive, user-friendly resource.
+(COMING SOON)
 <br>
 <br>
 ## Industry
 <br>
-**Industry:** Software: Data Security
+**Industry:** Software: FinTech
 <br>
 <br>
 ## Projects
@@ -26,25 +26,25 @@ This role allowed me to deepen my expertise in documentation methodologies, part
 <br>
 ### Documentation Rebuild Project
 <br>
-- **Description:** Rebuild the entire documentation from scratch using docs-as-code method.  
-- **Role in project:** Led the project, overseeing two other team members.  
-- **Outcome** Successfully rebuilt the legacy documentation and streamlined processes.
+- **Description:** Rebuild the entire Knowledge Base using legacy documentation and SME help.
+- **Role in project:** Lead and execution.
+- **Outcome** (COMING SOON)
 
 <br>
 
 ## Growth
 <br>
-The solidification of my skills in docs-as-code are invaluable.
+(COMING SOON)
 <br>
 
 ## Team
 <br>
-Led a team of two people working on the documentation rebuild.
+Working alone, interacting with C-level execs and SMEs
 <br>
 
 ## Challenges
 <br>
-Learning and implementing the docs-as-code methodology, which was new and challenging.
+(COMING SOON)
 <br>
 
 ## Type of Work
@@ -54,9 +54,9 @@ Remote
 
 ## Impact on Company
 <br>
-Contributed to better organized and more maintainable documentation. There are more than 100 articles up and live on their new public site.
+(COMING SOON)
 <br>
 
 ## Feedback/Recognition
 <br>
-I earned the title "Vest In Class" along with my coworker from the Docs team, as part of the Bi-Weekly Global Meeting. This title comes along with an actual physical vest, which was mailed to me by the company.
+(COMING SOON)
