@@ -253,7 +253,7 @@ header, footer {
     background-color: #1e1e1e;
 }
 }
-
+/* test */
 :root {
   --bg: #ffffff;
   --fg: #111111;
@@ -264,8 +264,22 @@ header, footer {
   --fg: #eeeeee;
 }
 
-body {
+html[data-theme="light"] body,
+html:not([data-theme]) body {
   background-color: var(--bg);
   color: var(--fg);
 }
 
+html[data-theme="dark"] body {
+  background-color: #121212;
+  color: #eeeeee;
+}
+
+html[data-theme="dark"] a {
+  color: #80cbc4;
+}
+
+html[data-theme="dark"] header,
+html[data-theme="dark"] footer {
+  background-color: #1e1e1e;
+}
