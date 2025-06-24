@@ -7,7 +7,7 @@ title: "Working at Qount"
 
 ## Role(s)
 <br>
-**Position:** Technical Writer
+**Position:** Technical Writer (One-Man-Band: working on the scaffolding as well as the minutiae of the project)
 <br>
 <br>
 ## How has this role helped me as a Documentation Engineer and Project Manager?
