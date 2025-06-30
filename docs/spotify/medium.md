@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Chill Music"
+title: "Medium Tempo Music"
 ---
 
-Hello world
+Under Construction
