@@ -17,7 +17,7 @@ title: "Working at DLE"
 <br>
 ## Industry
 <br>
-**Industry:** Software: Events
+**Industry:** Events
 <br>
 <br>
 ## Projects
@@ -26,15 +26,9 @@ title: "Working at DLE"
 <br>
 ### Project Management Overhaul
 <br>
-- **Description:** (COMING SOON)
-- **Role in project:** (COMING SOON)
-- **Outcome** (COMING SOON)
+- **Description:** Turned their Monday from a glorified coaster into an automated, optimized tool. 
+- **Outcome** Immediate forward momentum in projects.
 
-<br>
-
-## Growth
-<br>
-(COMING SOON)
 <br>
 
 ## Team
@@ -42,21 +36,11 @@ title: "Working at DLE"
 Working alone, interacting with C-level executives
 <br>
 
-## Challenges
-<br>
-(COMING SOON)
-<br>
-
 ## Type of Work
 <br>
 Remote
 <br>
 
-## Impact on Company
-<br>
-(COMING SOON)
-<br>
-
 ## Feedback/Recognition
 <br>
-(COMING SOON)
+I was consistently told by the CEO that I'm impressive, he called me a Tesla/Einstein thinker.
