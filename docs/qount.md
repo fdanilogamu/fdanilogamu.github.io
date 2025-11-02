@@ -28,13 +28,7 @@ title: "Working at Qount"
 <br>
 - **Description:** Rebuild the entire Knowledge Base using legacy documentation and SME help.
 - **Role in project:** Lead and execution.
-- **Outcome** (COMING SOON)
 
-<br>
-
-## Growth
-<br>
-(COMING SOON)
 <br>
 
 ## Team
@@ -44,19 +38,10 @@ Working alone, interacting with C-level execs and SMEs
 
 ## Challenges
 <br>
-(COMING SOON)
+Micromanagement
 <br>
 
 ## Type of Work
 <br>
 Remote
 <br>
-
-## Impact on Company
-<br>
-(COMING SOON)
-<br>
-
-## Feedback/Recognition
-<br>
-(COMING SOON)
