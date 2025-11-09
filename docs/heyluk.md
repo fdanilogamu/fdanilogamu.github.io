@@ -10,9 +10,9 @@ title: "Working at Luk"
 **Position:** Co-Founder
 <br>
 <br>
-## How did this role help me as a Documentation Engineer and Project Manager?
+## How has this role helped me as a Documentation Engineer and Project Manager?
 <br>
-Too soon to tell
+It's the culmination of my training.
 <br>
 <br>
 ## Type of Work
