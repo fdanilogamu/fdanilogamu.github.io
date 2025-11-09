@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Working at Luk"
+title: "Working at Hey Luk!"
 ---
 
-# Company Name: Luk
+# Company Name: Hey Luk!
 
 ## Role(s)
 <br>
