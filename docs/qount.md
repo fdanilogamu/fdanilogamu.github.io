@@ -12,7 +12,10 @@ title: "Working at Qount"
 <br>
 ## How has this role helped me as a Documentation Engineer and Project Manager?
 <br>
-(COMING SOON)
+- **Documentation Architecture**: Built the foundation for a complete docs rebuild, defining structure, taxonomy, and standards for a scalable knowledge base.
+- **Process Ownership**: Took full responsibility for end-to-end documentation without relying on existing frameworks.
+- **Cross-Team Collaboration**: Worked directly with engineers, product managers, and executives to translate technical details into clear, usable information.
+- **System Thinking**: Learned how documentation ties into customer success, support efficiency, and internal training, treating docs as part of the product, not an afterthought.
 <br>
 <br>
 ## Industry
