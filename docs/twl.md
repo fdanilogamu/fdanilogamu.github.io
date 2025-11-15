@@ -6,64 +6,65 @@ title: "Working at TWL"
 # Company Name: TWL
 
 ## Role(s)
+**Positions:** Project Manager / Internal Control Manager  
 <br>
-**Position(s):** Project Manager / Internal Control Manager
+
+## What I Actually Did Here
+This was the job that taught me how to run operations at scale.  
+TWL had many different teams working at the same time on very different projects.  
+I was the person keeping everything aligned and moving in the same direction.
+
+I worked directly with the CEO and CFO and handled more responsibility here than in any other role.  
 <br>
-<br>
-## How did this role help me as a future Documentation Engineer?
-<br>
-This role enhanced my ability to manage multiple projects simultaneously, develop clear and efficient communication strategies, and handle high-pressure situations. At this company, I wore multiple hats: Project Manager, Internal Control Manager, and community initiative lead. I worked directly with the CEO and CFO to bring structure to fast-moving projects, while also shaping internal processes and supporting collaboration across the company.
-<br>
-<br>
+
 ## Industry
+**Industry:** Adult Entertainment Administration (services)  
 <br>
-**Industry:** Services: Adult Entertainment Administration
-<br>
-<br>
+
 ## Projects
-<br>
-**Key Projects:**
-<br>
 ### Multi-Project Management
-<br>
-- **Description:** Managed up to 13 simultaneous projects.
-- **Role in project:** Led project planning, execution, and team coordination to ensure successful outcomes.  
-- **Outcome:** Improved operational efficiency and achieved project goals within deadlines.
+- **Description:** Coordinated 13 active projects across marketing, design, development, VR, and charity work.
+- **My role:** Organized work, set priorities, removed roadblocks, and kept all teams moving with clarity.
+- **Outcome:** Projects started to run on a steady rhythm instead of constant chaos.
 
 <br>
 
 ## Growth
+I was promoted four times in two years.  
+This happened because I consistently took ownership and solved problems without waiting for direction.  
+<br>
 
-<br>
-Promoted 4 times in just 2 years, which reflects rapid professional development.
-<br>
 ## Team
+I supervised and coordinated the work of more than 50 people across multiple teams.  
+I kept communication open, honest, and simple so everyone understood what needed to be done.  
 <br>
 
-Supervised multiple teams (over 50 people at once) and coordinated various projects, fostering collaboration and achieving project success.
-<br>
-<br>
 ## Challenges
+The environment moved fast and changed often.  
+I had to make quick decisions, stay calm under pressure, and manage several responsibilities at the same time.  
+This is where I learned how to stay grounded while everything around me sped up.  
 <br>
 
-The work environment was extremely intense, requiring quick decision-making and efficient multitasking to handle multiple responsibilities effectively.
-<br>
-<br>
 ## Type of Work
+Hybrid  
 <br>
-Hybrid
+
+## Impact on the Company
+Because of the structure and clarity I introduced, the company became easier to run.  
+Processes improved, teams followed clear expectations, and leadership could finally see what was happening across all projects.  
 <br>
+
+## Feedback / Recognition
+I was consistently recognized for my work and trusted with more responsibility over time.  
+My promotions reflected the impact I had on operations and team coordination.  
 <br>
-## Impact on Company
-<br>
-Certain characteristics of the organization changed due to my influence, contributing to improved processes and operational efficiency.
-<br>
-<br>
-## Feedback/Recognition
-<br>
-Consistently recognized for performance and promoted multiple times, highlighting my contributions and effectiveness in various roles.
-<br>
-<br>
+
 ## Lessons Learned
-<br>
-Learned to work in a fast-paced environment, handle multiple responsibilities effectively, and develop efficient communication and management strategies.
+I learned how to:
+- Guide many teams without micromanaging them  
+- Create clarity in a fast-moving work environment  
+- Communicate honestly with executives and frontline teams  
+- Handle pressure while staying organized  
+- Keep work simple and steady even when everything gets loud  
+
+This role shaped how I approach operations today.
