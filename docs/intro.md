@@ -80,6 +80,9 @@ If you're trying to figure out whether I'm a good fit, this is the clearest wind
 
 ## Most Relevant Technical Skills
 
+- Cassidy AI
+- Make
+- Zapier
 - Confluence
 - Project Management
 - Scrum
