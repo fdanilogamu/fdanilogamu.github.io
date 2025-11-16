@@ -47,7 +47,7 @@ I’m fluent in tools like JIRA, Notion, Monday.com, ClickUp, and more. To me, l
 If you're trying to figure out whether I'm a good fit, this is the clearest window into how I work. 
 <br>
 <br>
-<a href="/docs/ana_fletcher_galeano.pdf" download class="download-button">Download My CV</a>
+<a href="/docs/Fletcher_Galeano_Operations_Leader.pdf" download class="download-button">Download My CV</a>
 
 <br>
 
