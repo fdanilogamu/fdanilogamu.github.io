@@ -3,7 +3,7 @@ layout: default
 title: "Working at Fig Tree"
 ---
 
-# Company Name: Fig Tree (Call Center) 
+# Fig Tree (Call Center) 
 
 ## Role(s)
 <br>

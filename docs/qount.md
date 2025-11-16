@@ -3,7 +3,7 @@ layout: default
 title: "Working at Qount"
 ---
 
-# Company Name: Qount
+# Qount
 
 ## Role(s)
 <br>

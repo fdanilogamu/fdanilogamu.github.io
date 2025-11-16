@@ -3,7 +3,7 @@ layout: default
 title: "Working at DLE"
 ---
 
-# Company Name: DLE Events
+# DLE Event Group
 
 ## Role(s)
 <br>

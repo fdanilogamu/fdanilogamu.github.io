@@ -3,7 +3,7 @@ layout: default
 title: "Working at TWL"
 ---
 
-# Company Name: TWL
+# TWL
 
 ## Role(s)
 **Positions:** Project Manager / Internal Control Manager  

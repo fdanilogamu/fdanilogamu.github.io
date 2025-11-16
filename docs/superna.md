@@ -3,7 +3,7 @@ layout: default
 title: "Working at Superna"
 ---
 
-# Company Name: Superna
+# Superna
 
 ## Role(s)
 <br>

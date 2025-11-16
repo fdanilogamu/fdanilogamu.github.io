@@ -3,7 +3,7 @@ layout: default
 title: "Working at EAFIT"
 ---
 
-# Company Name: EAFIT
+# EAFIT University
 
 ## Role(s)
 <br>

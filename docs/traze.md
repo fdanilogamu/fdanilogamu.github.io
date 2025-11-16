@@ -3,7 +3,7 @@ layout: default
 title: "Working at Traze"
 ---
 
-# Company Name: Traze
+# Traze
 
 ## Role(s)
 <br>
