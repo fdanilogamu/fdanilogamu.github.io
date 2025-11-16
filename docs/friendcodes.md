@@ -10,7 +10,7 @@ title: "Working at Friendcodes"
 **Position(s):** Events - Moderation - Administration - Manager
 <br>
 <br>
-## How did this role help me as a future Documentation Engineer?
+## How did this role help me as a future ops Wizard?
 <br>
 This role enhanced my ability to manage and coordinate large teams, develop clear communication protocols, and ensure that complex guidelines were easily understood and implemented by diverse community members.
 <br>

@@ -10,7 +10,7 @@ title: "Working at EAFIT"
 **Position(s):** English Teacher, Teacher Trainer
 <br>
 <br>
-## How did this role help me as a future Documentation Engineer?
+## How did this role help me as a future Ops Wizard?
 <br>
 Being a teacher honed my skills in clear communication, lesson planning, and public speaking. It also provided experience in training others and developing educational materials.
 <br>

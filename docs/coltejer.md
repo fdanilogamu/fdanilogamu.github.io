@@ -10,7 +10,7 @@ title: "Working at Coltejer"
 **Position(s):** Engineering Intern
 <br>
 <br>
-## How did this role help me as a future Documentation Engineer?
+## How did this role help me as a future Ops Wizard?
 <br>
 This role provided me with valuable experience in technical analysis and problem-solving. It also enhanced my ability to collaborate with diverse teams and understand complex industrial processes.
 <br>

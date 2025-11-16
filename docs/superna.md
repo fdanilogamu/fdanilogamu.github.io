@@ -10,7 +10,7 @@ title: "Working at Superna"
 **Position:** Documentation Lead
 <br>
 <br>
-## How did this role help me as a Documentation Engineer and Project Manager?
+## How did this role help me as an Ops Wizard?
 <br>
 This role allowed me to deepen my expertise in documentation methodologies, particularly the docs-as-code approach. It enhanced my leadership skills and my ability to manage and collaborate with a team effectively. I led a team of three writers (myself included) through a complete documentation overhaul, rebuilding more than 100 articles. Working closely with the VP of R&D, I refined my leadership, editorial strategy, and information architecture skills. The result was that we turned a fragmented knowledge base into a cohesive, user-friendly resource.
 <br>

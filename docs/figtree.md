@@ -10,7 +10,7 @@ title: "Working at Fig Tree"
 **Position(s):** Sales Agent, Collections Agent, Collections Supervisor
 <br>
 <br>
-## How did this role help me as a future Documentation Engineer?
+## How did this role help me as a future Ops Wizard?
 <br>
 Working at Fig Tree I learned about communication, data analysis, and team management. Interacting with customers while managing my coworkers also enhanced my ability to convey information clearly and handle complex tasks.
 <br>

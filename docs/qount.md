@@ -10,7 +10,7 @@ title: "Working at Qount"
 **Position:** Technical Writer (One-Man-Band: working on the scaffolding as well as the minutiae of the project)
 <br>
 <br>
-## How has this role helped me as a Documentation Engineer and Project Manager?
+## How did this role help me as an Ops Wizard?
 <br>
 - **Documentation Architecture**: Built the foundation for a complete docs rebuild, defining structure, taxonomy, and standards for a scalable knowledge base.
 - **Process Ownership**: Took full responsibility for end-to-end documentation without relying on existing frameworks.
