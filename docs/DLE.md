@@ -10,7 +10,7 @@ title: "Working at DLE"
 **Position:** Director of Operations and Project Execution
 <br>
 <br>
-## How has this role helped me as an Ops Wizard?
+## How did this role help me as an Ops Wizard?
 <br>
 - **Operational Strategy**: Learned how to translate a founder’s vision into structured, repeatable systems that actually drive execution.
 - **Project Leadership**: Managed complex, multi-stakeholder projects from idea to delivery, balancing creative, technical, and logistical needs.
