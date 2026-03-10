@@ -1,98 +1,28 @@
 ---
 layout: default
-title: "Introduction"
+title: "About"
 ---
 
+<article class="left-aligned-content">
 
-## What's this all about?
-<br>
-<br>
+  <h1>What's this all about?</h1>
 
-Interviews and CVs can only go so far when it comes to understanding who someone really is in a professional context.
+  <p>Most operations problems accumulate: in the recurring questions that always land on the same desk, the processes that work until they suddenly don't, the decisions that should have a clear owner but somehow still default to you.</p>
 
-You’re often left with a few bullet points, which isn’t enough to assess learning curve, adaptability, or how a person actually thinks through problems.
+  <p>By the time a founder notices the drag, the systems causing it have usually been load-bearing for a while.</p>
 
-<br>
+  <p>I built my practice around that specific problem: the gap between where a company's operations are and where they need to be for the founder to stop being the answer to everything. I call it operational entropy, and I've spent over fifteen years learning to read it in SaaS companies, in fast-growth environments, in organizations that had strong momentum and brittle infrastructure underneath it.</p>
 
-This portfolio is my way of closing that gap.
+  <p>I don't do general consulting. I diagnose, design, and build the operational architecture that lets your company run without you in the middle of it. Then I get out of the way.</p>
 
-<br>
+  <p>If that sounds like what you're looking for, the best place to start is the Operational Entropy Index: a structured diagnostic that shows you exactly where the weight is and what to do about it first.</p>
 
-Here, you’ll find details on every role I’ve held:
+  <hr style="border: none; border-top: 1px solid #ddd; margin: 1.5rem 0;">
 
-<br>
+  <h2>How I think</h2>
 
-- How I grew in each company
+  <p>I see situations as they are. I don't oversell, I don't over-reassure, and I'm not going to tell you your team just needs better communication if the actual problem is that your processes have never been documented. I find the real thing and I say it clearly.</p>
 
-- The types of projects I executed
+  <p>I also move fast. Not recklessly, but if you're used to consultants who spend three months on discovery, that's not what this is.</p>
 
-- The makeup of my team (when applicable)
-
-- Challenges I overcame
-
-- Feedback and recognition
-
-- What I took away from each experience
-
-<br>
-
-For now, let me start by giving you some context:
-
-<br>
-
-I have a background in Production Engineering, with formal training in lean methodologies, process improvement, and automation. I’ve been working in operations and project management for over seven years, primarily in the SaaS space. I've led teams, improved systems, and helped things run smoother from the inside.
-
-I’m fluent in tools like JIRA, Notion, Monday.com, ClickUp, and more. To me, learning new software is like riding a bike, just a different color each time.
-
-If you're trying to figure out whether I'm a good fit, this is the clearest window into how I work. 
-<br>
-<br>
-<a href="/docs/Fletcher_Galeano_Operations_Leader.pdf" download class="download-button">Download My CV</a>
-
-<br>
-
-## Most valuable soft skills
-
-1. **Execution-Focused**
-   1. I'm known for rapid, high-quality delivery
-
-2. **Reality Perception**
-   1. I see situations as they are, not as wished
-   2. I accurately gauge my capabilities and understand my shortcomings
-   3. I never oversell or overpromise
-
-
-3. **People Intelligence**
-   1. I read rooms instinctively
-   2. I can adapt my communication to any audience.
-
-
-4. **Strategic Simplification**
-   1. I can make the complex sound obvious
-   2. I reduce everything to its core elements
-
-
-5. **Productive Approach to Discomfort**
-   1. I seek out difficult conversations
-   2. I challenge the status quo constructively
-   3. I take calculated risks others avoid
-
-
-## Most Relevant Technical Skills
-
-- Cassidy AI
-- Make
-- Zapier
-- Confluence
-- Project Management
-- Scrum
-- Docs-as-code methodology
-- Git
-- VSCode
-- BitBucket
-- AI prompt design
-- Jira
-- Document360
-- Monday
-- ClickUp
-- Trello
+</article>
