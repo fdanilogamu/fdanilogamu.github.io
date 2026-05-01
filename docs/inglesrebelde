@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inglés Rebelde - Calculadora de Precios</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 500px;
+            width: 100%;
+            padding: 40px;
+            animation: slideIn 0.6s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .section {
+            margin-bottom: 28px;
+        }
+
+        .section-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: #764ba2;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 14px;
+        }
+
+        .control-group {
+            margin-bottom: 16px;
+        }
+
+        label {
+            display: block;
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 6px;
+            font-weight: 500;
+        }
+
+        input[type="number"],
+        input[type="checkbox"],
+        select {
+            width: 100%;
+            padding: 10px 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        input[type="number"]:focus,
+        select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .checkbox-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        input[type="checkbox"] {
+            width: auto;
+            cursor: pointer;
+        }
+
+        .checkbox-wrapper label {
+            margin-bottom: 0;
+            cursor: pointer;
+        }
+
+        .slider-container {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        input[type="range"] {
+            flex: 1;
+            cursor: pointer;
+        }
+
+        .slider-value {
+            min-width: 45px;
+            text-align: center;
+            font-weight: 600;
+            color: #667eea;
+        }
+
+        .breakdown {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 24px;
+        }
+
+        .breakdown-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .breakdown-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .breakdown-label {
+            font-weight: 500;
+        }
+
+        .breakdown-value {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .discount-row {
+            color: #27ae60;
+        }
+
+        .discount-row .breakdown-value {
+            color: #27ae60;
+        }
+
+        .divider {
+            height: 1px;
+            background: #ddd;
+            margin: 12px 0;
+        }
+
+        .total-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            padding-top: 8px;
+        }
+
+        .total-label {
+            font-size: 16px;
+            font-weight: 700;
+            color: #333;
+        }
+
+        .total-value {
+            font-size: 28px;
+            font-weight: 700;
+            color: #667eea;
+        }
+
+        .currency {
+            font-size: 16px;
+            margin-right: 4px;
+        }
+
+        .info-box {
+            background: #e8f4f8;
+            border-left: 4px solid #667eea;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 13px;
+            color: #333;
+            margin-top: 20px;
+            line-height: 1.5;
+        }
+
+        .cta-button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 24px;
+            transition: all 0.3s ease;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+        }
+
+        .cta-button:active {
+            transform: translateY(0);
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 24px;
+            }
+
+            .header h1 {
+                font-size: 24px;
+            }
+
+            .total-value {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Inglés Rebelde</h1>
+            <p>Tu cotización personalizada</p>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Clases y Horario</div>
+            
+            <div class="control-group">
+                <label for="sessions">Sesiones por mes</label>
+                <div class="slider-container">
+                    <input type="range" id="sessions" min="2" max="12" value="8" step="1">
+                    <span class="slider-value" id="sessionsValue">8</span>
+                </div>
+                <small style="color: #999; display: block; margin-top: 6px;">Ideal: 2x/semana (8-9 sesiones)</small>
+            </div>
+
+            <div class="control-group">
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" id="levelPlacement" value="levelPlacement">
+                    <label for="levelPlacement">Entrevista de ubicación de nivel</label>
+                </div>
+                <small style="color: #999; display: block; margin-top: 6px;">$12.000 pesos</small>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Grupo y Descuentos</div>
+            
+            <div class="control-group">
+                <label for="groupSize">¿Cuántas personas en tu grupo?</label>
+                <select id="groupSize">
+                    <option value="1">Solo yo (1 persona)</option>
+                    <option value="2">2 personas</option>
+                    <option value="3">3 personas</option>
+                    <option value="4">4 personas</option>
+                    <option value="5">5 personas</option>
+                    <option value="6">6+ personas</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" id="advancePayment" value="advancePayment">
+                    <label for="advancePayment">Pagar el mes completo por adelantado</label>
+                </div>
+                <small style="color: #999; display: block; margin-top: 6px;">Obtén un 10% adicional de descuento en tu total</small>
+            </div>
+        </div>
+
+        <div class="breakdown">
+            <div class="breakdown-row">
+                <span class="breakdown-label">Costo base de la clase</span>
+                <span class="breakdown-value">$<span id="basePrice">48,000</span></span>
+            </div>
+
+            <div class="breakdown-row" id="groupDiscountRow" style="display: none;">
+                <span class="breakdown-label">Descuento de grupo (5% por miembro)</span>
+                <span class="breakdown-value discount-row">-$<span id="groupDiscount">0</span></span>
+            </div>
+
+            <div class="breakdown-row" id="levelPlacementRow" style="display: none;">
+                <span class="breakdown-label">Entrevista de ubicación de nivel</span>
+                <span class="breakdown-value">+$<span id="levelPlacementCost">12,000</span></span>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="breakdown-row">
+                <span class="breakdown-label">Subtotal (por sesión)</span>
+                <span class="breakdown-value">$<span id="subtotal">48,000</span></span>
+            </div>
+
+            <div class="breakdown-row">
+                <span class="breakdown-label">Total mensual (<span id="sessionCount">8</span> sesiones)</span>
+                <span class="breakdown-value">$<span id="monthlyTotal">384,000</span></span>
+            </div>
+
+            <div class="breakdown-row" id="advanceDiscountRow" style="display: none;">
+                <span class="breakdown-label">Bonus de pago por adelantado (10%)</span>
+                <span class="breakdown-value discount-row">-$<span id="advanceDiscount">0</span></span>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="total-section">
+                <span class="total-label">Total del mes<br><small style="font-size: 12px; font-weight: 400; color: #666;">por estudiante</small></span>
+                <span class="total-value"><span class="currency">$</span><span id="finalTotal">384,000</span></span>
+            </div>
+        </div>
+
+        <div class="info-box">
+            💬 <strong>Sobre Inglés Rebelde:</strong> Profesor experimentado con historial comprobado en hacer el inglés accesible y atractivo. Grupos organizados por nivel y horario.
+        </div>
+
+        <button class="cta-button" onclick="window.location.href='https://fdgportfolio.xyz/docs/inglesrebelde.html'">Comenzar</button>
+    </div>
+
+    <script>
+        const sessionsInput = document.getElementById('sessions');
+        const sessionsValue = document.getElementById('sessionsValue');
+        const groupSizeSelect = document.getElementById('groupSize');
+        const levelPlacementCheckbox = document.getElementById('levelPlacement');
+        const advancePaymentCheckbox = document.getElementById('advancePayment');
+
+        const baseClassCost = 48000;
+        const levelPlacementCost = 12000;
+
+        function formatNumber(num) {
+            return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+        }
+
+        function calculateDiscount(groupSize) {
+            if (groupSize === '1') return 0;
+            const memberCount = parseInt(groupSize);
+            return (baseClassCost * (0.05 * memberCount)) / memberCount;
+        }
+
+        function updateCalculation() {
+            const sessions = parseInt(sessionsInput.value);
+            const groupSize = groupSizeSelect.value;
+            const hasLevelPlacement = levelPlacementCheckbox.checked;
+            const hasAdvancePayment = advancePaymentCheckbox.checked;
+
+            // Update session display
+            sessionsValue.textContent = sessions;
+            document.getElementById('sessionCount').textContent = sessions;
+
+            // Calculate group discount
+            const groupDiscount = calculateDiscount(groupSize);
+            const costPerSession = baseClassCost - groupDiscount;
+
+            // Show/hide group discount row
+            const groupDiscountRow = document.getElementById('groupDiscountRow');
+            if (groupSize !== '1') {
+                groupDiscountRow.style.display = 'flex';
+                document.getElementById('groupDiscount').textContent = formatNumber(Math.round(groupDiscount));
+            } else {
+                groupDiscountRow.style.display = 'none';
+            }
+
+            // Calculate subtotal
+            let subtotal = costPerSession;
+            if (hasLevelPlacement) {
+                subtotal += levelPlacementCost;
+            }
+
+            // Show/hide level placement row
+            const levelPlacementRow = document.getElementById('levelPlacementRow');
+            if (hasLevelPlacement) {
+                levelPlacementRow.style.display = 'flex';
+            } else {
+                levelPlacementRow.style.display = 'none';
+            }
+
+            // Update price displays
+            document.getElementById('basePrice').textContent = formatNumber(baseClassCost);
+            document.getElementById('subtotal').textContent = formatNumber(Math.round(subtotal));
+
+            // Calculate monthly total
+            let monthlyTotal = (costPerSession * sessions);
+            if (hasLevelPlacement) {
+                monthlyTotal += levelPlacementCost;
+            }
+
+            document.getElementById('monthlyTotal').textContent = formatNumber(Math.round(monthlyTotal));
+
+            // Calculate advance payment discount
+            let finalTotal = monthlyTotal;
+            const advanceDiscountRow = document.getElementById('advanceDiscountRow');
+            if (hasAdvancePayment) {
+                const advanceDiscount = Math.round(monthlyTotal * 0.10);
+                finalTotal = monthlyTotal - advanceDiscount;
+                advanceDiscountRow.style.display = 'flex';
+                document.getElementById('advanceDiscount').textContent = formatNumber(advanceDiscount);
+            } else {
+                advanceDiscountRow.style.display = 'none';
+            }
+
+            // Update final total
+            document.getElementById('finalTotal').textContent = formatNumber(Math.round(finalTotal));
+        }
+
+        // Event listeners
+        sessionsInput.addEventListener('input', updateCalculation);
+        groupSizeSelect.addEventListener('change', updateCalculation);
+        levelPlacementCheckbox.addEventListener('change', updateCalculation);
+        advancePaymentCheckbox.addEventListener('change', updateCalculation);
+
+        // Initial calculation
+        updateCalculation();
+    </script>
+</body>
+</html>
