@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inglés Rebelde - Aprende Divirtiéndote</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --neon-green: #39ff14;
+            --neon-blue: #00d4ff;
+            --black: #0a0e27;
+            --white: #ffffff;
+            --dark-gray: #1a1f3a;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Poppins', 'Arial', sans-serif;
+            background-color: var(--black);
+            color: var(--white);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Background grid effect */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(rgba(57, 255, 20, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(57, 255, 20, 0.03) 1px, transparent 1px);
+            background-size: 50px 50px;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .container {
+            position: relative;
+            z-index: 2;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            padding: 30px 0;
+            border-bottom: 2px solid var(--neon-green);
+            animation: slideDown 0.8s ease-out;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .logo-container {
+            text-align: center;
+        }
+
+        .logo {
+            height: 80px;
+            margin-bottom: 15px;
+            filter: drop-shadow(0 0 10px var(--neon-green));
+            animation: glow 3s ease-in-out infinite;
+        }
+
+        @keyframes glow {
+            0%, 100% {
+                filter: drop-shadow(0 0 10px var(--neon-green));
+            }
+            50% {
+                filter: drop-shadow(0 0 20px var(--neon-green)), drop-shadow(0 0 30px var(--neon-blue));
+            }
+        }
+
+        .tagline {
+            font-size: 18px;
+            color: var(--neon-blue);
+            font-weight: 300;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        /* ===== HERO ===== */
+        .hero {
+            padding: 80px 0 60px;
+            text-align: center;
+            animation: fadeInUp 1s ease-out 0.3s both;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            font-size: 72px;
+            font-weight: 900;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--neon-green), var(--neon-blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.1;
+            letter-spacing: -2px;
+        }
+
+        .subtitle {
+            font-size: 24px;
+            color: var(--neon-green);
+            margin-bottom: 40px;
+            font-weight: 500;
+        }
+
+        /* ===== SECTIONS ===== */
+        section {
+            padding: 70px 0;
+            border-top: 2px solid rgba(57, 255, 20, 0.2);
+            animation: fadeInUp 0.8s ease-out backwards;
+        }
+
+        section:nth-child(2) { animation-delay: 0.4s; }
+        section:nth-child(3) { animation-delay: 0.6s; }
+        section:nth-child(4) { animation-delay: 0.8s; }
+        section:nth-child(5) { animation-delay: 1s; }
+
+        .section-title {
+            font-size: 48px;
+            margin-bottom: 40px;
+            color: var(--white);
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 60%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--neon-blue), var(--neon-green));
+            animation: expandWidth 0.8s ease-out;
+        }
+
+        @keyframes expandWidth {
+            from {
+                width: 0;
+            }
+            to {
+                width: 60%;
+            }
+        }
+
+        /* ===== QUI SOMOS ===== */
+        .quien-somos {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .quien-somos-img {
+            width: 100%;
+            height: 400px;
+            background: linear-gradient(135deg, rgba(57, 255, 20, 0.1), rgba(0, 212, 255, 0.1));
+            border: 2px solid var(--neon-green);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: var(--neon-blue);
+            overflow: hidden;
+            position: relative;
+        }
+
+        .quien-somos-img::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent 30%, rgba(57, 255, 20, 0.1) 50%, transparent 70%);
+            animation: shimmer 3s infinite;
+        }
+
+        @keyframes shimmer {
+            0% {
+                transform: translate(-100%, -100%);
+            }
+            100% {
+                transform: translate(100%, 100%);
+            }
+        }
+
+        .quien-somos-img img {
+            max-width: 100%;
+            max-height: 100%;
+            z-index: 1;
+        }
+
+        .quien-somos-text h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: var(--neon-green);
+        }
+
+        .quien-somos-text p {
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.85);
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        /* ===== QUE HACEMOS ===== */
+        .que-hacemos-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .feature-card {
+            background: rgba(57, 255, 20, 0.05);
+            border: 2px solid var(--neon-green);
+            padding: 40px;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 212, 255, 0.1), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .feature-card:hover::before {
+            left: 100%;
+        }
+
+        .feature-card:hover {
+            border-color: var(--neon-blue);
+            box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+            transform: translateY(-5px);
+        }
+
+        .feature-card h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: var(--neon-blue);
+            position: relative;
+            z-index: 1;
+        }
+
+        .feature-card p {
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.8);
+            position: relative;
+            z-index: 1;
+            line-height: 1.7;
+        }
+
+        /* ===== POR QUE ===== */
+        .why-section {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .why-content {
+            background: linear-gradient(135deg, rgba(57, 255, 20, 0.08), rgba(0, 212, 255, 0.08));
+            border: 2px solid var(--neon-blue);
+            padding: 50px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+        }
+
+        .why-content p {
+            font-size: 20px;
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.9;
+            margin-bottom: 20px;
+        }
+
+        .why-content strong {
+            color: var(--neon-green);
+        }
+
+        /* ===== COMO ===== */
+        .como-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .step {
+            text-align: center;
+            padding: 30px;
+            background: rgba(0, 212, 255, 0.05);
+            border: 2px solid rgba(0, 212, 255, 0.3);
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .step:hover {
+            background: rgba(57, 255, 20, 0.05);
+            border-color: var(--neon-green);
+            box-shadow: 0 0 15px rgba(57, 255, 20, 0.2);
+        }
+
+        .step-number {
+            font-size: 48px;
+            font-weight: 900;
+            background: linear-gradient(135deg, var(--neon-green), var(--neon-blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 15px;
+        }
+
+        .step h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: var(--neon-blue);
+        }
+
+        .step p {
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.75);
+            line-height: 1.6;
+        }
+
+        /* ===== CONTACT ===== */
+        .contact-section {
+            text-align: center;
+            padding: 80px 0;
+        }
+
+        .contact-content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .phone-display {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--neon-green);
+            margin-bottom: 30px;
+            letter-spacing: 2px;
+            font-family: 'Courier New', monospace;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 18px 40px;
+            font-size: 18px;
+            font-weight: 700;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-whatsapp {
+            background: var(--neon-green);
+            color: var(--black);
+            box-shadow: 0 0 20px rgba(57, 255, 20, 0.4);
+        }
+
+        .btn-whatsapp:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 40px rgba(57, 255, 20, 0.6);
+        }
+
+        .btn-call {
+            background: var(--neon-blue);
+            color: var(--black);
+            box-shadow: 0 0 20px rgba(0, 212, 255, 0.4);
+        }
+
+        .btn-call:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 40px rgba(0, 212, 255, 0.6);
+        }
+
+        /* ===== FOOTER ===== */
+        footer {
+            border-top: 2px solid rgba(57, 255, 20, 0.2);
+            padding: 40px 0;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 14px;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 48px;
+            }
+
+            .subtitle {
+                font-size: 18px;
+            }
+
+            .section-title {
+                font-size: 36px;
+            }
+
+            .quien-somos {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .que-hacemos-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .como-steps {
+                grid-template-columns: 1fr;
+            }
+
+            .button-group {
+                gap: 15px;
+            }
+
+            .btn {
+                padding: 15px 30px;
+                font-size: 16px;
+            }
+
+            section {
+                padding: 50px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 36px;
+            }
+
+            .section-title {
+                font-size: 28px;
+            }
+
+            .feature-card,
+            .step,
+            .why-content {
+                padding: 25px;
+            }
+
+            .phone-display {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="[LOGO_URL_AQUI]" alt="Inglés Rebelde" class="logo">
+                <p class="tagline">Aprende sin miedo</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Inglés Rebelde</h1>
+            <p class="subtitle">La revolución de aprender inglés sin perder la valentía</p>
+        </section>
+
+        <section id="quien-somos">
+            <h2 class="section-title">Quiénes Somos</h2>
+            <div class="quien-somos">
+                <div class="quien-somos-img">
+                    <img src="[IMAGEN_QUIEN_SOMOS]" alt="Fletcher - Profesor de Inglés">
+                </div>
+                <div class="quien-somos-text">
+                    <h2>Soy Danilo</h2>
+                    <p>Profesor de inglés con más de 15 años de experiencia en operaciones y enseñanza. Mi misión es hacer que el aprendizaje del inglés sea accesible, divertido, y totalmente real para ti.</p>
+                    <p>Creé Inglés Rebelde porque creo que aprender un idioma no tiene que ser aburrido ni sentirse como una obligación. Tiene que ser entretenido, práctico y alineado con quién tú eres.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="que-hacemos">
+            <h2 class="section-title">Qué Hacemos</h2>
+            <div class="que-hacemos-grid">
+                <div class="feature-card">
+                    <h3>Clases Personalizadas</h3>
+                    <p>Grupos pequeños organizados por tu nivel y disponibilidad. Aprendes a tu ritmo, con gente en tu mismo lugar.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Enfoque Práctico</h3>
+                    <p>Nada de memorizar reglas sin sentido. Hablamos, practicamos, cometemos errores y aprendemos juntos en un ambiente de confianza.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Flexible y Accesible</h3>
+                    <p>De 2 a 12 sesiones por mes, según lo que necesites. Precios que funcionan para ti y descuentos si eres parte de un grupo de estudiantes.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Una Comunidad Real</h3>
+                    <p>No estás solo en esto. Aprenderás con otros que también quieren mejorar su inglés sin morir en el intento.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="estilos">
+            <h2 class="section-title">Elige Tu Estilo de Aprendizaje</h2>
+            <div class="que-hacemos-grid">
+                <div class="feature-card">
+                    <h3>Curiosity Engagement</h3>
+                    <p>Traes tus preguntas, confusiones, puzzles y curiosidades del inglés que encontraste durante la semana. Yo armo la clase sobre la marcha, respondiendo exactamente lo que necesitas saber.</p>
+                    <p style="margin-top: 15px; color: var(--neon-green); font-size: 14px;"><strong>Perfecto para:</strong> Gente curiosa, autodidacta, que aprende mejor cuando explora.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Traditional Exposition</h3>
+                    <p>Yo preparo las clases pensando en el orden que más te va a ayudar. Vengo con un plan claro y avanzamos juntos, construyendo tus habilidades paso a paso.</p>
+                    <p style="margin-top: 15px; color: var(--neon-blue); font-size: 14px;"><strong>Perfecto para:</strong> Gente que aprende mejor con estructura, que quiere saber el mapa antes de empezar.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="por-que">
+            <h2 class="section-title">Por Qué Hago Esto</h2>
+            <div class="why-section">
+                <div class="why-content">
+                    <p>En <strong>Inglés Rebelde</strong>, creemos que aprender inglés no es solo sobre dominar un idioma.</p>
+                    <p>Es sobre <strong>pelear por lo que quieres</strong> mientras te diviertes en el camino. Es sobre construir confianza, quebrar limitaciones, y darte cuenta de que eres capaz de lograr cosas que antes creías imposibles.</p>
+                    <p>Porque la mejor manera de aprender es cuando <strong>te sientes bien haciéndolo</strong>.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="como">
+            <h2 class="section-title">Cómo Funciona</h2>
+            <div class="como-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Conecta</h3>
+                    <p>Escríbeme por WhatsApp. Cuéntanos un poco sobre ti, qué quieres lograr y cuál es tu nivel.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Evalúa</h3>
+                    <p>Hacemos una entrevista opcional de ubicación de nivel para saber exactamente dónde estás. (Esto tiene un costo extra si lo necesitas.)</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Aprende</h3>
+                    <p>Empezamos las clases. 2 veces por semana es lo ideal, pero tú decides. Grupos por nivel y horario.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Crece</h3>
+                    <p>Hablas, practicas, crecen tus habilidades. Y lo mejor: no sufres en el proceso.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact-section">
+            <h2 class="section-title">Conectemos</h2>
+            <div class="contact-content">
+                <div class="phone-display">+57 310 628 3490</div>
+                <p style="color: rgba(255, 255, 255, 0.7); margin-bottom: 30px; font-size: 16px;">Primero, calcula exactamente cuánto te va a costar</p>
+                <div class="button-group" style="margin-bottom: 30px;">
+                    <a href="/docs/ircalc.html" class="btn" style="background: linear-gradient(135deg, var(--neon-green), var(--neon-blue)); color: var(--black); box-shadow: 0 0 20px rgba(57, 255, 20, 0.4);">
+                        💰 Calcula tu precio
+                    </a>
+                </div>
+                <p style="color: rgba(255, 255, 255, 0.7); margin-bottom: 20px; font-size: 16px;">Luego, contáctame</p>
+                <div class="button-group">
+                    <a href="https://wa.me/573106283490?text=Hola%20Danilo%2C%20me%20interesa%20conocer%20más%20sobre%20Inglés%20Rebelde" class="btn btn-whatsapp">
+                        💬 WhatsApp
+                    </a>
+                    <a href="tel:+573106283490" class="btn btn-call">
+                        ☎️ Llamar
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Inglés Rebelde. Hecho con ganas de que aprendas.</p>
+        </div>
+    </footer>
+</body>
+</html>
