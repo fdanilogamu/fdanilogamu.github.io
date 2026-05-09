@@ -293,18 +293,14 @@
         </div>
 
         <div class="section">
-            <div class="section-title">Grupo y Descuentos</div>
+            <div class="section-title">Tipo de Clase y Descuentos</div>
             
             <div class="control-group">
-                <label for="groupSize">¿Cuántas personas en tu grupo?</label>
-                <select id="groupSize">
-                    <option value="1">Solo yo (1 persona)</option>
-                    <option value="2">2 personas</option>
-                    <option value="3">3 personas</option>
-                    <option value="4">4 personas</option>
-                    <option value="5">5 personas</option>
-                    <option value="6">6+ personas</option>
-                </select>
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" id="groupClass" value="groupClass">
+                    <label for="groupClass">Clase de grupo (5% de descuento)</label>
+                </div>
+                <small style="color: #999; display: block; margin-top: 6px;">Clase compartida con otros estudiantes</small>
             </div>
 
             <div class="control-group">
@@ -357,6 +353,11 @@
                 <span class="breakdown-value">$<span id="monthlyTotal">480,000</span></span>
             </div>
 
+            <div class="breakdown-row" id="perClassMonthlyRow" style="display: none;">
+                <span class="breakdown-label"><small style="color: #999;">Costo por clase (sin entrevista)</small></span>
+                <span class="breakdown-value"><small style="color: #999;">$<span id="perClassMonthly">60,000</span></small></span>
+            </div>
+
             <div class="breakdown-row" id="advanceDiscountRow" style="display: none;">
                 <span class="breakdown-label">Bonus de pago por adelantado (10%)</span>
                 <span class="breakdown-value discount-row">-$<span id="advanceDiscount">0</span></span>
@@ -391,7 +392,7 @@
         const sessionsInput = document.getElementById('sessions');
         const sessionsValue = document.getElementById('sessionsValue');
         const teachingStyleSelect = document.getElementById('teachingStyle');
-        const groupSizeSelect = document.getElementById('groupSize');
+        const groupClassCheckbox = document.getElementById('groupClass');
         const levelPlacementCheckbox = document.getElementById('levelPlacement');
         const vetsADomicilioCheckbox = document.getElementById('vetsADomicilio');
         const advancePaymentCheckbox = document.getElementById('advancePayment');
@@ -412,7 +413,7 @@
         function updateCalculation() {
             const sessions = parseInt(sessionsInput.value);
             const teachingStyle = teachingStyleSelect.value;
-            const groupSize = groupSizeSelect.value;
+            const isGroupClass = groupClassCheckbox.checked;
             const hasLevelPlacement = levelPlacementCheckbox.checked;
             const isVetsMember = vetsADomicilioCheckbox.checked;
             const hasAdvancePayment = advancePaymentCheckbox.checked;
@@ -430,8 +431,8 @@
                 classBaseCost = baseClassCost * (1 - vetsDiscount); // Apply 20% discount
             }
 
-            // Calculate group discount (5% per member, applied to discounted cost if applicable)
-            const groupDiscount = groupSize !== '1' ? (classBaseCost * (0.05 * parseInt(groupSize)) / parseInt(groupSize)) : 0;
+            // Calculate group discount (5% if group class is selected)
+            const groupDiscount = isGroupClass ? Math.round(classBaseCost * 0.05) : 0;
             const costPerSession = classBaseCost - groupDiscount;
 
             // Show/hide vets discount in breakdown
@@ -445,9 +446,9 @@
 
             // Show/hide group discount row
             const groupDiscountRow = document.getElementById('groupDiscountRow');
-            if (groupSize !== '1') {
+            if (isGroupClass) {
                 groupDiscountRow.style.display = 'flex';
-                document.getElementById('groupDiscount').textContent = formatNumber(Math.round(groupDiscount));
+                document.getElementById('groupDiscount').textContent = formatNumber(groupDiscount);
             } else {
                 groupDiscountRow.style.display = 'none';
             }
@@ -467,18 +468,26 @@
             }
 
             // Update price displays
-            document.getElementById('basePrice').textContent = formatNumber(baseClassCost);
+            document.getElementById('basePrice').textContent = formatNumber(classBaseCost);
             document.getElementById('subtotal').textContent = formatNumber(Math.round(subtotal));
 
-            // Calculate monthly total
+            // Calculate monthly total (WITH interview fee if selected)
             let monthlyTotal = (costPerSession * sessions);
             if (hasLevelPlacement) {
                 monthlyTotal += levelPlacementCost;
             }
 
-            document.getElementById('monthlyTotal').textContent = formatNumber(Math.round(monthlyTotal));
+            // Calculate per-class cost (WITHOUT interview fee, divided by sessions)
+            const perClassCost = costPerSession;
 
-            // Calculate advance payment discount
+            document.getElementById('monthlyTotal').textContent = formatNumber(Math.round(monthlyTotal));
+            document.getElementById('perClassMonthly').textContent = formatNumber(Math.round(perClassCost));
+
+            // Always show the per-class row
+            const perClassMonthlyRow = document.getElementById('perClassMonthlyRow');
+            perClassMonthlyRow.style.display = 'flex';
+
+            // Calculate advance payment discount (applied to the full monthly total WITH interview)
             let finalTotal = monthlyTotal;
             const advanceDiscountRow = document.getElementById('advanceDiscountRow');
             if (hasAdvancePayment) {
@@ -497,7 +506,7 @@
         // Event listeners
         teachingStyleSelect.addEventListener('change', updateCalculation);
         sessionsInput.addEventListener('input', updateCalculation);
-        groupSizeSelect.addEventListener('change', updateCalculation);
+        groupClassCheckbox.addEventListener('change', updateCalculation);
         levelPlacementCheckbox.addEventListener('change', updateCalculation);
         vetsADomicilioCheckbox.addEventListener('change', updateCalculation);
         advancePaymentCheckbox.addEventListener('change', updateCalculation);
