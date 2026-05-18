@@ -306,9 +306,9 @@
             <div class="control-group">
                 <div class="checkbox-wrapper">
                     <input type="checkbox" id="vetsADomicilio" value="vetsADomicilio">
-                    <label for="vetsADomicilio">Soy miembro de Vets a Domicilio</label>
+                    <label for="vetsADomicilio">Soy miembro Corporativo</label>
                 </div>
-                <small style="color: #999; display: block; margin-top: 6px;">Acceso al descuento del 20% en clases</small>
+                <small style="color: #999; display: block; margin-top: 6px;">Acceso al descuento del 15% en clases</small>
             </div>
 
             <div class="control-group">
@@ -327,7 +327,7 @@
             </div>
 
             <div class="breakdown-row" id="vetsDiscountRow" style="display: none;">
-                <span class="breakdown-label">Descuento Vets a Domicilio (20%)</span>
+                <span class="breakdown-label">Descuento Corporativo (15%)</span>
                 <span class="breakdown-value discount-row">-$<span id="vetsDiscount">0</span></span>
             </div>
 
@@ -403,7 +403,7 @@
             exposition: { price: 75000, duration: '40 min' }
         };
 
-        const vetsDiscount = 0.20; // 20% discount for vets members
+        const vetsDiscount = 0.15; // 15% discount for vets members
         const levelPlacementCost = 12000;
 
         function formatNumber(num) {
@@ -428,7 +428,7 @@
             // Calculate base class cost after vets discount
             let classBaseCost = baseClassCost;
             if (isVetsMember) {
-                classBaseCost = baseClassCost * (1 - vetsDiscount); // Apply 20% discount
+                classBaseCost = baseClassCost * (1 - vetsDiscount); // Apply 15% discount
             }
 
             // Calculate group discount (5% if group class is selected)
