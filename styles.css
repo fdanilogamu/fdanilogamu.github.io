@@ -39,7 +39,6 @@ body {
     background-color: transparent;
 }
 
-
 ul {
     padding-left: 25px; 
 }
@@ -249,47 +248,7 @@ footer a:hover {
     line-height: 1.6;
 }
 
-/* Table styling */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1rem 0;
-}
-
-th, td {
-    padding: 0.75rem;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-}
-
-th {
-    background-color: #f5f5f5;
-    font-weight: bold;
-    color: #004d66;
-}
-
-tr:nth-child(even) {
-    background-color: #fafafa;
-}
-
-/* Blockquote styling */
-blockquote {
-    border-left: 4px solid #008080;
-    padding: 0.75rem 1rem;
-    margin: 1.5rem 0;
-    color: #444;
-    font-style: italic;
-    background-color: #f0fafa;
-}
-
-/* Horizontal rule styling */
-hr {
-    border: none;
-    border-top: 1px solid #ddd;
-    margin: 1.5rem 0;
-}
-
-/* LIGHT MODE (default) */
+/* LIGHT MODE (default) - CSS Variables */
 :root {
   --bg: #ffffff;
   --fg: #111111;
@@ -302,13 +261,7 @@ hr {
   --table-even-bg: #fafafa;
 }
 
-html[data-theme="light"] body,
-html:not([data-theme]) body {
-  background-color: var(--bg);
-  color: var(--fg);
-}
-
-/* DARK MODE */
+/* DARK MODE - CSS Variables */
 [data-theme="dark"] {
   --bg: #121212;
   --fg: #eeeeee;
@@ -321,6 +274,14 @@ html:not([data-theme]) body {
   --table-even-bg: #1a1a1a;
 }
 
+/* Light mode body */
+html[data-theme="light"] body,
+html:not([data-theme]) body {
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
+/* Dark mode body */
 html[data-theme="dark"] body {
   background-color: var(--bg);
   color: var(--fg);
@@ -383,6 +344,38 @@ html[data-theme="dark"] blockquote {
   color: var(--fg);
 }
 
+/* LIGHT MODE - Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  color: var(--fg);
+}
+
+th {
+  background-color: var(--table-header-bg);
+  color: var(--accent);
+  border-bottom: 2px solid var(--accent);
+  padding: 0.75rem;
+  text-align: left;
+}
+
+td {
+  border-bottom: 1px solid var(--border-color);
+  padding: 0.75rem;
+  text-align: left;
+  background-color: transparent !important;
+}
+
+tr {
+  background-color: transparent !important;
+}
+
+tr:nth-child(even) {
+  background-color: var(--table-even-bg) !important;
+}
+
+/* DARK MODE - Table styling */
 html[data-theme="dark"] table {
   color: var(--fg);
 }
@@ -390,21 +383,35 @@ html[data-theme="dark"] table {
 html[data-theme="dark"] th {
   background-color: var(--table-header-bg);
   color: var(--accent);
-  border-bottom-color: var(--accent);
+  border-bottom: 2px solid var(--accent);
 }
 
 html[data-theme="dark"] td {
-  border-bottom-color: var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  background-color: transparent !important;
+}
+
+html[data-theme="dark"] tr {
+  background-color: transparent !important;
 }
 
 html[data-theme="dark"] tr:nth-child(even) {
-  background-color: var(--table-even-bg);
+  background-color: var(--table-even-bg) !important;
 }
 
-html[data-theme="dark"] .left-aligned-content {
-  background-color: transparent;
+/* Blockquote styling */
+blockquote {
+  border-left: 4px solid #008080;
+  padding: 0.75rem 1rem;
+  margin: 1.5rem 0;
+  color: #444;
+  font-style: italic;
+  background-color: #f0fafa;
 }
 
-html[data-theme="dark"] .impact-list li {
-  color: var(--fg);
+/* Horizontal rule styling */
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 1.5rem 0;
 }
