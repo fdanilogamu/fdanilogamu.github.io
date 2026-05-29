@@ -16,6 +16,8 @@ body {
     color: #333;
     margin: 0;
     line-height: 1.6;
+    background-color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Centered content for the home page */
@@ -34,6 +36,7 @@ body {
     text-align: left;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
 }
 
 
@@ -107,7 +110,7 @@ footer {
 /* Sidebar styles */
 .main-content {
     display: flex;
-    flex: 1; /* Ensures the main content takes up all available space */
+    flex: 1;
 }
 
 .sidebar {
@@ -225,39 +228,78 @@ button:hover {
 }
 
 footer a {
-    color: white; /* Makes the hyperlink text white */
-    text-decoration: none; /* Optional: Removes underline */
+    color: white;
+    text-decoration: none;
 }
 
 footer a:hover {
-    text-decoration: underline; /* Optional: Adds underline on hover */
-    color: #b3e6e6; /* Optional: A light color for hover effect */
+    text-decoration: underline;
+    color: #b3e6e6;
 }
 
-/* Dark Mode */
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #121212;
-    color: #eeeeee;
+/* Impact list styling */
+.impact-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
 }
 
-a {
-    color: #80cbc4;
+.impact-list li {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
 }
 
-header, footer {
-    background-color: #1e1e1e;
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
 }
+
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
 }
-/* test */
+
+th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    color: #004d66;
+}
+
+tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+/* Blockquote styling */
+blockquote {
+    border-left: 4px solid #008080;
+    padding: 0.75rem 1rem;
+    margin: 1.5rem 0;
+    color: #444;
+    font-style: italic;
+    background-color: #f0fafa;
+}
+
+/* Horizontal rule styling */
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 1.5rem 0;
+}
+
+/* LIGHT MODE (default) */
 :root {
   --bg: #ffffff;
   --fg: #111111;
-}
-
-[data-theme="dark"] {
-  --bg: #121212;
-  --fg: #eeeeee;
+  --accent: #004d66;
+  --accent-light: #008080;
+  --text-muted: #666;
+  --border-color: #ddd;
+  --blockquote-bg: #f0fafa;
+  --table-header-bg: #f5f5f5;
+  --table-even-bg: #fafafa;
 }
 
 html[data-theme="light"] body,
@@ -266,16 +308,103 @@ html:not([data-theme]) body {
   color: var(--fg);
 }
 
+/* DARK MODE */
+[data-theme="dark"] {
+  --bg: #121212;
+  --fg: #eeeeee;
+  --accent: #80cbc4;
+  --accent-light: #4db6ac;
+  --text-muted: #aaaaaa;
+  --border-color: #333333;
+  --blockquote-bg: #1e1e1e;
+  --table-header-bg: #1e1e1e;
+  --table-even-bg: #1a1a1a;
+}
+
 html[data-theme="dark"] body {
-  background-color: #121212;
-  color: #eeeeee;
+  background-color: var(--bg);
+  color: var(--fg);
 }
 
 html[data-theme="dark"] a {
-  color: #80cbc4;
+  color: var(--accent);
 }
 
 html[data-theme="dark"] header,
 html[data-theme="dark"] footer {
   background-color: #1e1e1e;
+}
+
+html[data-theme="dark"] .sidebar h2,
+html[data-theme="dark"] .sidebar a {
+  color: var(--accent);
+}
+
+html[data-theme="dark"] .sidebar a:hover {
+  background-color: var(--accent-light);
+}
+
+html[data-theme="dark"] button {
+  background-color: var(--accent);
+}
+
+html[data-theme="dark"] button:hover {
+  background-color: var(--accent-light);
+}
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3 {
+  color: var(--fg);
+}
+
+html[data-theme="dark"] .tagline,
+html[data-theme="dark"] p {
+  color: var(--fg);
+}
+
+html[data-theme="dark"] p[style*="color: #666"],
+html[data-theme="dark"] p[style*="color: #444"] {
+  color: var(--text-muted) !important;
+}
+
+html[data-theme="dark"] p[style*="color: #004d66"],
+html[data-theme="dark"] h2[style*="color: #004d66"] {
+  color: var(--accent) !important;
+}
+
+html[data-theme="dark"] hr {
+  border-top-color: var(--border-color);
+}
+
+html[data-theme="dark"] blockquote {
+  background-color: var(--blockquote-bg);
+  border-left-color: var(--accent-light);
+  color: var(--fg);
+}
+
+html[data-theme="dark"] table {
+  color: var(--fg);
+}
+
+html[data-theme="dark"] th {
+  background-color: var(--table-header-bg);
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+html[data-theme="dark"] td {
+  border-bottom-color: var(--border-color);
+}
+
+html[data-theme="dark"] tr:nth-child(even) {
+  background-color: var(--table-even-bg);
+}
+
+html[data-theme="dark"] .left-aligned-content {
+  background-color: transparent;
+}
+
+html[data-theme="dark"] .impact-list li {
+  color: var(--fg);
 }
