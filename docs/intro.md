@@ -28,12 +28,18 @@ title: "About"
 
    <h1>How I think</h1>
 
-  <p>The founders I work with usually already know something is wrong. They just can't see it clearly yet because they're still inside it. It's a structural problem, and structural problems have structural solutions.</p>
+  <p>The founders I work with usually already know something is wrong. They just can't see it clearly yet because they're still inside it.</p>
+  <p> It's a structural problem, and structural problems have structural solutions.</p>
+  <br>
 
-  <p>I see situations as they are. I don't oversell nor over-reassure, and if your actual problem is that your processes have never been documented, I'm not going to tell you your team just needs better communication. I find the real thing and I say it clearly, usually faster than you'd expect.</p>
+  <p>I see situations as they are. I don't oversell nor over-reassure, and if your actual problem is that your processes have never been documented, I'm not going to tell you your team just needs better communication.</p> 
+  <br>
+  <p> I find the real thing and I say it clearly, usually faster than you'd expect.</p>
 
 
- <p>I also have a low tolerance for theater. No three-month discovery phases, no frameworks named after Greek letters, no slide deck that tells you what you already know. You'll have a diagnosis before most consultants have finished their intake form.</p>
+ <p>I also have a low tolerance for theater. </p>
+ <p> No three-month discovery phases, no frameworks named after Greek letters, no slide deck that tells you what you already know. </p>
+ <p> You'll have a diagnosis before most consultants have finished their intake form.</p>
 
   <hr style="border: none; border-top: 1px solid #ddd; margin: 1.5rem 0;">
 
