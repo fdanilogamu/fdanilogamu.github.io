@@ -6,6 +6,7 @@ title: "About"
 <article class="left-aligned-content">
 
   <h1>What's this all about?</h1>
+  <br>
 
   <p>Most operations problems accumulate: in the recurring questions that always land on the same desk, the processes that work until they suddenly don't, and the decisions that should have a clear owner but somehow still default to you.</p>
 
@@ -20,7 +21,7 @@ title: "About"
 
   <br>
 
-   <h2>How I think</h2>
+   <h1>How I think</h1>
 
   <p>The founders I work with usually already know something is wrong. They just can't see it clearly yet because they're still inside it. It's a structural problem, and structural problems have structural solutions.</p>
 
