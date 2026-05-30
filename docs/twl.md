@@ -9,7 +9,7 @@ title: "Working at TWL"
 **Positions:** Project Manager / Internal Control Manager  
 <br>
 
-## How did this Role help me as an Ops Wizard?
+## How did this Role help me on the path to creating the OEI?
 This was the job that taught me how to run operations at scale.  
 TWL had many different teams working at the same time on very different projects.  
 I was the person keeping everything aligned and moving in the same direction.
