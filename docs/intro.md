@@ -35,10 +35,12 @@ title: "About"
   <p>I see situations as they are. I don't oversell nor over-reassure, and if your actual problem is that your processes have never been documented, I'm not going to tell you your team just needs better communication.</p> 
   <br>
   <p> I find the real thing and I say it clearly, usually faster than you'd expect.</p>
-
+<br>
 
  <p>I also have a low tolerance for theater. </p>
+ <br>
  <p> No three-month discovery phases, no frameworks named after Greek letters, no slide deck that tells you what you already know. </p>
+ <br>
  <p> You'll have a diagnosis before most consultants have finished their intake form.</p>
 
   <hr style="border: none; border-top: 1px solid #ddd; margin: 1.5rem 0;">
