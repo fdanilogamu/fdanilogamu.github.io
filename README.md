@@ -4,8 +4,7 @@ This isn't a traditional portfolio with a few polished case studies.
 
 It's closer to a living knowledge base.
 
-Some pages document professional work.
-Others document original frameworks.
+Some pages document professional work, while some document original frameworks.
 Others are experiments that may eventually become products.
 
 ---
