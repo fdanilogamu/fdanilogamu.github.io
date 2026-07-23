@@ -22,7 +22,7 @@ title: "About"
   <p>I call it operational entropy. I diagnose it, design around it, and build the architecture that lets your company run without you in the middle of every decision. Then I get out of the way.
   </p>
   <br>
-  <p>If that sounds like what you're looking for, the best place to start is the Operational Entropy Index: a structured diagnostic that shows you exactly where the weight is and what to do about it first.</p>
+  <p>If that sounds like what you're looking for, the best place to start is the Operational Entropy Index. Don't know what it is? Let's talk.</p>
 
   <br>
 
