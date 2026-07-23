@@ -32,7 +32,7 @@ title: "About"
   <p> It's a structural problem, and structural problems have structural solutions.</p>
   <br>
 
-  <p>I see situations as they are. I don't oversell nor over-reassure, and if your actual problem is that your processes have never been documented, I'm not going to tell you your team just needs better communication.</p> 
+  <p>I see situations as they are. I don't oversell nor over-reassure, and if your actual problem is that your processes have never been documented, I'm not going to tell you that your team just needs better communication.</p> 
   <br>
   <p> I find the real thing and I say it clearly, usually faster than you'd expect.</p>
 <br>
