@@ -37,7 +37,7 @@ title: "About"
   <p> I find the real thing and I say it clearly, usually faster than you'd expect.</p>
 <br>
 
- <p>I also have a low tolerance for theater: No three-month discovery phases, no frameworks named after Greek letters, no slide deck that tells you what you already know. </p>
+ <p>I also have a low tolerance for theater: No three-month discovery phases, nor a slide deck that tells you what you already know. </p>
  <br>
  <p> You'll have a diagnosis before most consultants have finished their intake form.</p>
 
