@@ -8,7 +8,7 @@ title: "About"
   <h1>What's this all about?</h1>
   <br>
 
-  <p>Most operations problems accumulate: in the recurring questions that always land on the same desk, the processes that work until they suddenly don't, and the decisions that should have a clear owner but somehow still default to you.</p>
+  <p>Operations problems accumulate: in the recurring questions that always land on the same desk, the processes that work until they suddenly don't, and the decisions that should have a clear owner but somehow still default to you.</p>
 
   <p>By the time a founder notices the symptoms, the systems causing it have usually been load-bearing for a while.</p>
 <br>
