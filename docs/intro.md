@@ -12,9 +12,9 @@ title: "About"
 
   <p>By the time a founder notices the symptoms, the systems causing it have usually been load-bearing for a while.</p>
 <br>
-  <p>I've spent over fifteen years inside that specific gap, in SaaS companies, fast-growth environments, and organizations with strong momentum and brittle infrastructure underneath it.</p> 
+  <p>I've spent several years inside that specific gap, in SaaS companies, fast-growth environments, and organizations with strong momentum and brittle infrastructure underneath it.</p> 
   <br>
-  <p> I'm also a published author, an English teacher in the Colombian mountains, and someone who has been building and breaking systems his whole life: in kitchens, classrooms, and companies. </p>
+  <p> I'm also a published author, an English teacher, and someone who has been building and breaking systems his whole life: in kitchens, classrooms, and companies. </p>
   <p>I mention that because it's not incidental. The way I read operations is the same way I read everything: I look for what's actually holding the weight. </p>
   <br>
   <p>I built my practice around one problem: the gap between where a company's operations are and where they need to be for the founder to stop being the answer to everything. </p>
