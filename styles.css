@@ -249,21 +249,8 @@ footer a:hover {
     line-height: 1.6;
 }
 
-/* LIGHT MODE (default) - CSS Variables */
+/* DEFAULT (DARK MODE) - CSS Variables */
 :root {
-  --bg: #ffffff;
-  --fg: #111111;
-  --accent: #004d66;
-  --accent-light: #008080;
-  --text-muted: #666;
-  --border-color: #ddd;
-  --blockquote-bg: #f0fafa;
-  --table-header-bg: #f5f5f5;
-  --table-even-bg: #fafafa;
-}
-
-/* DARK MODE - CSS Variables */
-[data-theme="dark"] {
   --bg: #121212;
   --fg: #eeeeee;
   --accent: #80cbc4;
@@ -275,77 +262,88 @@ footer a:hover {
   --table-even-bg: #1a1a1a;
 }
 
-/* Light mode body */
-html[data-theme="light"] body,
-html:not([data-theme]) body {
+/* LIGHT MODE OVERRIDE - CSS Variables */
+[data-theme="light"] {
+  --bg: #ffffff;
+  --fg: #111111;
+  --accent: #004d66;
+  --accent-light: #008080;
+  --text-muted: #666;
+  --border-color: #ddd;
+  --blockquote-bg: #f0fafa;
+  --table-header-bg: #f5f5f5;
+  --table-even-bg: #fafafa;
+}
+
+/* Base Body Styling (Applies to Default Dark Mode) */
+body {
   background-color: var(--bg);
   color: var(--fg);
 }
 
-/* Dark mode body */
-html[data-theme="dark"] body {
+/* Explicit Light Mode Body Override */
+html[data-theme="light"] body {
   background-color: var(--bg);
   color: var(--fg);
 }
 
-html[data-theme="dark"] a {
+/* Element Styling using CSS Variables (Defaults to Dark Mode) */
+a {
   color: var(--accent);
 }
 
-html[data-theme="dark"] header,
-html[data-theme="dark"] footer {
-  background-color: #1e1e1e;
+header,
+footer {
+  background-color: var(--blockquote-bg);
 }
 
-html[data-theme="dark"] .sidebar h2,
-html[data-theme="dark"] .sidebar a {
+.sidebar h2,
+.sidebar a {
   color: var(--accent);
 }
 
-html[data-theme="dark"] .sidebar a:hover {
+.sidebar a:hover {
   background-color: var(--accent-light);
 }
 
-html[data-theme="dark"] button {
+button {
   background-color: var(--accent);
+  color: var(--bg);
 }
 
-html[data-theme="dark"] button:hover {
+button:hover {
   background-color: var(--accent-light);
 }
 
-html[data-theme="dark"] h1,
-html[data-theme="dark"] h2,
-html[data-theme="dark"] h3 {
+h1,
+h2,
+h3,
+.tagline,
+p {
   color: var(--fg);
 }
 
-html[data-theme="dark"] .tagline,
-html[data-theme="dark"] p {
-  color: var(--fg);
-}
-
-html[data-theme="dark"] p[style*="color: #666"],
-html[data-theme="dark"] p[style*="color: #444"] {
+p[style*="color: #666"],
+p[style*="color: #444"] {
   color: var(--text-muted) !important;
 }
 
-html[data-theme="dark"] p[style*="color: #004d66"],
-html[data-theme="dark"] h2[style*="color: #004d66"] {
+p[style*="color: #004d66"],
+h2[style*="color: #004d66"] {
   color: var(--accent) !important;
 }
 
-html[data-theme="dark"] hr {
+hr {
   border-top-color: var(--border-color);
 }
 
-html[data-theme="dark"] blockquote {
+blockquote {
   background-color: var(--blockquote-bg);
   border-left-color: var(--accent-light);
   color: var(--fg);
 }
 
-/* LIGHT MODE - Table styling */
+/* Table styling (Defaults to Dark Mode via Variables) */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -373,30 +371,6 @@ tr {
 }
 
 tr:nth-child(even) {
-  background-color: var(--table-even-bg) !important;
-}
-
-/* DARK MODE - Table styling */
-html[data-theme="dark"] table {
-  color: var(--fg);
-}
-
-html[data-theme="dark"] th {
-  background-color: var(--table-header-bg);
-  color: var(--accent);
-  border-bottom: 2px solid var(--accent);
-}
-
-html[data-theme="dark"] td {
-  border-bottom: 1px solid var(--border-color);
-  background-color: transparent !important;
-}
-
-html[data-theme="dark"] tr {
-  background-color: transparent !important;
-}
-
-html[data-theme="dark"] tr:nth-child(even) {
   background-color: var(--table-even-bg) !important;
 }
 
