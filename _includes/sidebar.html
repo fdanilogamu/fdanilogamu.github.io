@@ -1,75 +1,47 @@
-<div class="sidebar">
-  <h2>Navigation</h2>
+<nav class="sidebar" aria-label="Primary navigation">
+  <p class="sidebar-label">Explore the workshop</p>
   <ul>
     <li><a href="/index.html">Home</a></li>
     <li><a href="/docs/intro.html">About</a></li>
     <li><a href="/docs/ideas.html">TL;DR</a></li>
-    <li><a href="/docs/mindsystem.html">What it's like to work with me</a></li>
+    <li><a href="/docs/mindsystem.html">Working with me</a></li>
     <li><a href="/testimonials.html">Testimonials</a></li>
-    
-      <!-- Resources -->
-    <h3 class="collapsible" onclick="toggleSection('other')">➜ Resources</h3>
-    <ul id="other" class="collapsible-content">
-      <li><a href="/docs/Fletcher_Galeano_Operations_Leader.pdf">Professional Background (PDF)</a></li>
-      <li><a href="https://operationalentropy.com">Operational Entropy Index</a></li>
-      <li><a href="https://calendar.app.google/bQnqLecoRTD26T139">Contact</a></li>
-
-    </ul>
-
-    <!-- Recent Work Experience -->
-    <h3 class="collapsible" onclick="toggleSection('recent-work')">➜ Experience</h3>
-    <ul id="recent-work" class="collapsible-content">
-      <li><a href="/docs/twl.html">TWL</a></li>
-      <li><a href="/docs/DLE.html">DLE</a></li>
-      <li><a href="/docs/qount.html">Qount</a></li>
-      <li><a href="/docs/superna.html">Superna</a></li>
-      <li><a href="/docs/traze.html">Traze</a></li>
-  
-    </ul>  
-    
-    <!-- What I do for Fun -->
-    <h3 class="collapsible" onclick="toggleSection('fun-things')">➜ Things I do for Fun</h3>
-    <ul id="fun-things" class="collapsible-content" style="display: none;">
-      <li><a href="/docs/spotify/spotify.html">My never-ending quest for the perfect playlist</a></li>
-      <li><a href="/docs/inglesrebelde.html">Inglés Rebelde: A unique teaching methodology</a></li>
-      <li><a href="https://fletchergaleano.substack.com/">My Substack</a></li>
-      <li><a href="https://inventors-lab.vercel.app/index.html">Inventor's Lab</a></li>
+    <li>
+      <h3 class="collapsible" role="button" tabindex="0" aria-expanded="true" onclick="toggleSection(this, 'resources')">Resources</h3>
+      <ul id="resources" class="collapsible-content">
+        <li><a href="/docs/Fletcher_Galeano_Operations_Leader.pdf">Professional background</a></li>
+        <li><a href="https://operationalentropy.com">Operational Entropy Index</a></li>
+        <li><a href="https://calendar.app.google/bQnqLecoRTD26T139">Contact</a></li>
       </ul>
-
-       <!-- Jobs Prior to 2020 -->
-    <h3 class="collapsible" onclick="toggleSection('old-jobs')">➜ Jobs prior to 2020</h3>
-    <ul id="old-jobs" class="collapsible-content" style="display: none;">
-      <li><a href="/old_jobs.html">Experience as far back as 2008</a></li>
+    </li>
+    <li>
+      <h3 class="collapsible" role="button" tabindex="0" aria-expanded="true" onclick="toggleSection(this, 'experience')">Experience</h3>
+      <ul id="experience" class="collapsible-content">
+        <li><a href="/docs/twl.html">TWL</a></li><li><a href="/docs/DLE.html">DLE</a></li><li><a href="/docs/qount.html">Qount</a></li><li><a href="/docs/superna.html">Superna</a></li><li><a href="/docs/traze.html">Traze</a></li>
       </ul>
-
-       <!-- My books -->
-    <h3 class="collapsible" onclick="toggleSection('books')">➜ Books I've Published</h3>
-    <ul id="books" class="collapsible-content" style="display: none;">
-      <li><a href="https://www.amazon.com/Pantry-Behavior-Relax-Youre-failing-ebook/dp/B0GQQZ2J61/">Pantry Behavior</a></li>
-      <li><a href="https://a.co/d/07SSb3em">Letters to a Living Ghost</a></li>
+    </li>
+    <li>
+      <h3 class="collapsible" role="button" tabindex="0" aria-expanded="false" onclick="toggleSection(this, 'side-quests')">Side quests</h3>
+      <ul id="side-quests" class="collapsible-content" hidden>
+        <li><a href="/docs/spotify/spotify.html">The Playlist Project</a></li><li><a href="/docs/inglesrebelde.html">Inglés Rebelde</a></li><li><a href="https://fletchergaleano.substack.com/">Substack</a></li><li><a href="https://inventors-lab.vercel.app/index.html">Inventor's Lab</a></li><li><a href="/old_jobs.html">Earlier experience</a></li>
       </ul>
-
-
-      <!-- Writing samples -->
-    <h3 class="collapsible" onclick="toggleSection('writing-samples')">➜ Technical Writing Samples</h3>
-    <ul id="writing-samples" class="collapsible-content" style="display: none;">
-      <li><a href="/docs/airgap_installation_guide.pdf">Writing Sample A</a></li>
-      <li><a href="/docs/failover_recovery.pdf">Writing Sample B</a></li>
-      <li><a href="/docs/customer_accounts.pdf">Writing Sample C</a></li>
-      <li><a href="/docs/sales_orders.pdf">Writing Sample D</a></li>
+    </li>
+    <li>
+      <h3 class="collapsible" role="button" tabindex="0" aria-expanded="false" onclick="toggleSection(this, 'writing')">Books & writing</h3>
+      <ul id="writing" class="collapsible-content" hidden>
+        <li><a href="https://www.amazon.com/Pantry-Behavior-Relax-Youre-failing-ebook/dp/B0GQQZ2J61/">Pantry Behavior</a></li><li><a href="https://a.co/d/07SSb3em">Letters to a Living Ghost</a></li><li><a href="/docs/airgap_installation_guide.pdf">Technical writing sample A</a></li><li><a href="/docs/failover_recovery.pdf">Technical writing sample B</a></li>
       </ul>
-  
-    </ul>
+    </li>
   </ul>
-</div>
-
+</nav>
 <script>
-  function toggleSection(id) {
+  function toggleSection(control, id) {
     const section = document.getElementById(id);
-    if (section.style.display === "none" || !section.style.display) {
-      section.style.display = "block";
-    } else {
-      section.style.display = "none";
-    }
+    const opening = section.hidden;
+    section.hidden = !opening;
+    control.setAttribute('aria-expanded', String(opening));
   }
+  document.querySelectorAll('.collapsible').forEach(control => control.addEventListener('keydown', event => {
+    if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); control.click(); }
+  }));
 </script>
