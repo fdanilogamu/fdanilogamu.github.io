@@ -23,11 +23,12 @@ title: "About"
   </p>
 
   <p>If that sounds like what you're looking for, the best place to start is the Operational Entropy Index. Don't know what it is? Let's talk.</p>
-
+  <br>
+    <br>
 
 
    <h1>How I think</h1>
-
+  <br>
   <p>The founders I work with usually already know something is wrong, but they just can't see it clearly yet because they're still inside it.</p>
   <p> It's a structural problem, and structural problems have structural solutions.</p>
  
