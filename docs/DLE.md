@@ -7,7 +7,7 @@ title: "Working at DLE"
 
 ## Role(s)
 <br>
-**Position:** Director of Operations and Project Execution
+**Position:** Project Lead (Dir. of Operations)
 <br>
 <br>
 ## How did this Role help me on the path to creating the OEI?
