@@ -575,6 +575,18 @@ p { margin-bottom: 1.1rem; }
 .centered-content > section:not(.hero) { clear: both; padding: 3.5rem 0; }
 .centered-content > section:not(.hero) > p { max-width: 690px; }
 
+.intro-copy {
+  max-width: 690px;
+  margin-top: 1rem;
+}
+
+.intro-copy p {
+  margin: 0 0 1.35rem;
+  line-height: 1.7;
+}
+
+.intro-copy p:last-child { margin-bottom: 0; }
+
 .impact-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
