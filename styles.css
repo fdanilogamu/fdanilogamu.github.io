@@ -587,6 +587,43 @@ p { margin-bottom: 1.1rem; }
 
 .intro-copy p:last-child { margin-bottom: 0; }
 
+.tldr-page {
+  max-width: 760px;
+}
+
+.tldr-page > header,
+.tldr-page > section {
+  padding: 0 0 3.5rem;
+}
+
+.tldr-page > section {
+  padding-top: 3.5rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.tldr-header h1 {
+  margin-bottom: 1.5rem;
+  font-size: clamp(4rem, 9vw, 6.4rem);
+}
+
+.tldr-header p:first-of-type {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.35rem, 3vw, 1.7rem);
+  line-height: 1.4;
+}
+
+.tldr-links {
+  padding: 0;
+  list-style: none;
+}
+
+.tldr-links li {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.tldr-links li:first-child { padding-top: 0; }
+
 .impact-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
