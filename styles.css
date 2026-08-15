@@ -488,7 +488,8 @@ header h1 {
 
 .sidebar a:hover { background: transparent; color: var(--fg); transform: none; }
 
-.collapsible {
+.collapsible,
+.sidebar-label {
   margin-top: 1.35rem;
   padding: 0;
   color: var(--fg);
@@ -497,6 +498,8 @@ header h1 {
   letter-spacing: .08em;
   text-transform: uppercase;
 }
+
+.sidebar-label { cursor: default; }
 
 .collapsible:hover { color: var(--accent); }
 .collapsible-content { margin: .45rem 0 0 .95rem; }
