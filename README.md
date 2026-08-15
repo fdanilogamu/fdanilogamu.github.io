@@ -38,7 +38,7 @@ Many of the frameworks here have changed dozens of times before reaching their c
 
 - Operational Entropy Index
 - Entropy-Compatible Hiring
-- Anatomy of a Systems-Oriented Mind
+- What It's Like to Work With Me
 - Inglés Rebelde
 - Playlist Project
 - Morgan's Encyclopedia
