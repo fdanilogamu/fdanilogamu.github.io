@@ -815,10 +815,9 @@ p { margin-bottom: 1.1rem; }
 .prison-planet-callout,
 .prison-planet-closing {
   margin: 2rem 0;
-  padding-left: 1.25rem;
-  border-left: 3px solid var(--pp-accent);
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.25rem, 3vw, 1.55rem);
+  font-weight: 600;
   line-height: 1.4;
 }
 
