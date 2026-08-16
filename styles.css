@@ -763,6 +763,10 @@ p { margin-bottom: 1.1rem; }
   padding: 0 0 clamp(3rem, 7vw, 5rem);
 }
 
+.prison-planet-page > header {
+  border-bottom: 0;
+}
+
 .prison-planet-page > section {
   padding-top: clamp(3rem, 7vw, 5rem);
 }
