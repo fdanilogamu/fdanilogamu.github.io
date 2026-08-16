@@ -790,8 +790,6 @@ p { margin-bottom: 1.1rem; }
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   margin: 0;
-  border-top: 1px solid var(--border-color);
-  border-bottom: 1px solid var(--border-color);
 }
 
 .prison-planet-meta div { padding: .9rem 1rem .9rem 0; }
@@ -833,8 +831,8 @@ p { margin-bottom: 1.1rem; }
   font-size: .86rem;
 }
 
-.prison-planet-issues { margin: 0 0 2.5rem; border-top: 1px solid var(--border-color); }
-.prison-planet-issue { padding: 1.25rem 0; border-bottom: 1px solid var(--border-color); }
+.prison-planet-issues { margin: 0 0 2.5rem; }
+.prison-planet-issue { padding: 1.25rem 0; }
 .prison-planet-issue p { margin: 0; }
 .prison-planet-issue p + p { margin-top: .6rem; color: var(--text-muted); font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .76rem; }
 .prison-planet-issue-critical { border-left: 3px solid var(--pp-accent); padding-left: 1rem; }
@@ -842,7 +840,6 @@ p { margin-bottom: 1.1rem; }
 .prison-planet-demands {
   margin: 1.5rem 0 2.5rem;
   counter-reset: demand;
-  border-top: 1px solid var(--border-color);
 }
 
 .prison-planet-demands p {
@@ -851,7 +848,6 @@ p { margin-bottom: 1.1rem; }
   gap: .75rem;
   margin: 0;
   padding: 1rem 0;
-  border-bottom: 1px solid var(--border-color);
 }
 
 .prison-planet-demands p::before {
@@ -917,8 +913,6 @@ footer a { color: var(--accent); }
   .nav-links ul { display: block; }
   .writing-sample { grid-template-columns: 1fr; gap: .65rem; }
   .prison-planet-meta { grid-template-columns: 1fr; }
-  .prison-planet-meta div { border-bottom: 1px solid var(--border-color); }
-  .prison-planet-meta div:last-child { border-bottom: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
