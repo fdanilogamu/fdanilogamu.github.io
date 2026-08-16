@@ -733,6 +733,114 @@ p { margin-bottom: 1.1rem; }
   margin-left: .25rem;
 }
 
+/* Prison Planet */
+.prison-planet-page {
+  --pp-accent: #d94b36;
+  max-width: 760px;
+}
+
+.prison-planet-page > header,
+.prison-planet-page > section {
+  padding: 0 0 clamp(3rem, 7vw, 5rem);
+}
+
+.prison-planet-page > section {
+  padding-top: clamp(3rem, 7vw, 5rem);
+  border-top: 1px solid var(--border-color);
+}
+
+.prison-planet-hero h1 {
+  max-width: 720px;
+  margin: .6rem 0 1.25rem;
+  font-size: clamp(3.3rem, 8vw, 6.2rem);
+  line-height: .92;
+}
+
+.prison-planet-manifesto {
+  max-width: 610px;
+  margin-bottom: 2.5rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.25rem, 3vw, 1.65rem);
+  line-height: 1.4;
+}
+
+.prison-planet-meta {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 0;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.prison-planet-meta div { padding: .9rem 1rem .9rem 0; }
+.prison-planet-meta dt { color: var(--text-muted); font-size: .7rem; letter-spacing: .06em; text-transform: uppercase; }
+.prison-planet-meta dd { margin: .15rem 0 0; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .82rem; }
+
+.prison-planet-page h2 { margin-bottom: 1.75rem; }
+.prison-planet-page h3 { margin: 2.5rem 0 1rem; font-family: Georgia, "Times New Roman", serif; font-size: 1.35rem; font-weight: 500; }
+.prison-planet-page p { max-width: 680px; }
+
+.prison-planet-terminal {
+  margin: 1.75rem 0 2.25rem;
+  padding: clamp(1.25rem, 4vw, 2rem);
+  overflow-x: auto;
+  border: 1px solid var(--border-color);
+  border-left: 3px solid var(--pp-accent);
+  background: var(--blockquote-bg);
+  color: var(--fg);
+  font: .84rem/1.75 ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
+.prison-planet-callout,
+.prison-planet-closing {
+  margin: 2rem 0;
+  padding-left: 1.25rem;
+  border-left: 3px solid var(--pp-accent);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.25rem, 3vw, 1.55rem);
+  line-height: 1.4;
+}
+
+.prison-planet-status {
+  display: inline-block;
+  padding: .45rem .7rem;
+  border: 1px solid var(--border-color);
+  background: var(--blockquote-bg);
+  color: var(--pp-accent);
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: .86rem;
+}
+
+.prison-planet-issues { margin: 0 0 2.5rem; border-top: 1px solid var(--border-color); }
+.prison-planet-issue { padding: 1.25rem 0; border-bottom: 1px solid var(--border-color); }
+.prison-planet-issue p { margin: 0; }
+.prison-planet-issue p + p { margin-top: .6rem; color: var(--text-muted); font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .76rem; }
+.prison-planet-issue-critical { border-left: 3px solid var(--pp-accent); padding-left: 1rem; }
+
+.prison-planet-demands {
+  margin: 1.5rem 0 2.5rem;
+  counter-reset: demand;
+  border-top: 1px solid var(--border-color);
+}
+
+.prison-planet-demands p {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  gap: .75rem;
+  margin: 0;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.prison-planet-demands p::before {
+  counter-increment: demand;
+  content: "0" counter(demand);
+  color: var(--pp-accent);
+  font: .72rem/1.7 ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
+.prison-planet-closing { margin-bottom: 0; }
+
 button {
   border: 1px solid var(--border-color);
   border-radius: 50%;
@@ -786,6 +894,9 @@ footer a { color: var(--accent); }
   .hero h1 { font-size: 3.7rem; }
   .nav-links ul { display: block; }
   .writing-sample { grid-template-columns: 1fr; gap: .65rem; }
+  .prison-planet-meta { grid-template-columns: 1fr; }
+  .prison-planet-meta div { border-bottom: 1px solid var(--border-color); }
+  .prison-planet-meta div:last-child { border-bottom: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
