@@ -765,7 +765,6 @@ p { margin-bottom: 1.1rem; }
 
 .prison-planet-page > section {
   padding-top: clamp(3rem, 7vw, 5rem);
-  border-top: 1px solid var(--border-color);
 }
 
 .prison-planet-hero h1 {
