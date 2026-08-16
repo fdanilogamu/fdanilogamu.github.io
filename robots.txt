@@ -33,3 +33,5 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+Sitemap: https://thestuffihave.online/sitemap.xml

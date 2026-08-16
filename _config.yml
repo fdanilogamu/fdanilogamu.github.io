@@ -1,2 +1,4 @@
 markdown: kramdown
 url: "https://thestuffihave.online"
+plugins:
+  - jekyll-sitemap
