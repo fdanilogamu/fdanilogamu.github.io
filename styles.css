@@ -504,6 +504,25 @@ header h1 {
 .collapsible:hover { color: var(--accent); }
 .collapsible-content { margin: .45rem 0 0 .95rem; }
 
+.sidebar-subgroup { margin-bottom: .65rem !important; }
+
+.sidebar-subgroup-toggle {
+  width: auto;
+  height: auto;
+  padding: .1rem 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--text-muted);
+  font: inherit;
+  font-size: .82rem;
+  line-height: 1.4;
+  text-align: left;
+  cursor: pointer;
+}
+
+.sidebar-subgroup-toggle:hover { background: transparent; color: var(--fg); }
+
 .left-aligned-content {
   min-width: 0;
   max-width: 820px;
