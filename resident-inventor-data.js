@@ -159,7 +159,7 @@ window.RESIDENT_INVENTOR_PATHS = [
         { kind: "note", title: "What the form has to preserve", text: "Choices stay choices. Puzzles stay puzzles. State remains state. Exploration becomes book navigation. The format must preserve as much game-ness as possible while changing the symptom-producing medium, not merely adapt the story into a comic." }
       ]
     }],
-    insight: "Long dormancy is possible, not required. Sometimes the Ding happens almost immediately."
+    insight: "Sometimes a populated Field only needs one specific constraint to produce a Ding almost immediately."
   },
   {
     id: "inventors-lab",
