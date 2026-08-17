@@ -173,7 +173,6 @@
     runButton.disabled = true;
     consoleEl.textContent = `RUNNING · ${snapshot.length} instructions queued.`;
     const delay = reduceMotion.matches ? 0 : 360;
-    const seen = {};
     for (let index = 0; index < snapshot.length; index += 1) {
       if (token !== runToken) return;
       root.querySelectorAll(".is-executing").forEach((node) => node.classList.remove("is-executing"));
@@ -183,9 +182,7 @@
       lines.forEach((line) => line.classList.add("is-executing"));
       if (!reduceMotion.matches) step?.scrollIntoView({ block: "nearest", behavior: "smooth" });
       const action = byId[snapshot[index]];
-      seen[action.id] = (seen[action.id] || 0) + 1;
-      const runMessage = action.id === "react" && seen[action.id] > 1 ? "Human judgment enters the loop again." : action.runMessage;
-      consoleEl.textContent = `STEP ${String(index + 1).padStart(2, "0")} · ${action.label.toUpperCase()} > ${runMessage}`;
+      consoleEl.textContent = `STEP ${String(index + 1).padStart(2, "0")} · ${action.label.toUpperCase()} > ${action.runMessage}`;
       await wait(delay);
     }
     if (token !== runToken) return;
@@ -193,7 +190,7 @@
     root.classList.remove("is-running");
     statusEl.textContent = "COMPLETE";
     runButton.disabled = false;
-    const hasVote = snapshot.some((id) => ["react", "hmmm_no_but", "add_correction", "ding"].includes(id));
+    const hasVote = snapshot.some((id) => ["hmmm_no_but", "add_correction", "ding", "name", "refine"].includes(id));
     const hasDing = snapshot.includes("ding");
     const stored = snapshot.includes("store_result");
     const history = snapshot.includes("store_history");
