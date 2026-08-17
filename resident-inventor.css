@@ -11,12 +11,11 @@
 .resident-inventor-page > footer { background: transparent; box-shadow: none; text-align: left; }
 
 .ri-hero {
-  min-height: min(720px, calc(100vh - 7rem));
+  min-height: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: clamp(2rem, 7vw, 5rem) 0 clamp(4rem, 8vw, 6rem);
-  border-bottom: 1px solid var(--border-color);
+  padding: clamp(2rem, 5vw, 3.5rem) 0 clamp(2rem, 4vw, 3rem);
 }
 
 .ri-kicker,
@@ -60,7 +59,7 @@
 
 .ri-jump span { display: inline-block; margin-left: .4rem; color: var(--accent); }
 
-.ri-diagram-section { padding: clamp(4rem, 9vw, 7rem) 0; border-bottom: 1px solid var(--border-color); }
+.ri-diagram-section { padding: clamp(2rem, 5vw, 3.5rem) 0 clamp(4rem, 9vw, 7rem); border-bottom: 1px solid var(--border-color); }
 
 .ri-section-heading {
   display: grid;
