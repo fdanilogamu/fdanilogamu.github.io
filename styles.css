@@ -927,7 +927,8 @@ footer a { color: var(--accent); }
     background: var(--blockquote-bg);
   }
   .sidebar.is-open { display: block; }
-  .sidebar > ul { columns: 1; text-align: left; }
+  .sidebar ul { text-align: left; }
+  .sidebar > ul { columns: 1; }
   .sidebar .collapsible, .sidebar .collapsible-content { break-inside: avoid; }
   .centered-content, .left-aligned-content { margin: 0; padding: 0; }
   .photo-container { width: 125px; margin: 0 0 1.5rem 1.5rem; }
