@@ -1,10 +1,10 @@
 .resident-inventor-page {
-  --ri-ting: #e2b86b;
+  --ri-ding: #e2b86b;
   --ri-line: var(--border-color);
   max-width: 820px;
 }
 
-[data-theme="light"] .resident-inventor-page { --ri-ting: #925d0b; }
+[data-theme="light"] .resident-inventor-page { --ri-ding: #925d0b; }
 
 .resident-inventor-page > header,
 .resident-inventor-page > section,
@@ -194,9 +194,9 @@
   line-height: 1.38;
 }
 
-.ri-node--ting { border-top: 3px double var(--ri-ting); }
-.ri-node--ting .ri-node-marker { border: 3px double var(--ri-ting); }
-.ri-node--ting .ri-node-kind { color: var(--ri-ting); }
+.ri-node--ding { border-top: 3px double var(--ri-ding); }
+.ri-node--ding .ri-node-marker { border: 3px double var(--ri-ding); }
+.ri-node--ding .ri-node-kind { color: var(--ri-ding); }
 .ri-node--dormant::before { background: repeating-linear-gradient(90deg, var(--text-muted) 0 4px, transparent 4px 9px); }
 .ri-node--dormant .ri-node-marker { border-style: dashed; border-color: var(--text-muted); }
 .ri-node--dormant .ri-node-kind { color: var(--text-muted); }
@@ -283,9 +283,9 @@
 .ri-base-active-path { display: grid; grid-template-columns: 1.2fr .9fr 1.1fr; align-items: stretch; }
 .ri-base-active-path .ri-base-phase { position: relative; padding: 1.35rem 1.25rem 1.2rem; border-top: 1px solid var(--border-color); background: var(--bg); }
 .ri-base-active-path .ri-base-phase:not(:last-child)::after { position: absolute; z-index: 2; top: 1.15rem; right: -.35rem; color: var(--accent); content: "→"; }
-.ri-base-active-path .ri-base-phase--ting { border-top: 3px double var(--ri-ting); }
-.ri-base-active-path .ri-base-phase--ting .ri-node-kind { color: var(--ri-ting); }
-.ri-base-active-path .ri-base-phase--ting h4 { font-size: 1.65rem; }
+.ri-base-active-path .ri-base-phase--ding { border-top: 3px double var(--ri-ding); }
+.ri-base-active-path .ri-base-phase--ding .ri-node-kind { color: var(--ri-ding); }
+.ri-base-active-path .ri-base-phase--ding h4 { font-size: 1.65rem; }
 
 .ri-base-return {
   display: grid;
@@ -334,7 +334,7 @@
   .ri-base-active-path { display: block; padding-left: 1.25rem; }
   .ri-base-active-path .ri-base-phase { padding: 1.1rem 1rem 1.5rem; border-top: 0; border-left: 1px solid var(--border-color); }
   .ri-base-active-path .ri-base-phase:not(:last-child)::after { top: auto; right: auto; bottom: -.35rem; left: -.28rem; content: "↓"; }
-  .ri-base-active-path .ri-base-phase--ting { border-left: 3px double var(--ri-ting); }
+  .ri-base-active-path .ri-base-phase--ding { border-left: 3px double var(--ri-ding); }
   .ri-base-return { margin-left: 1.25rem; }
 
   .ri-sequence {
@@ -348,7 +348,7 @@
   .ri-node:last-child::before { bottom: auto; height: .55rem; }
   .ri-node:not(:last-child)::after { top: auto; right: auto; bottom: .55rem; left: .18rem; content: "↓"; }
   .ri-node-marker { top: 0; left: 0; }
-  .ri-node--ting { border-top: 0; border-left: 3px double var(--ri-ting); padding-left: calc(2.25rem - 3px); }
+  .ri-node--ding { border-top: 0; border-left: 3px double var(--ri-ding); padding-left: calc(2.25rem - 3px); }
   .ri-node--dormant::before { width: 1px; height: auto; background: repeating-linear-gradient(180deg, var(--text-muted) 0 4px, transparent 4px 9px); }
   .ri-node-text { font-size: .86rem; }
   .ri-scroll-hint, .ri-sequence-shell::after { display: none; }

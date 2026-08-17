@@ -13,7 +13,7 @@
   const kindNames = {
     field: "Field",
     collision: "Collision",
-    ting: "Ting",
+    ding: "Ding",
     form: "Form",
     reality: "Reality",
     dormant: "Dormant",
@@ -66,7 +66,7 @@
     field.setAttribute("aria-label", "The Field and an emerging active invention path");
     const fieldHeader = element("div", "ri-field-environment-header");
     const title = element("h3", "", "The Field");
-    const detail = element("p", "", "Persistent material. Most of it may remain here indefinitely.");
+    const detail = element("p", "", "Most of what is here may never need to leave.");
     fieldHeader.append(title, detail);
 
     const fragments = element("ul", "ri-field-fragments");
@@ -88,14 +88,14 @@
     const activePath = element("div", "ri-base-active-path");
     path.nodes.slice(2, 5).forEach((item) => {
       const phase = element("article", `ri-base-phase ri-base-phase--${item.kind}`);
-      phase.append(element("p", "ri-node-kind", item.kind === "ting" ? "Detected signal" : kindNames[item.kind]));
+      phase.append(element("p", "ri-node-kind", item.kind === "ding" ? "Detected signal" : kindNames[item.kind]));
       phase.append(element("h4", "", item.title));
       phase.append(element("p", "", item.text));
       activePath.append(phase);
     });
 
     const returnLine = element("div", "ri-base-return");
-    returnLine.innerHTML = '<span aria-hidden="true">↘</span><div><strong>Becomes Field material again</strong><p>Changed, redirected, dormant, expanded—or available for another collision.</p></div>';
+    returnLine.innerHTML = '<span aria-hidden="true">↘</span><div><strong>Joins the Field again</strong><p>Changed, redirected, dormant, expanded—or available for another collision.</p></div>';
 
     emergence.append(collision, activeLabel, activePath, returnLine);
     field.append(fieldHeader, fragments, emergence);
