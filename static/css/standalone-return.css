@@ -1,0 +1,40 @@
+.standalone-return {
+  position: fixed;
+  bottom: 18px;
+  left: 18px;
+  z-index: 1000;
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 999px;
+  background: rgba(20, 23, 23, 0.92);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.22);
+  color: #fff;
+  font-family: system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  backdrop-filter: blur(8px);
+}
+
+.standalone-return:hover {
+  background: #000;
+  color: #fff;
+}
+
+.standalone-return:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+
+@media (max-width: 520px) {
+  .standalone-return {
+    right: 12px;
+    bottom: 12px;
+    left: 12px;
+    justify-content: center;
+    text-align: center;
+  }
+}
