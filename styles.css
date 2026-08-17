@@ -391,7 +391,7 @@ hr {
   margin: 1.5rem 0;
 }
 
-/* 2026 visual refresh — presentation only */
+/* 2026 visual refresh: presentation only */
 :root {
   --bg: #171b1a;
   --fg: #efeee8;
