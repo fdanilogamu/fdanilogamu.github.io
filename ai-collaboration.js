@@ -186,6 +186,7 @@
     runButton.disabled = true;
     consoleEl.textContent = `RUNNING · ${snapshot.length} instructions queued.`;
     const delay = reduceMotion.matches ? 0 : 360;
+    const seen = {};
     for (let index = 0; index < snapshot.length; index += 1) {
       if (token !== runToken) return;
       root.querySelectorAll(".is-executing").forEach((node) => node.classList.remove("is-executing"));
@@ -194,7 +195,10 @@
       step?.classList.add("is-executing");
       lines.forEach((line) => line.classList.add("is-executing"));
       if (!reduceMotion.matches) step?.scrollIntoView({ block: "nearest", behavior: "smooth" });
-      consoleEl.textContent = `STEP ${String(index + 1).padStart(2, "0")} · ${byId[snapshot[index]].label.toUpperCase()} > ${byId[snapshot[index]].runMessage}`;
+      const action = byId[snapshot[index]];
+      seen[action.id] = (seen[action.id] || 0) + 1;
+      const runMessage = action.id === "react" && seen[action.id] > 1 ? "Human judgment enters the loop again." : action.runMessage;
+      consoleEl.textContent = `STEP ${String(index + 1).padStart(2, "0")} · ${action.label.toUpperCase()} > ${runMessage}`;
       await wait(delay);
     }
     if (token !== runToken) return;
@@ -206,7 +210,7 @@
     const hasDing = snapshot.includes("ding");
     const stored = snapshot.includes("store_result");
     const history = snapshot.includes("store_history");
-    consoleEl.textContent = `RUN COMPLETE · ${hasVote ? "Human vote present" : "No human judgment step detected"} · ${hasDing ? "Ding recognized" : "No Ding detected"} · ${stored ? "Result returned to Field" : "Result not stored"}${history ? " · History retained" : ""}.`;
+    consoleEl.textContent = `RUN COMPLETE · ${snapshot.length} instructions · Human vote: ${hasVote ? "present" : "not detected"} · Ding: ${hasDing ? "recognized" : "not detected"} · Result: ${stored ? "returned to Field" : "not stored"}${history ? " · Collaboration history: retained" : ""}.`;
   }
 
   runButton.addEventListener("click", runProgram);
