@@ -38,16 +38,10 @@
       button.append(create("span", `aic-actor aic-actor--${action.actor.toLowerCase()}`, action.actor));
       if (action.loopable) button.append(create("small", "", "↻ LOOPABLE"));
       if (action.recommendedStart) button.append(create("small", "aic-action-cue aic-action-cue--start", "START HERE"));
-      const info = create("button", "aic-action-info", "i");
-      info.type = "button";
-      info.dataset.helpToggle = action.id;
-      info.setAttribute("aria-label", `Explain ${action.label}`);
-      info.setAttribute("aria-expanded", "false");
-      info.setAttribute("aria-controls", `aic-help-${action.id}`);
       const help = create("div", "aic-action-help");
       help.id = `aic-help-${action.id}`;
       help.append(create("strong", "", "WHAT IS THIS?"), create("p", "", action.help.what), create("strong", "", "USE WHEN"), create("p", "", action.help.when), create("span", "", `WHO · ${action.actor}`));
-      item.append(button, info, help);
+      item.append(button, help);
       list.append(item);
     });
     section.append(heading, list);
@@ -138,13 +132,6 @@
   function mutate(message) { cancelRun(); render(); consoleEl.textContent = message; }
 
   palette.addEventListener("click", (event) => {
-    const helpButton = event.target.closest("[data-help-toggle]");
-    if (helpButton) {
-      const open = helpButton.getAttribute("aria-expanded") !== "true";
-      palette.querySelectorAll("[data-help-toggle]").forEach((button) => button.setAttribute("aria-expanded", "false"));
-      helpButton.setAttribute("aria-expanded", String(open));
-      return;
-    }
     const button = event.target.closest("[data-add-action]");
     if (!button) return;
     const action = byId[button.dataset.addAction];

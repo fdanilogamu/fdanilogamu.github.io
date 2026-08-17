@@ -29,14 +29,13 @@
 .aic-palette-group-heading { display: flex; justify-content: space-between; gap: .5rem; margin-bottom: .45rem; color: var(--text-muted); }
 .aic-palette-group-heading h4, .aic-palette-group-heading span { margin: 0; font-size: .57rem; letter-spacing: .04em; text-transform: uppercase; }
 .aic-action-list { display: grid; gap: .35rem; }
-.aic-action-wrap { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) 27px; gap: .25rem; }
+.aic-action-wrap { position: relative; }
 .aic-window .aic-action { display: grid; grid-template-columns: 1fr auto; gap: .15rem .4rem; width: 100%; text-align: left; }
-.aic-window .aic-action-info { min-height: 34px; padding: 0; border-radius: 50%; color: var(--text-muted); }
 .aic-action small { grid-column: 1 / -1; color: var(--accent-light); font-size: .52rem; letter-spacing: .08em; }
 .aic-action .aic-action-cue { color: var(--aic-ding); }
 .aic-action-wrap.is-suggested .aic-action { border-color: var(--aic-ding); }
 .aic-action-help { position: absolute; z-index: 5; top: calc(100% + .35rem); left: 0; display: none; width: min(290px, calc(100vw - 4rem)); padding: .8rem; border: 1px solid var(--accent); background: var(--bg); box-shadow: 4px 4px 0 var(--border-color); color: var(--fg); }
-.aic-action-wrap:hover .aic-action-help, .aic-action-wrap:focus-within .aic-action-help, .aic-action-info[aria-expanded="true"] + .aic-action-help { display: block; }
+.aic-action-wrap:hover .aic-action-help, .aic-action-wrap:focus-within .aic-action-help { display: block; }
 .aic-action-help strong { display: block; margin-bottom: .15rem; color: var(--accent-light); font-size: .55rem; letter-spacing: .08em; }
 .aic-action-help p { margin: 0 0 .65rem; color: var(--fg); font: .67rem/1.5 Inter, sans-serif; }
 .aic-action-help span { display: block; color: var(--text-muted); font-size: .55rem; letter-spacing: .06em; }
@@ -100,8 +99,6 @@
   .aic-toolbar { flex-wrap: wrap; }
   .aic-action-list { grid-template-columns: 1fr; }
   .aic-action-help { position: static; grid-column: 1 / -1; width: 100%; margin-top: .1rem; box-shadow: none; }
-  .aic-action-wrap:hover .aic-action-help, .aic-action-wrap:focus-within .aic-action-help { display: none; }
-  .aic-action-info[aria-expanded="true"] + .aic-action-help { display: block; }
   .aic-explainer article { grid-template-columns: 2rem 1fr; } .aic-explainer article p { grid-column: 2; }
   .aic-log-list summary { grid-template-columns: 3.5rem 1fr auto; gap: .55rem; } .aic-log-list summary small { display: none; }
   .aic-log { margin-left: 0; }
