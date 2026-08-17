@@ -19,12 +19,12 @@ description: "A playable program for AI computation, human judgment, and the loo
 
   <section class="aic-builder-section" aria-labelledby="builder-title">
     <div class="aic-section-heading">
-      <div><p class="aic-kicker">Playable model · v0.1</p><h2 id="builder-title">AI Collaboration<br>Program Builder</h2></div>
+      <div><p class="aic-kicker">Playable model · v0.2</p><h2 id="builder-title">AI Collaboration<br>Program Builder</h2></div>
       <p>Build a short experiment or a long loop. The code is conceptual, not sacred. The vote stays with the person who knows what the work is trying to mean.</p>
     </div>
 
     <div class="aic-window" data-ai-builder>
-      <div class="aic-titlebar"><span class="aic-app-icon" aria-hidden="true">F</span><strong>FLETCHER_AI_COLLABORATION.vb</strong><span class="aic-window-status">READY</span></div>
+      <div class="aic-titlebar"><span class="aic-app-icon" aria-hidden="true">F</span><strong>FLETCHER_AI_COLLABORATION.vb</strong><span class="aic-window-status" data-window-status>READY</span></div>
       <div class="aic-toolbar" role="toolbar" aria-label="Program controls">
         <button type="button" data-command="example">Load example</button>
         <button type="button" data-command="run" class="aic-run">▶ Run program</button>
@@ -33,12 +33,14 @@ description: "A playable program for AI computation, human judgment, and the loo
       <div class="aic-workbench">
         <aside class="aic-palette" aria-labelledby="palette-title">
           <h3 id="palette-title">Available actions</h3>
+          <p class="aic-pane-guidance">Pick a starting move. Loopable pieces can be used more than once.</p>
           <div data-action-palette></div>
         </aside>
         <div class="aic-sequence-pane">
           <div class="aic-pane-heading"><h3>Your program</h3><span data-step-count>0 steps</span></div>
+          <p class="aic-pane-guidance">Build any sequence. Suggestions are guidance, not rules.</p>
           <ol class="aic-sequence" data-sequence aria-live="polite"></ol>
-          <p class="aic-empty" data-empty>Choose an action to add the first instruction.</p>
+          <p class="aic-empty" data-empty>Load some context, or choose any action to build a different kind of run.</p>
         </div>
         <div class="aic-code-pane">
           <div class="aic-pane-heading"><h3>Generated pseudocode</h3><span>VB-ish</span></div>
