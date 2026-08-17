@@ -504,6 +504,7 @@ header h1 {
 .sidebar-label { cursor: default; }
 
 .collapsible:hover { color: var(--accent); }
+.sidebar-section-links,
 .collapsible-content { margin: .45rem 0 0 .95rem; }
 
 .sidebar-subgroup { margin-bottom: .65rem !important; }
