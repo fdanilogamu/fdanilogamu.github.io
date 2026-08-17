@@ -41,25 +41,64 @@
   }
 
   function renderSequence(nodes, className) {
+    const shell = element("div", "ri-sequence-shell");
+    const hint = element("p", "ri-scroll-hint", "History continues → scroll");
+    hint.setAttribute("aria-hidden", "true");
     const list = element("ol", `ri-sequence ${className || ""}`.trim());
     nodes.forEach((item, index) => list.append(renderNode(item, index)));
-    return list;
+    shell.append(hint, list);
+
+    function updateHint() {
+      const overflows = list.scrollWidth > list.clientWidth + 2;
+      const atEnd = list.scrollLeft + list.clientWidth >= list.scrollWidth - 4;
+      hint.hidden = !overflows;
+      hint.textContent = atEnd ? "End of this path" : "History continues → scroll";
+      shell.classList.toggle("is-at-end", atEnd);
+    }
+
+    list.addEventListener("scroll", updateHint, { passive: true });
+    requestAnimationFrame(updateHint);
+    return shell;
   }
 
   function renderBase(path) {
-    const field = element("div", "ri-field-environment");
+    const field = element("section", "ri-field-environment");
+    field.setAttribute("aria-label", "The Field and an emerging active invention path");
     const fieldHeader = element("div", "ri-field-environment-header");
     const title = element("h3", "", "The Field");
-    const detail = element("p", "", "Persistent material surrounds every active path.");
+    const detail = element("p", "", "Persistent material. Most of it may remain here indefinitely.");
     fieldHeader.append(title, detail);
 
-    const active = element("div", "ri-active-loop");
-    active.append(element("p", "ri-loop-label", "One active loop leaves the Field"));
-    active.append(renderSequence(path.nodes.slice(1, -1), "ri-sequence--base"));
+    const fragments = element("ul", "ri-field-fragments");
+    ["observation", "old idea", "question", "experience", "unfinished project", "learned skill", "constraint", "strange connection"].forEach((fragment) => {
+      fragments.append(element("li", "", fragment));
+    });
 
-    const returnLine = element("div", "ri-return-line");
-    returnLine.innerHTML = '<span aria-hidden="true">↩</span><strong>Return to the Field</strong><span>New material may remain dormant or leave again.</span>';
-    field.append(fieldHeader, active, returnLine);
+    const emergence = element("div", "ri-emergence");
+    const collision = element("article", "ri-base-collision");
+    const inputs = element("div", "ri-collision-inputs");
+    inputs.append(element("span", "", "something retained"), element("span", "", "something newly available"));
+    const collisionBody = element("div", "ri-base-phase");
+    collisionBody.append(element("p", "ri-node-kind", "Event within the Field"));
+    collisionBody.append(element("h4", "", path.nodes[1].title));
+    collisionBody.append(element("p", "", path.nodes[1].text));
+    collision.append(inputs, collisionBody);
+
+    const activeLabel = element("p", "ri-active-label", "A temporary active path becomes perceptible");
+    const activePath = element("div", "ri-base-active-path");
+    path.nodes.slice(2, 5).forEach((item) => {
+      const phase = element("article", `ri-base-phase ri-base-phase--${item.kind}`);
+      phase.append(element("p", "ri-node-kind", item.kind === "ting" ? "Detected signal" : kindNames[item.kind]));
+      phase.append(element("h4", "", item.title));
+      phase.append(element("p", "", item.text));
+      activePath.append(phase);
+    });
+
+    const returnLine = element("div", "ri-base-return");
+    returnLine.innerHTML = '<span aria-hidden="true">↘</span><div><strong>Becomes Field material again</strong><p>Changed, redirected, dormant, expanded—or available for another collision.</p></div>';
+
+    emergence.append(collision, activeLabel, activePath, returnLine);
+    field.append(fieldHeader, fragments, emergence);
     graph.append(field);
   }
 
