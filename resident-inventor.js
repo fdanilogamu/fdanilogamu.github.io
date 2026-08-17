@@ -95,7 +95,7 @@
     });
 
     const returnLine = element("div", "ri-base-return");
-    returnLine.innerHTML = '<span aria-hidden="true">↘</span><div><strong>Joins the Field again</strong><p>Changed, redirected, dormant, expanded—or available for another collision.</p></div>';
+    returnLine.innerHTML = '<span aria-hidden="true">↘</span><div><strong>Joins the Field again</strong><p>Changed, redirected, dormant, expanded, or available for another collision.</p></div>';
 
     emergence.append(collision, activeLabel, activePath, returnLine);
     field.append(fieldHeader, fragments, emergence);

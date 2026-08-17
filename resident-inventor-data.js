@@ -11,7 +11,7 @@ window.RESIDENT_INVENTOR_PATHS = [
       { kind: "ding", title: "A Ding 💡", text: "Meaning in the contact becomes perceptible." },
       { kind: "form", title: "A Form", text: "The relationship takes concrete form so I can interact with it." },
       { kind: "reality", title: "Meet Reality", text: "Building, testing, people, constraints, and use get a vote." },
-      { kind: "field", title: "The Field", text: "The outcome is now available as material—and may leave again." }
+      { kind: "field", title: "The Field", text: "The outcome is now available as material and may leave again." }
     ],
     insight: "This shows one active loop, not a timetable or a required sequence for every invention."
   },
@@ -24,7 +24,7 @@ window.RESIDENT_INVENTOR_PATHS = [
       label: "Recognition across domains",
       nodes: [
         { kind: "field", title: "The Field", text: "Very different books; roughly 15 years in systems and operations; repeated attention to systems that cost the people inside them." },
-        { kind: "collision", title: "March 2026 · writing a Substack post", text: "While drafting “I May Have Typecast Myself,” the books became comparable with one another—and with my professional work." },
+        { kind: "collision", title: "March 2026 · writing a Substack post", text: "While drafting “I May Have Typecast Myself,” the books became comparable with one another and with my professional work." },
         { kind: "ding", title: "The pattern names itself", quote: "I’m someone who notices entropy.", text: "Creative output and professional systems work suddenly described the same concern." },
         { kind: "form", title: "Operational entropy", text: "The recognition became a professional concept, then the Operational Entropy Index: a diagnostic framework and business for operational drag." },
         { kind: "note", title: "What the form was for", text: "The framework gave professional structure to identifying where systems degrade, stop serving people, or begin working against them." },
@@ -156,7 +156,7 @@ window.RESIDENT_INVENTOR_PATHS = [
         { kind: "collision", title: "Portal meets an access constraint", text: "I want to experience a game whose original delivery format produces physical symptoms." },
         { kind: "ding", title: "Sudden and recent", quote: "Wait, what if there was a way to play Portal without playing Portal?" },
         { kind: "form", title: "Playable CYOA graphic novel", text: "Choices stay choices. Puzzles stay puzzles. State remains state. Exploration maps to book navigation. Consequences branch." },
-        { kind: "note", title: "What the form has to preserve", text: "Choices stay choices. Puzzles stay puzzles. State remains state. Exploration becomes book navigation. The format must preserve as much game-ness as possible while changing the symptom-producing medium—not merely adapt the story into a comic." }
+        { kind: "note", title: "What the form has to preserve", text: "Choices stay choices. Puzzles stay puzzles. State remains state. Exploration becomes book navigation. The format must preserve as much game-ness as possible while changing the symptom-producing medium, not merely adapt the story into a comic." }
       ]
     }],
     insight: "Long dormancy is possible, not required. Sometimes the Ding happens almost immediately."
