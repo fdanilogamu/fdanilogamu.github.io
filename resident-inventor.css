@@ -314,7 +314,7 @@
 
 .ri-ending { padding: clamp(5rem, 10vw, 8rem) 0 2rem; border: 0; }
 .ri-ending .ri-kicker { margin-bottom: 1.5rem; }
-.ri-ending h2 { max-width: 760px; margin: 0 0 2rem; font-size: clamp(3rem, 8vw, 5.7rem); line-height: .98; }
+.ri-ending h2 { max-width: 620px; margin: 0 0 1.5rem; font-size: clamp(2rem, 4vw, 3rem); line-height: 1.12; }
 .ri-ending > p:not(.ri-kicker) { max-width: 610px; color: var(--text-muted); font-family: Georgia, "Times New Roman", serif; font-size: 1.25rem; }
 .ri-ending nav { margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); }
 .ri-ending nav a { color: var(--fg); font-size: .78rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }
