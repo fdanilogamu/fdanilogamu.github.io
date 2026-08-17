@@ -1,4 +1,9 @@
-<div class="sidebar">
+<button class="mobile-menu-toggle" type="button" aria-controls="site-sidebar" aria-expanded="false">
+  <span class="mobile-menu-icon" aria-hidden="true"></span>
+  <span>Menu</span>
+</button>
+
+<div class="sidebar" id="site-sidebar">
   <h2>Navigation</h2>
   <h3 class="sidebar-label">The Meat of the Site</h3>
   <ul>
@@ -83,4 +88,33 @@
       control?.setAttribute('aria-expanded', 'false');
     }
   }
+
+  const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+  const siteSidebar = document.getElementById('site-sidebar');
+
+  function setMobileMenu(open) {
+    mobileMenuToggle?.setAttribute('aria-expanded', String(open));
+    siteSidebar?.classList.toggle('is-open', open);
+  }
+
+  mobileMenuToggle?.addEventListener('click', () => {
+    setMobileMenu(mobileMenuToggle.getAttribute('aria-expanded') !== 'true');
+  });
+
+  siteSidebar?.addEventListener('click', (event) => {
+    if (event.target.closest('a') && window.matchMedia('(max-width: 800px)').matches) {
+      setMobileMenu(false);
+    }
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      setMobileMenu(false);
+      mobileMenuToggle?.focus();
+    }
+  });
+
+  window.matchMedia('(min-width: 801px)').addEventListener('change', (event) => {
+    if (event.matches) setMobileMenu(false);
+  });
 </script>
