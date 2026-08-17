@@ -9,7 +9,7 @@ window.RESIDENT_INVENTOR_PATHS = [
       { kind: "field", title: "The Field", text: "Most of what is here may never need to leave." },
       { kind: "collision", title: "A Collision", text: "Two or more pieces come into meaningful contact." },
       { kind: "ding", title: "A Ding 💡", text: "Meaning in the contact becomes perceptible." },
-      { kind: "form", title: "A Form", text: "The relationship takes concrete form so I can interact with it." },
+      { kind: "form", title: "A Form", text: "What I noticed takes concrete form so I can interact with it." },
       { kind: "reality", title: "Meet Reality", text: "Building, testing, people, constraints, and use get a vote." },
       { kind: "field", title: "The Field", text: "The outcome is now available as material and may leave again." }
     ],
