@@ -13,7 +13,7 @@
   const kindNames = {
     field: "Field",
     collision: "Collision",
-    ding: "Ding",
+    ding: "Ding 💡",
     form: "Form",
     reality: "Reality",
     dormant: "Dormant",

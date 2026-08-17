@@ -27,8 +27,8 @@ window.RESIDENT_INVENTOR_PATHS = [
         { kind: "collision", title: "March 2026 · writing a Substack post", text: "While drafting “I May Have Typecast Myself,” the books became comparable with one another—and with my professional work." },
         { kind: "ding", title: "The pattern names itself", quote: "I’m someone who notices entropy.", text: "Creative output and professional systems work suddenly described the same concern." },
         { kind: "form", title: "Operational entropy", text: "The recognition became a professional concept, then the Operational Entropy Index: a diagnostic framework and business for operational drag." },
-        { kind: "reality", title: "Applied to growing companies", text: "The framework became a way to identify where systems degrade, stop serving people, or begin working against them." },
-        { kind: "field", title: "A language for the pattern", text: "Operational entropy now names a concern preserved across my creative and professional work." }
+        { kind: "note", title: "What the form was for", text: "The framework gave professional structure to identifying where systems degrade, stop serving people, or begin working against them." },
+        { kind: "field", title: "A professional concept and framework", text: "Operational entropy now names the concern recognized across my creative and professional work." }
       ]
     }],
     insight: "Sometimes the Field preserves a pattern before I recognize that it is one."
@@ -85,7 +85,8 @@ window.RESIDENT_INVENTOR_PATHS = [
         { kind: "collision", title: "An intellectual expedition", text: "During a conversation about modes of observation, the old bus story resurfaces." },
         { kind: "ding", title: "Make the comparison observable", quote: "Show different people the same scene and ask what they notice." },
         { kind: "form", title: "The Way They See It", text: "A video / YouTube format: one scenario per season, one trained observer per episode, the same stimulus across observers." },
-        { kind: "reality", title: "A repeatable media structure", text: "The thought experiment now supports interviews, comparison, and an inspectable record of attention." },
+        { kind: "reality", title: "The scene has to come from somewhere", text: "Natural footage creates consent and production problems, and the camera itself can accidentally direct attention." },
+        { kind: "form", title: "A practical first version", text: "Neutral licensed footage can prototype the format. Original footage can later use a hybrid of wider public scenes and consenting participants." },
         { kind: "field", title: "A comparative record", text: "Every observer’s response supplies material for comparing how training changes attention." }
       ]
     }],
@@ -138,8 +139,7 @@ window.RESIDENT_INVENTOR_PATHS = [
         { kind: "collision", title: "The instances become comparable", text: "Each works independently. Comparison exposes a shared behavior: changing the kind of attention an AI brings." },
         { kind: "ding", title: "The category becomes visible", quote: "Portable behavioral specifications that change the kind of attention an AI brings to a conversation." },
         { kind: "form", title: "Porpoise AI", text: "AI instances with a purpose; documentation usable inside ChatGPT, Claude, Gemini, and other existing tools." },
-        { kind: "reality", title: "Language and implementation evolve", text: "“Cognitive lenses for AI,” “behavioral specifications,” and “apps for your AI’s attention.” Brad later introduces YAML as a cleaner format." },
-        { kind: "field", title: "A named category for future instances", text: "Porpoise provides both a product concept and language for recognizing new cognitive lenses." }
+        { kind: "field", title: "A named category with growing instances", text: "Porpoise now exists as a product concept and a growing set of reusable stances. YAML came later as a cleaner implementation format." }
       ]
     }],
     insight: "Sometimes the examples exist before I realize they belong to a category without a name. YAML came later; it was not part of the original invention."
@@ -156,8 +156,7 @@ window.RESIDENT_INVENTOR_PATHS = [
         { kind: "collision", title: "Portal meets an access constraint", text: "I want to experience a game whose original delivery format produces physical symptoms." },
         { kind: "ding", title: "Sudden and recent", quote: "Wait, what if there was a way to play Portal without playing Portal?" },
         { kind: "form", title: "Playable CYOA graphic novel", text: "Choices stay choices. Puzzles stay puzzles. State remains state. Exploration maps to book navigation. Consequences branch." },
-        { kind: "note", title: "What the form has to preserve", text: "It must preserve as much game-ness as possible while changing the symptom-producing medium—not merely retell the story as a comic." },
-        { kind: "field", title: "An accessibility pattern for games", text: "The medium shift offers a way to retain choices, puzzles, state, exploration, and consequences without the symptom-producing format." }
+        { kind: "note", title: "What the form has to preserve", text: "Choices stay choices. Puzzles stay puzzles. State remains state. Exploration becomes book navigation. The format must preserve as much game-ness as possible while changing the symptom-producing medium—not merely adapt the story into a comic." }
       ]
     }],
     insight: "Long dormancy is possible, not required. Sometimes the Ding happens almost immediately."
@@ -175,7 +174,7 @@ window.RESIDENT_INVENTOR_PATHS = [
         { kind: "ding", title: "The mechanism appears", quote: "The Masked Tuk-Tuk Driver" },
         { kind: "form", title: "A specific urban legend", text: "Free rides booked at a grocery store. A masked driver arrives silently, asks neither destination nor fare, and takes residents to work." },
         { kind: "note", title: "What the prompts actually supplied", text: "None specified the signup sheet, grocery store, silence, anonymity, schedule, or ride mechanism. They created the constraint field; I supplied the resolution." },
-        { kind: "field", title: "An idea and a clearer account of the Lab", text: "The Masked Tuk-Tuk Driver now sits alongside evidence that the Lab manufactures collisions rather than ideas." }
+        { kind: "field", title: "An idea and a clearer account of the Lab", text: "The idea joins the Field alongside evidence that Inventor’s Lab can manufacture collisions without manufacturing the resolution." }
       ]
     }],
     insight: "Inventor’s Lab does not manufacture ideas. It manufactures collisions."
