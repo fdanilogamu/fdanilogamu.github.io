@@ -1,0 +1,98 @@
+---
+layout: default
+title: "Resident Inventor"
+description: "A model of invention derived from the origin histories of eight real projects by Fletcher Galeano."
+---
+
+<link rel="stylesheet" href="{{ '/resident-inventor.css' | relative_url }}">
+
+<article class="resident-inventor-page">
+  <header class="ri-hero">
+    <p class="ri-kicker">An archaeology of eight inventions</p>
+    <h1>Resident<br>Inventor</h1>
+    <p class="ri-deck">I keep a large field of things I’ve noticed, learned, made, experienced, and wondered about. Sometimes two of them touch. When I hear something in that collision, I give it form and see what reality does with it. Whatever happens becomes part of the field again.</p>
+    <a class="ri-jump" href="#invention-paths">Inspect the paths <span aria-hidden="true">↓</span></a>
+  </header>
+
+  <section class="ri-diagram-section" id="invention-paths" aria-labelledby="paths-title">
+    <div class="ri-section-heading">
+      <p class="ri-kicker">The model, then the evidence</p>
+      <h2 id="paths-title">One grammar.<br>Different paths.</h2>
+      <p>The model is retrospective. Each project keeps its actual sequence, including dormancy, repeated collisions, returns to the Field, and missing parts of the record.</p>
+    </div>
+
+    <div class="ri-explorer" data-invention-explorer>
+      <div class="ri-tabs-wrap">
+        <div class="ri-tabs" role="tablist" aria-label="Invention paths"></div>
+      </div>
+      <div class="ri-panel" role="tabpanel" tabindex="0" aria-live="polite">
+        <div class="ri-panel-intro"></div>
+        <div class="ri-graph"></div>
+        <p class="ri-insight"></p>
+      </div>
+      <noscript><p class="ri-noscript">The interactive paths require JavaScript. The five sections below explain the complete model.</p></noscript>
+    </div>
+  </section>
+
+  <section class="ri-articles" aria-label="Parts of the invention model">
+    <article class="ri-article" id="the-field">
+      <p class="ri-article-number">01</p>
+      <div>
+        <h2>The Field</h2>
+        <p>The Field is the persistent environment around the active work. It holds observations, questions, skills, constraints, stories, old documents, abandoned projects, previous inventions, and things life kept before I knew they mattered.</p>
+        <p>Retention takes several forms. Sometimes I save something because it interests me. Sometimes an artifact, memory, or fifteen years of professional experience does the saving. Material can stay for seconds or decades. Most of it never needs to become an invention.</p>
+        <p class="ri-pull">Dormancy is not failure. It is one of the Field’s normal states.</p>
+      </div>
+    </article>
+
+    <article class="ri-article" id="a-collision">
+      <p class="ri-article-number">02</p>
+      <div>
+        <h2>A Collision</h2>
+        <p>A collision occurs when retained pieces—or something retained and something newly available—come into meaningful contact. A conversation can do it. So can research, a new technology, an old document, a physical constraint, time, or enough examples becoming comparable.</p>
+        <p>There is no single mechanism. Inventor’s Lab is the deliberate edge case: unrelated prompts create a constraint field and shake what is already there. The system manufactures collisions. It cannot decide which sound is worth following.</p>
+      </div>
+    </article>
+
+    <article class="ri-article" id="a-ting">
+      <p class="ri-article-number">03</p>
+      <div>
+        <h2>A Ting</h2>
+        <p>A collision alone is just contact. A Ting is the moment I perceive that the things together mean something they did not mean separately. It may arrive as a question, category recognition, a renamed pattern, or a newly visible mechanism.</p>
+        <blockquote>“Wait, what if there was a way to play Portal without playing Portal?”</blockquote>
+        <p>The Ting is recognition. It can happen after a decade of dormancy or almost immediately when the Field already contains everything it needs.</p>
+      </div>
+    </article>
+
+    <article class="ri-article" id="a-form">
+      <p class="ri-article-number">04</p>
+      <div>
+        <h2>A Form</h2>
+        <p>After a Ting, I make the relationship concrete enough to interact with it. That might mean naming, questioning, writing, sketching, coding, mechanizing, prototyping, or designing a framework.</p>
+        <p>The forms have included software, physical products, books, games, interview instruments, teaching methodologies, media formats, websites, and AI behavioral specifications. The medium is a consequence of the idea.</p>
+      </div>
+    </article>
+
+    <article class="ri-article" id="meet-reality">
+      <p class="ri-article-number">05</p>
+      <div>
+        <h2>Meet Reality</h2>
+        <p>A form eventually encounters building, testing, competitors, technical limits, economics, collaborators, publication, use, stewardship, or a decision to park it. Reality gets a vote more precise than success or failure.</p>
+        <p>It can shrink a chair into an attachment, turn competitors into a reason for a dream product to deepen, or reveal that interview packets are specifications for a generator. The result—validation, redirection, a new artifact, a better question—returns to the Field. An invention may leave again later.</p>
+      </div>
+    </article>
+  </section>
+
+  <footer class="ri-ending">
+    <p class="ri-kicker">Resident Inventor</p>
+    <h2>I don’t sit down and try to generate inventions. I keep a field.</h2>
+    <p>Every so often, something touches something else. I hear it. Then I make enough of it to find out what happens when it meets reality.</p>
+    <nav aria-label="Continue exploring">
+      <a href="{{ '/index.html' | relative_url }}">See the rest of the things I’ve made <span aria-hidden="true">→</span></a>
+      <!-- Future: add “How I Collaborate With AI” when that page exists. -->
+    </nav>
+  </footer>
+</article>
+
+<script src="{{ '/resident-inventor-data.js' | relative_url }}"></script>
+<script src="{{ '/resident-inventor.js' | relative_url }}"></script>
