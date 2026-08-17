@@ -896,6 +896,7 @@ footer a { color: var(--accent); }
     margin-bottom: 2rem;
     padding: .65rem .85rem;
     border: 1px solid var(--border-color);
+    border-radius: 8px;
     background: var(--bg);
     color: var(--fg);
     font-weight: 600;
