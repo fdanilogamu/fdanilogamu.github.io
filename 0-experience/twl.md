@@ -27,12 +27,12 @@ I worked directly with the CEO and CFO and handled more responsibility here than
 
 - **Description:** Coordinated 13 active projects across marketing, design, development, VR, and charity work.
 - **My role:** Organized work, set priorities, removed roadblocks, and kept all teams moving with clarity.
-- **Outcome:** Projects started to run on a steady rhythm instead of constant chaos.
+- **Outcome:** Projects settled into a steady operating rhythm.
 
 ## Growth
 
 I was promoted four times in two years.  
-This happened because I consistently took ownership and solved problems without waiting for direction.  
+This happened because I consistently took ownership, made decisions, and solved problems independently.
 
 ## Team
 
@@ -63,7 +63,7 @@ My promotions reflected the impact I had on operations and team coordination.
 
 I learned how to:
 
-- Guide many teams without micromanaging them  
+- Guide many teams while preserving their autonomy
 - Create clarity in a fast-moving work environment  
 - Communicate honestly with executives and frontline teams  
 - Handle pressure while staying organized  

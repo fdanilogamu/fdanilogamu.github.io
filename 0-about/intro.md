@@ -25,10 +25,10 @@ title: "About"
 
    <h1>How I think</h1>
   <br>
-  <p>The founders I work with usually already know something is wrong, but they just can't see it clearly yet because they're still inside it. Structural problems need structural solutions.</p>
+  <p>The founders I work with usually feel the problem before they can see it clearly from inside the system. Structural problems need structural solutions.</p>
  
 
-  <p>I see situations as they are. I don't oversell nor over-reassure, and if your actual problem is that your processes have never been documented, I'm not going to tell you that your team just needs better communication.</p> 
+  <p>I see situations as they are and name the problem the evidence supports. If your processes have never been documented, the diagnosis is missing documentation.</p>
  
  <p>I also have a low tolerance for theater: no three-month discovery phases, nor a slide deck that tells you what you already know. You'll have a diagnosis before most consultants have finished their intake form.</p>
 

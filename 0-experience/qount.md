@@ -12,9 +12,9 @@ title: "Working at Qount"
 ## How did this role help me on the path to creating the OEI?
 
 - **Documentation Architecture**: Built the foundation for a complete docs rebuild, defining structure, taxonomy, and standards for a scalable knowledge base.
-- **Process Ownership**: Took full responsibility for end-to-end documentation without relying on existing frameworks.
+- **Process Ownership**: Took full responsibility for end-to-end documentation and built the necessary framework from scratch.
 - **Cross-Team Collaboration**: Worked directly with engineers, product managers, and executives to translate technical details into clear, usable information.
-- **System Thinking**: Learned how documentation ties into customer success, support efficiency, and internal training, treating docs as part of the product, not an afterthought.
+- **System Thinking**: Learned how documentation ties into customer success, support efficiency, and internal training, treating docs as part of the product.
 
 ## Industry
 

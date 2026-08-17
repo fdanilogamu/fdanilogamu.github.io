@@ -35,7 +35,7 @@ I worked on my own, coordinating remotely with various stakeholders.
 
 ## Challenges
 
-Managing the entire documentation process independently presented challenges, but it also provided an opportunity to develop innovative solutions and enhance my technical writing skills.
+Managing the entire documentation process independently strengthened my technical writing and pushed me to develop new solutions.
 
 ## Type of Work
 

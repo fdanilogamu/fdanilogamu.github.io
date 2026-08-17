@@ -40,7 +40,7 @@ Advanced from a regular teacher to a teacher trainer, gaining experience in lead
 
 ## Team
 
-No specific team, but collaborated closely with colleagues to enhance teaching methods and curriculum design.
+Collaborated closely with colleagues to enhance teaching methods and curriculum design.
 
 ## Challenges
 
