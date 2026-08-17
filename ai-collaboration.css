@@ -19,6 +19,11 @@
 .aic-window button { min-height: 34px; padding: .38rem .65rem; border: 1px solid var(--border-color); border-radius: 2px; background: var(--bg); color: var(--fg); font: 700 .68rem/1.2 ui-monospace, Consolas, monospace; }
 .aic-window button:hover { background: var(--fg); color: var(--bg); }
 .aic-window button:disabled { opacity: .28; cursor: default; }
+.aic-example-selector { position: relative; display: grid; min-height: 34px; grid-template-columns: auto 1fr; align-items: center; border: 1px solid var(--border-color); border-radius: 2px; background: var(--bg); color: var(--fg); font: 700 .68rem/1.2 ui-monospace, Consolas, monospace; }
+.aic-example-selector > span { padding: .38rem .15rem .38rem .65rem; white-space: nowrap; }
+.aic-example-selector > span::after { content: ":"; }
+.aic-example-selector select { min-height: 32px; max-width: 15rem; padding: .38rem 1.8rem .38rem .35rem; border: 0; background: var(--bg); color: var(--accent-light); font: inherit; cursor: pointer; }
+.aic-example-selector:focus-within { outline: 2px solid var(--accent); outline-offset: 1px; }
 .aic-window .aic-run { border-color: var(--accent); color: var(--accent-light); }
 .aic-workbench { display: grid; grid-template-columns: 195px minmax(210px, .85fr) minmax(270px, 1.15fr); min-height: 560px; }
 .aic-palette, .aic-sequence-pane, .aic-code-pane { min-width: 0; padding: 1rem; }

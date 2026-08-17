@@ -20,4 +20,25 @@ window.AI_COLLABORATION_ACTIONS = [
   { id: "refine", label: "Refine", group: "loopable", loopable: true, actor: "BOTH", description: "Revise a candidate without starting over.", help: { what: "Revise the current candidate while preserving what already works.", when: "The direction is useful but needs correction, sharpening, or another pass." }, suggestsNext: ["challenge", "propose", "meet_reality"], runMessage: "Candidate revised without restarting.", code: "Candidate = Collaboration.Refine(Candidate)" }
 ];
 
-window.AI_COLLABORATION_EXAMPLE = ["load_field", "mix", "propose", "hmmm_no_but", "add_correction", "mix_again", "ding", "model", "meet_reality", "store_result", "store_history"];
+window.AI_COLLABORATION_EXAMPLES = {
+  ech: {
+    label: "ECH",
+    description: "An older recruiting artifact meets newer evidence; a human correction redirects the product thesis before specification and build.",
+    sequence: ["load_field", "retrieve", "mix", "propose", "hmmm_no_but", "add_correction", "mix_again", "ding", "model", "specify", "build", "meet_reality", "store_result", "store_history"]
+  },
+  the_way_they_see_it: {
+    label: "The Way They See It",
+    description: "A weird AI question collides with an old bus thought experiment; human recognition turns the collision into a comparative media format.",
+    sequence: ["load_field", "retrieve", "ask_weird", "mix", "propose", "ding", "name", "model", "draft", "meet_reality", "store_result", "store_history"]
+  },
+  resident_inventor: {
+    label: "Resident Inventor",
+    description: "Many proposed abstractions meet repeated human votes until the shared invention pattern rings, is modeled, built, tested, and revised.",
+    sequence: ["load_field", "mix", "propose", "hmmm_no_but", "add_correction", "mix_again", "propose", "hmmm_no_but", "add_correction", "mix_again", "ding", "name", "model", "specify", "build", "meet_reality", "hmmm_no_but", "add_correction", "refine", "meet_reality", "store_result", "store_history"]
+  },
+  porpoise: {
+    label: "Porpoise",
+    description: "Specialized AI jobs retrieve, mix, challenge, draft, model, specify, build, and archive while human recognition and correction retain the vote.",
+    sequence: ["load_field", "retrieve", "mix", "propose", "challenge", "hmmm_no_but", "add_correction", "mix_again", "ding", "model", "draft", "specify", "build", "meet_reality", "refine", "store_result", "store_history"]
+  }
+};

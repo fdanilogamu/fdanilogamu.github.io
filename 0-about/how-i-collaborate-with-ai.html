@@ -25,7 +25,15 @@ description: "A playable program for AI computation, human judgment, and the loo
     <div class="aic-window" data-ai-builder>
       <div class="aic-titlebar"><span class="aic-app-icon" aria-hidden="true">F</span><strong>FLETCHER_AI_COLLABORATION.vb</strong><span class="aic-window-status" data-window-status>READY</span></div>
       <div class="aic-toolbar" role="toolbar" aria-label="Program controls">
-        <button type="button" data-command="example">Load example</button>
+        <label class="aic-example-selector">
+          <span>Select example</span>
+          <select data-example-select aria-label="Select a real run to load">
+            <option value="ech">ECH</option>
+            <option value="the_way_they_see_it">The Way They See It</option>
+            <option value="resident_inventor">Resident Inventor</option>
+            <option value="porpoise">Porpoise</option>
+          </select>
+        </label>
         <button type="button" data-command="run" class="aic-run">▶ Run program</button>
         <button type="button" data-command="clear">Clear</button>
       </div>

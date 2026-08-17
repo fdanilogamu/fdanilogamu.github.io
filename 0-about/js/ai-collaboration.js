@@ -12,6 +12,7 @@
   const emptyEl = root.querySelector("[data-empty]");
   const statusEl = root.querySelector("[data-window-status]");
   const runButton = root.querySelector("[data-command='run']");
+  const exampleSelect = root.querySelector("[data-example-select]");
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
   let sequence = [];
   let runToken = 0;
@@ -153,10 +154,14 @@
     sequenceEl.querySelector(`[data-index="${Math.min(index, sequence.length - 1)}"] button:not(:disabled)`)?.focus();
   });
 
-  root.querySelector("[data-command='example']").addEventListener("click", () => {
-    sequence = [...window.AI_COLLABORATION_EXAMPLE];
-    mutate("Core example loaded: material, computation, human correction, recognition, Form, Reality, and return to the Field.");
-  });
+  function loadExample(id) {
+    const example = window.AI_COLLABORATION_EXAMPLES?.[id];
+    if (!example) return;
+    sequence = [...example.sequence];
+    mutate(`${example.label} loaded · ${example.description}`);
+  }
+
+  exampleSelect.addEventListener("change", () => loadExample(exampleSelect.value));
   root.querySelector("[data-command='clear']").addEventListener("click", () => {
     sequence = []; mutate("Program cleared. Load Field is a useful start, but every action remains available.");
   });
@@ -200,6 +205,5 @@
   runButton.addEventListener("click", runProgram);
   renderPaletteGroup("loopable", "Loopable pieces", "ADD FREELY");
   renderPaletteGroup("occasional", "One-off / occasional", "ALL OPTIONAL");
-  sequence = [...window.AI_COLLABORATION_EXAMPLE];
-  render();
+  loadExample(exampleSelect.value);
 })();
