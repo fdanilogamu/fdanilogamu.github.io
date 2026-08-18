@@ -161,10 +161,17 @@
     mutate(`${example.label} loaded · ${example.description}`);
   }
 
-  exampleSelect.addEventListener("change", () => loadExample(exampleSelect.value));
-  root.querySelector("[data-command='clear']").addEventListener("click", () => {
-    sequence = []; mutate("Program cleared. Load Field is a useful start, but every action remains available.");
+  function clearProgram() {
+    sequence = [];
+    exampleSelect.value = "";
+    mutate("Program cleared. Load Field is a useful start, but every action remains available.");
+  }
+
+  exampleSelect.addEventListener("change", () => {
+    if (exampleSelect.value) loadExample(exampleSelect.value);
+    else clearProgram();
   });
+  root.querySelector("[data-command='clear']").addEventListener("click", clearProgram);
 
   function wait(ms) { return new Promise((resolve) => window.setTimeout(resolve, ms)); }
 
@@ -205,5 +212,5 @@
   runButton.addEventListener("click", runProgram);
   renderPaletteGroup("loopable", "Loopable pieces", "ADD FREELY");
   renderPaletteGroup("occasional", "One-off / occasional", "ALL OPTIONAL");
-  loadExample(exampleSelect.value);
+  render();
 })();
