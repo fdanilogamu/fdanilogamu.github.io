@@ -463,16 +463,16 @@ header h1 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: #f1c40f;
+  color: #4DB8D4;
   line-height: 1.2;
   text-decoration: none;
 }
 
 .knowledge-architect-button {
   padding: .5rem .85rem;
-  border: 1px solid #f1c40f;
+  border: 1px solid #4DB8D4;
   border-radius: 7px;
-  background: #f1c40f;
+  background: #4DB8D4;
   color: #181818;
   font-size: .82rem;
   font-weight: 750;
@@ -482,15 +482,15 @@ header h1 {
 
 .knowledge-architect-prompt {
   margin-top: .35rem;
-  color: #f1c40f;
+  color: #4DB8D4;
   font-size: .68rem;
   white-space: nowrap;
 }
 
-.knowledge-architect-link:hover { color: #f1c40f; }
+.knowledge-architect-link:hover { color: #4DB8D4; }
 .knowledge-architect-link:hover .knowledge-architect-button {
   background: transparent;
-  color: #f1c40f;
+  color: #4DB8D4;
 }
 
 .main-content {

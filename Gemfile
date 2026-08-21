@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
-gem 'jekyll'
-gem 'jekyll-sitemap'
-gem 'webrick'
+
+# Keep local and GitHub Pages builds on the same supported Jekyll stack.
+gem 'github-pages', '~> 232', group: :jekyll_plugins
+gem 'webrick', '~> 1.8'
