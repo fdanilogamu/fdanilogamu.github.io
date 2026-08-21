@@ -433,6 +433,10 @@ a:hover { color: var(--accent-light); }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
 header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
   padding: 1.1rem clamp(1.5rem, 4vw, 3rem);
   border-bottom: 1px solid var(--border-color);
   background: var(--bg);
@@ -441,10 +445,52 @@ header {
 }
 
 header h1 {
+  margin: 0;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.45rem;
   font-weight: 500;
   letter-spacing: -.02em;
+}
+
+.header-actions {
+  display: flex;
+  align-items: flex-start;
+  gap: .8rem;
+  margin-left: auto;
+}
+
+.knowledge-architect-link {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #f1c40f;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.knowledge-architect-button {
+  padding: .5rem .85rem;
+  border: 1px solid #f1c40f;
+  border-radius: 7px;
+  background: #f1c40f;
+  color: #181818;
+  font-size: .82rem;
+  font-weight: 750;
+  letter-spacing: .02em;
+  transition: background-color .15s ease, color .15s ease;
+}
+
+.knowledge-architect-prompt {
+  margin-top: .35rem;
+  color: #f1c40f;
+  font-size: .68rem;
+  white-space: nowrap;
+}
+
+.knowledge-architect-link:hover { color: #f1c40f; }
+.knowledge-architect-link:hover .knowledge-architect-button {
+  background: transparent;
+  color: #f1c40f;
 }
 
 .main-content {
@@ -937,7 +983,10 @@ footer a { color: var(--accent); }
 }
 
 @media (max-width: 430px) {
-  header { padding-right: 4.5rem; }
+  header { gap: .75rem; }
+  header h1 { max-width: 8rem; font-size: 1.2rem; line-height: 1.15; }
+  .header-actions { gap: .5rem; }
+  .knowledge-architect-prompt { font-size: .58rem; }
   .photo-container { float: none; margin: 0 0 2rem; }
   .hero h1 { font-size: 3.7rem; }
   .nav-links ul { display: block; }

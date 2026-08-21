@@ -14,15 +14,20 @@
 <body>
   <header>
     <h1>The Stuff I Have Online</h1>
+    <div class="header-actions">
+      <button id="theme-toggle" type="button" aria-label="Toggle color theme">
+        🌓
+      </button>
+      <a class="knowledge-architect-link" href="https://thestuffihave.online/fletcherlite/">
+        <span class="knowledge-architect-button">I'm lost</span>
+        <span class="knowledge-architect-prompt">Looking for the knowledge architect?</span>
+      </a>
+    </div>
   </header>
   <div class="main-content">
     {% include sidebar.html %}
     <div class="left-aligned-content">
       {{ content }}
-      <button id="theme-toggle" style="position: fixed; top: 0.75rem; right: 1rem; z-index: 1000;">
-      🌓
-      </button>
-
     </div>
   </div>
   <footer>
