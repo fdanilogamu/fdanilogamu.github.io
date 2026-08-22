@@ -935,6 +935,13 @@ p { margin-bottom: 1.1rem; }
 
 .prison-planet-closing { margin-bottom: 0; }
 
+.prison-planet-poster-wall {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: clamp(2rem, 4vw, 3rem);
+}
+
 button {
   border: 1px solid var(--border-color);
   border-radius: 50%;
