@@ -512,8 +512,11 @@ body > header > h1 {
   box-shadow: none;
   overflow-y: auto;
   overscroll-behavior: contain;
-  scrollbar-gutter: stable;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
+
+.sidebar::-webkit-scrollbar { display: none; }
 
 .mobile-menu-toggle { display: none; }
 
