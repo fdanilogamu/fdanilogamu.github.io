@@ -44,7 +44,7 @@ ul {
     padding-left: 25px; 
 }
 
-header {
+body > header {
     background-color: #004d66;
     color: white;
     padding: 1rem 0;
@@ -292,8 +292,8 @@ a {
   color: var(--accent);
 }
 
-header,
-footer {
+body > header,
+body > footer {
   background-color: var(--blockquote-bg);
 }
 
@@ -432,7 +432,7 @@ a { text-decoration-thickness: 1px; text-underline-offset: 3px; }
 a:hover { color: var(--accent-light); }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
-header {
+body > header {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -444,7 +444,7 @@ header {
   text-align: left;
 }
 
-header h1 {
+body > header > h1 {
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.45rem;
@@ -983,8 +983,8 @@ footer a { color: var(--accent); }
 }
 
 @media (max-width: 430px) {
-  header { gap: .75rem; }
-  header h1 { max-width: 8rem; font-size: 1.2rem; line-height: 1.15; }
+  body > header { gap: .75rem; }
+  body > header > h1 { max-width: 8rem; font-size: 1.2rem; line-height: 1.15; }
   .header-actions { gap: .5rem; }
   .knowledge-architect-prompt { font-size: .58rem; }
   .photo-container { float: none; margin: 0 0 2rem; }
