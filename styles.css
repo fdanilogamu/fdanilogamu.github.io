@@ -657,10 +657,10 @@ p { margin-bottom: 1.1rem; }
 
 .intro-copy p:last-child { margin-bottom: 0; }
 
-.intro-page h1 {
+.intro-page-title {
   margin-bottom: 1.75rem;
-  font-size: clamp(3.25rem, 7vw, 5rem);
-  line-height: 1;
+  font-size: clamp(4rem, 9vw, 6.4rem);
+  line-height: .98;
 }
 
 .intro-page h2 {

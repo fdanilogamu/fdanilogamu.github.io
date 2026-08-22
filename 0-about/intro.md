@@ -5,7 +5,7 @@ title: "About"
 
 <article class="left-aligned-content">
 
-  <h1>What's this all about?</h1>
+  <h1 class="intro-page-title">What's this all about?</h1>
 
   <p>I’m a <a href="/0-about/resident-inventor.html">Resident Inventor</a>. I retain a lot of material from the places I’ve worked, the things I’ve made, and the questions I haven’t finished with. When pieces of it connect in a way that matters, I give that connection a form and test it against reality.</p>
 
