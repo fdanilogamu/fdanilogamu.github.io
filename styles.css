@@ -507,8 +507,12 @@ body > header > h1 {
   top: 2rem;
   align-self: start;
   width: 100%;
+  max-height: calc(100vh - 4rem);
   padding: 0;
   box-shadow: none;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
 }
 
 .mobile-menu-toggle { display: none; }
@@ -996,10 +1000,12 @@ footer a { color: var(--accent); }
     display: none;
     position: static;
     width: 100%;
+    max-height: none;
     margin: -1rem 0 3rem;
     padding: 1.5rem;
     border: 1px solid var(--border-color);
     background: var(--blockquote-bg);
+    overflow: visible;
   }
   .sidebar.is-open { display: block; }
   .sidebar ul { text-align: left; }
