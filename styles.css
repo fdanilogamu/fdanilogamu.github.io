@@ -504,11 +504,10 @@ body > header > h1 {
 
 .sidebar {
   position: sticky;
-  top: 1.25rem;
+  top: 2rem;
   align-self: start;
   width: 100%;
-  max-height: calc(100vh - 8rem);
-  margin-top: calc(1.25rem - clamp(2.5rem, 6vw, 5rem));
+  max-height: calc(100vh - 11rem);
   padding: 0;
   box-shadow: none;
   overflow-y: auto;
@@ -522,7 +521,7 @@ body > header > h1 {
 .mobile-menu-toggle { display: none; }
 
 .sidebar h2 {
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
   color: var(--fg);
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.25rem;
@@ -530,7 +529,7 @@ body > header > h1 {
 }
 
 .sidebar ul { padding: 0; list-style: none; }
-.sidebar li { margin: 0 0 .45rem; }
+.sidebar li { margin: 0 0 .35rem; }
 
 .sidebar a {
   display: inline-block;
@@ -546,7 +545,7 @@ body > header > h1 {
 
 .collapsible,
 .sidebar-label {
-  margin-top: 1.35rem;
+  margin-top: 1.15rem;
   padding: 0;
   color: var(--fg);
   font-size: .7rem;
