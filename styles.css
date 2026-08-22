@@ -682,6 +682,18 @@ p { margin-bottom: 1.1rem; }
   line-height: 1.4;
 }
 
+.tldr-practice-image {
+  max-width: 640px;
+  margin: 2rem auto 1.75rem;
+}
+
+.tldr-practice-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border-color);
+}
+
 .tldr-links {
   padding: 0;
   list-style: none;
