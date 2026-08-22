@@ -657,6 +657,17 @@ p { margin-bottom: 1.1rem; }
 
 .intro-copy p:last-child { margin-bottom: 0; }
 
+.intro-page h1 {
+  margin-bottom: 1.75rem;
+  font-size: clamp(3.25rem, 7vw, 5rem);
+  line-height: 1;
+}
+
+.intro-page h2 {
+  margin-top: 2.75rem;
+  font-size: clamp(2rem, 4vw, 2.6rem);
+}
+
 .tldr-page {
   max-width: 760px;
 }

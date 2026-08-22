@@ -6,7 +6,6 @@ title: "About"
 <article class="left-aligned-content">
 
   <h1>What's this all about?</h1>
-  <br>
 
   <p>I’m a <a href="/0-about/resident-inventor.html">Resident Inventor</a>. I retain a lot of material from the places I’ve worked, the things I’ve made, and the questions I haven’t finished with. When pieces of it connect in a way that matters, I give that connection a form and test it against reality.</p>
 
@@ -19,12 +18,7 @@ title: "About"
   <p>I've spent several years inside that specific gap, in SaaS companies, fast-growth environments, and organizations with strong momentum and brittle infrastructure underneath it.</p> 
 
   <p>Operations became an unusually rich source of material because it made hidden structures consequential. I spent years watching information move, work change hands, temporary fixes harden, and people compensate for systems around them. That experience became the <a href="https://operationalentropy.com">Operational Entropy Index</a>: a framework for diagnosing the distance between how an organization is supposed to run and what its people must do to keep it moving.</p>
-  <br>
-    <br>
-
-
-   <h1>How I think</h1>
-  <br>
+   <h2>How I think</h2>
   <p>The founders I work with usually feel the problem before they can see it clearly from inside the system. Structural problems need structural solutions.</p>
  
 
