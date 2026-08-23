@@ -200,15 +200,6 @@ body {
 
 .masthead { text-align: center; }
 
-.kicker {
-  margin: 0 0 1.25rem;
-  color: var(--faded-ink);
-  font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 0.19em;
-  text-transform: uppercase;
-}
-
 h1 {
   margin: 0;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
