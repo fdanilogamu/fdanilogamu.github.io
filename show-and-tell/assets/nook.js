@@ -2,6 +2,9 @@
   "use strict";
 
   const feed = document.getElementById("update-feed");
+  const projects = window.NOOK_PROJECTS && typeof window.NOOK_PROJECTS === "object"
+    ? window.NOOK_PROJECTS
+    : {};
   const updates = Array.isArray(window.NOOK_UPDATES)
     ? window.NOOK_UPDATES.slice().sort(function (a, b) {
         return `${b.date || ""}T${b.time || ""}`.localeCompare(`${a.date || ""}T${a.time || ""}`);
@@ -26,6 +29,9 @@
     const stamp = document.createElement("span");
     stamp.className = "project-mark";
     stamp.setAttribute("aria-hidden", "true");
+    const projectStyle = projects[update.project] || {};
+    const stampColor = update.markColor || projectStyle.stampColor;
+    if (stampColor) stamp.style.setProperty("--stamp-ink", stampColor);
 
     if (update.markImage) {
       const image = document.createElement("img");

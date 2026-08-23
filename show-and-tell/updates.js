@@ -2,12 +2,53 @@
   Add new entries anywhere in this array. The feed prints the newest date first.
 
   Required: id, date, project, title
-  Optional: time, body, url, linkLabel, mark, markImage, isExample
+  Optional: time, body, url, linkLabel, mark, markImage, markColor, isExample
 
   `mark` is a short text stamp. `markImage` can later point to a project logo.
+  Project-wide stamp colors live in NOOK_PROJECTS. An entry-level `markColor`
+  can override its project's color when needed.
   Use an ISO date (YYYY-MM-DD) and 24-hour time (HH:MM) when a time is included.
 */
+window.NOOK_PROJECTS = {
+  "Operational Entropy Index": { stampColor: "#3D5368" },
+  "Entropy Compatible Hiring": { stampColor: "#112638" },
+  "The Stuff I Have Online": { stampColor: "#171b1a" },
+  "Inglés Rebelde": { stampColor: "#39ff14" },
+  "Swipet": { stampColor: "#2B3B8C" },
+  "Fletcher Lite": { stampColor: "#d4a574" }
+};
+
 window.NOOK_UPDATES = [
+  {
+    id: "fletcher-lite-knowledge-architect",
+    date: "2026-08-21",
+    project: "Fletcher Lite",
+    title: "Made Knowledge Architect the focus of Fletcher Lite",
+    body: "Repositioned the site as a specialized companion to The Stuff I Have Online, changed the visible professional identity from Documentation Engineer to Knowledge Architect, and added a direct call-booking path.",
+    url: "/fletcherlite/",
+    linkLabel: "Visit Fletcher Lite",
+    mark: "FL"
+  },
+  {
+    id: "fletcher-lite-knowledge-preservation",
+    date: "2026-06-28",
+    project: "Fletcher Lite",
+    title: "Focused Fletch Lite on preserving organizational knowledge",
+    body: "Reframed the portfolio around documentation, knowledge management, organizational learning, institutional memory, and expertise transfer. Added real writing samples and a downloadable résumé.",
+    url: "/fletcherlite/",
+    linkLabel: "Visit Fletcher Lite",
+    mark: "FL"
+  },
+  {
+    id: "fletcher-lite-first-recorded-version",
+    date: "2026-06-28",
+    project: "Fletcher Lite",
+    title: "Built the first recorded version of Fletch Lite",
+    body: "Created a responsive multi-page portfolio presenting Fletcher as a Documentation Engineer, with professional experience, writing, contact information, and light and dark themes.",
+    url: "/fletcherlite/",
+    linkLabel: "Visit Fletcher Lite",
+    mark: "FL"
+  },
   {
     id: "swipet-adoption-inquiries",
     date: "2026-08-13",
