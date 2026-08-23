@@ -79,19 +79,6 @@ body {
   height: 1.5rem;
 }
 
-.display-cable {
-  position: absolute;
-  top: 7.1rem;
-  right: 18.4rem;
-  z-index: 1;
-  width: max(4rem, calc(50vw - 42rem));
-  height: 2.8rem;
-  background: radial-gradient(ellipse at 50% 100%, transparent 51%, #242622 54% 63%, transparent 66%) 0 0 / 1.55rem 1.25rem repeat-x;
-  filter: drop-shadow(0 2px 1px rgb(37 31 23 / 18%));
-  transform: rotate(-4deg);
-  transform-origin: right center;
-}
-
 .next-display__screen {
   min-height: 5.8rem;
   padding: 0.7rem 1rem;
@@ -441,7 +428,6 @@ a:focus-visible { outline: 3px solid var(--signal); outline-offset: 4px; }
     width: min(14rem, calc(100% - 1rem));
   }
   .next-display__screen { min-height: 5.2rem; padding-inline: 0.75rem; }
-  .display-cable { top: 6.7rem; right: 11.5rem; width: 3.5rem; }
   .printer { height: 4.5rem; margin-top: 7.5rem; }
   .printer__label { display: none; }
   .receipt { width: calc(100% - 1rem); padding-inline: 1.35rem; }
