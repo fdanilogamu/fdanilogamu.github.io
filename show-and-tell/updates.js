@@ -4,18 +4,21 @@
   Required: id, date, project, title
   Optional: time, body, url, linkLabel, mark, markImage, markColor, isExample
 
-  `mark` is a short text stamp. `markImage` can later point to a project logo.
-  Project-wide stamp colors live in NOOK_PROJECTS. An entry-level `markColor`
-  can override its project's color when needed.
+  Project-wide stamp names and colors live in NOOK_PROJECTS. An entry-level
+  `mark` is used only when its project has no configured short name.
+  `markImage` can later point to a project logo, and `markColor` can override
+  its project's color when needed.
   Use an ISO date (YYYY-MM-DD) and 24-hour time (HH:MM) when a time is included.
 */
 window.NOOK_PROJECTS = {
-  "Operational Entropy Index": { stampColor: "#3D5368" },
-  "Entropy Compatible Hiring": { stampColor: "#112638" },
-  "The Stuff I Have Online": { stampColor: "#171b1a" },
-  "Inglés Rebelde": { stampColor: "#39ff14" },
-  "Swipet": { stampColor: "#2B3B8C" },
-  "Fletcher Lite": { stampColor: "#d4a574" }
+  "Operational Entropy Index": { shortName: "OEI", stampColor: "#3D5368" },
+  "Entropy Compatible Hiring": { shortName: "ECH", stampColor: "#112638" },
+  "The Stuff I Have Online": { shortName: "TSHO", stampColor: "#171b1a" },
+  "Inglés Rebelde": { shortName: "IR", stampColor: "#39ff14" },
+  "Swipet": { shortName: "SWP", stampColor: "#2B3B8C" },
+  "Fletcher Lite": { shortName: "FL", stampColor: "#d4a574" },
+  "Resident Inventor": { shortName: "RI" },
+  "Show & Tell Nook": { shortName: "STN" }
 };
 
 window.NOOK_UPDATES = [

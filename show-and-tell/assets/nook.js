@@ -39,7 +39,9 @@
       image.alt = "";
       stamp.appendChild(image);
     } else {
-      stamp.textContent = safeText(update.mark) || safeText(update.project).slice(0, 3).toUpperCase();
+      stamp.textContent = safeText(projectStyle.shortName)
+        || safeText(update.mark)
+        || safeText(update.project).slice(0, 3).toUpperCase();
     }
     return stamp;
   }
