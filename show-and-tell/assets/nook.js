@@ -2,6 +2,9 @@
   "use strict";
 
   const feed = document.getElementById("update-feed");
+  const nextItem = window.NOOK_NEXT && typeof window.NOOK_NEXT === "object"
+    ? window.NOOK_NEXT
+    : { mode: "processing" };
   const projects = window.NOOK_PROJECTS && typeof window.NOOK_PROJECTS === "object"
     ? window.NOOK_PROJECTS
     : {};
@@ -23,6 +26,20 @@
 
   function safeText(value) {
     return typeof value === "string" ? value : "";
+  }
+
+  function renderNextItem() {
+    const display = document.querySelector(".next-display");
+    const project = document.getElementById("next-project");
+    const message = document.getElementById("next-message");
+    if (!display || !project || !message) return;
+
+    const isQueued = nextItem.mode === "queued" && safeText(nextItem.text);
+    const projectName = isQueued ? safeText(nextItem.project) : "";
+    display.dataset.mode = isQueued ? "queued" : "processing";
+    project.textContent = projectName;
+    project.hidden = !projectName;
+    message.textContent = isQueued ? safeText(nextItem.text) : "PROCESSING";
   }
 
   function makeMark(update) {
@@ -136,6 +153,7 @@
     });
   }
 
+  renderNextItem();
   if (!feed) return;
 
   if (!updates.length) {

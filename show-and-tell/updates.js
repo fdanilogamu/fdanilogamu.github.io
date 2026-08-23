@@ -10,6 +10,12 @@
   its project's color when needed.
   Use an ISO date (YYYY-MM-DD) and 24-hour time (HH:MM) when a time is included.
 */
+/*
+  The register display defaults to PROCESSING. To announce something specific,
+  use: { mode: "queued", project: "Project name", text: "Short description" }
+*/
+window.NOOK_NEXT = { mode: "processing" };
+
 window.NOOK_PROJECTS = {
   "Operational Entropy Index": { shortName: "OEI", stampColor: "#3D5368" },
   "Entropy Compatible Hiring": { shortName: "ECH", stampColor: "#112638" },

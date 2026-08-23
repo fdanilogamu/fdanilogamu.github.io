@@ -39,12 +39,85 @@ body {
 
 .skip-link:focus { transform: translateY(0); }
 
+.next-display {
+  position: relative;
+  z-index: 3;
+  width: min(25rem, calc(100% - 2rem));
+  margin: 2.5rem auto 0;
+  padding: 0.7rem;
+  border: 2px solid #171815;
+  border-radius: 0.55rem;
+  background: #30332f;
+  box-shadow:
+    inset 0 0 0 2px #4b4e48,
+    0 0.8rem 1.6rem rgb(37 31 23 / 22%);
+  transform: rotate(-0.35deg);
+}
+
+.next-display::before,
+.next-display::after {
+  position: absolute;
+  bottom: -1.45rem;
+  width: 0.8rem;
+  height: 1.45rem;
+  content: "";
+  background: #252723;
+}
+
+.next-display::before { left: 4rem; }
+.next-display::after { right: 4rem; }
+
+.next-display__screen {
+  min-height: 5.8rem;
+  padding: 0.7rem 1rem;
+  overflow: hidden;
+  color: #b6ff70;
+  border: 2px inset #151b13;
+  border-radius: 0.18rem;
+  background:
+    repeating-linear-gradient(0deg, rgb(182 255 112 / 3%) 0 2px, transparent 2px 4px),
+    #10170f;
+  box-shadow: inset 0 0 1.25rem rgb(0 0 0 / 78%);
+  text-shadow: 0 0 0.4rem rgb(182 255 112 / 48%);
+}
+
+.next-display p { margin: 0; }
+
+.next-display__label {
+  color: #7caf55;
+  font-size: 0.61rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.next-display__project {
+  margin-top: 0.45rem !important;
+  color: #e0ffc1;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.next-display__message {
+  margin-top: 0.35rem !important;
+  font-size: clamp(1rem, 4vw, 1.35rem);
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: uppercase;
+}
+
+.next-display[data-mode="processing"] .next-display__message {
+  animation: display-processing 1.5s steps(2, end) infinite;
+}
+
 .printer {
   position: relative;
   z-index: 2;
   width: min(45rem, calc(100% - 1.5rem));
   height: 5.4rem;
-  margin: 3rem auto -1.15rem;
+  margin: 1.25rem auto -1.15rem;
   border: 2px solid #242622;
   border-radius: 0.55rem 0.55rem 0.2rem 0.2rem;
   background: #3b3d38;
@@ -335,12 +408,20 @@ a:focus-visible { outline: 3px solid var(--signal); outline-offset: 4px; }
   50% { opacity: 0.35; }
 }
 
+@keyframes display-processing {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.58; }
+}
+
 @keyframes ink-in {
   from { opacity: 0; filter: blur(1px); transform: translateY(-0.3rem); }
   to { opacity: 1; filter: blur(0); transform: translateY(0); }
 }
 
 @media (max-width: 34rem) {
+  .next-display { margin-top: 1.25rem; }
+  .next-display::before { left: 2.5rem; }
+  .next-display::after { right: 2.5rem; }
   .printer { height: 4.5rem; margin-top: 1.25rem; }
   .printer__label { display: none; }
   .receipt { width: calc(100% - 1rem); padding-inline: 1.35rem; }
