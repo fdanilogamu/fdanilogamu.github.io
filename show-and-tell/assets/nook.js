@@ -106,6 +106,28 @@
     return entry;
   }
 
+  function startPrintAnimation() {
+    const receipt = document.querySelector(".receipt");
+    const printer = document.querySelector(".printer");
+    if (!receipt || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+    const paperLength = receipt.scrollHeight;
+    const duration = Math.round(Math.min(9000, Math.max(3200, paperLength * 0.9)));
+    receipt.style.setProperty("--feed-duration", `${duration}ms`);
+
+    window.requestAnimationFrame(function () {
+      receipt.classList.add("is-printing");
+      printer?.classList.add("is-printing");
+    });
+
+    receipt.addEventListener("animationend", function finishPrinting(event) {
+      if (event.animationName !== "feed-paper") return;
+      receipt.classList.remove("is-printing");
+      printer?.classList.remove("is-printing");
+      receipt.removeEventListener("animationend", finishPrinting);
+    });
+  }
+
   if (!feed) return;
 
   if (!updates.length) {
@@ -113,6 +135,7 @@
     empty.className = "noscript-note";
     empty.textContent = "The printer is quiet. Check back soon.";
     feed.appendChild(empty);
+    startPrintAnimation();
     return;
   }
 
@@ -121,4 +144,5 @@
     fragment.appendChild(makeEntry(update, index));
   });
   feed.appendChild(fragment);
+  startPrintAnimation();
 })();

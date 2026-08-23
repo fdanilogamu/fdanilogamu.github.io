@@ -98,7 +98,18 @@ body {
     linear-gradient(90deg, rgb(73 65 49 / 4%), transparent 8%, transparent 92%, rgb(73 65 49 / 5%)),
     var(--paper);
   box-shadow: 0 1.3rem 2.8rem rgb(54 46 34 / 24%);
-  animation: feed-paper 700ms cubic-bezier(.2,.7,.25,1) both;
+}
+
+.receipt.is-printing {
+  animation: feed-paper var(--feed-duration, 5s) linear both;
+}
+
+.printer.is-printing {
+  animation: printer-rattle 120ms steps(2, end) infinite;
+}
+
+.printer.is-printing .printer__light {
+  animation: printer-light 480ms steps(2, end) infinite;
 }
 
 .receipt::before,
@@ -299,8 +310,18 @@ h1 span {
 a:focus-visible { outline: 3px solid var(--signal); outline-offset: 4px; }
 
 @keyframes feed-paper {
-  from { clip-path: inset(0 0 95%); transform: translateY(-1.5rem); }
+  from { clip-path: inset(0 0 96%); transform: translateY(-1.5rem); }
   to { clip-path: inset(0); transform: translateY(0); }
+}
+
+@keyframes printer-rattle {
+  from { transform: translateX(-1px); }
+  to { transform: translateX(1px); }
+}
+
+@keyframes printer-light {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
 }
 
 @keyframes ink-in {
