@@ -14,6 +14,7 @@
 html { background: var(--wall); }
 
 body {
+  position: relative;
   margin: 0;
   min-width: 18rem;
   color: var(--ink);
@@ -40,10 +41,12 @@ body {
 .skip-link:focus { transform: translateY(0); }
 
 .next-display {
-  position: relative;
+  position: absolute;
+  top: 1.1rem;
+  right: 1.1rem;
   z-index: 3;
-  width: min(25rem, calc(100% - 2rem));
-  margin: 2.5rem auto 0;
+  width: min(20.5rem, calc(100% - 2rem));
+  margin: 0;
   padding: 0.7rem;
   border: 2px solid #171815;
   border-radius: 0.55rem;
@@ -57,15 +60,37 @@ body {
 .next-display::before,
 .next-display::after {
   position: absolute;
-  bottom: -1.45rem;
-  width: 0.8rem;
-  height: 1.45rem;
   content: "";
   background: #252723;
 }
 
-.next-display::before { left: 4rem; }
-.next-display::after { right: 4rem; }
+.next-display::before {
+  top: -0.4rem;
+  right: 0.85rem;
+  width: 2rem;
+  height: 0.45rem;
+  border-radius: 0.25rem;
+}
+
+.next-display::after {
+  top: -1.5rem;
+  right: 1.65rem;
+  width: 0.45rem;
+  height: 1.5rem;
+}
+
+.display-cable {
+  position: absolute;
+  top: 7.1rem;
+  right: 18.4rem;
+  z-index: 1;
+  width: max(4rem, calc(50vw - 42rem));
+  height: 2.8rem;
+  background: radial-gradient(ellipse at 50% 100%, transparent 51%, #242622 54% 63%, transparent 66%) 0 0 / 1.55rem 1.25rem repeat-x;
+  filter: drop-shadow(0 2px 1px rgb(37 31 23 / 18%));
+  transform: rotate(-4deg);
+  transform-origin: right center;
+}
 
 .next-display__screen {
   min-height: 5.8rem;
@@ -117,7 +142,7 @@ body {
   z-index: 2;
   width: min(45rem, calc(100% - 1.5rem));
   height: 5.4rem;
-  margin: 1.25rem auto -1.15rem;
+  margin: 8.75rem auto -1.15rem;
   border: 2px solid #242622;
   border-radius: 0.55rem 0.55rem 0.2rem 0.2rem;
   background: #3b3d38;
@@ -410,10 +435,14 @@ a:focus-visible { outline: 3px solid var(--signal); outline-offset: 4px; }
 }
 
 @media (max-width: 34rem) {
-  .next-display { margin-top: 1.25rem; }
-  .next-display::before { left: 2.5rem; }
-  .next-display::after { right: 2.5rem; }
-  .printer { height: 4.5rem; margin-top: 1.25rem; }
+  .next-display {
+    top: 0.75rem;
+    right: 0.55rem;
+    width: min(14rem, calc(100% - 1rem));
+  }
+  .next-display__screen { min-height: 5.2rem; padding-inline: 0.75rem; }
+  .display-cable { top: 6.7rem; right: 11.5rem; width: 3.5rem; }
+  .printer { height: 4.5rem; margin-top: 7.5rem; }
   .printer__label { display: none; }
   .receipt { width: calc(100% - 1rem); padding-inline: 1.35rem; }
   .paper-end { width: calc(100% - 1rem); }
