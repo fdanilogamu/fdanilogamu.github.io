@@ -1,0 +1,351 @@
+:root {
+  color-scheme: light;
+  --wall: #d9d3c6;
+  --paper: #f7f3e8;
+  --ink: #20221f;
+  --faded-ink: #65665f;
+  --signal: #ec4c2f;
+  --blue-ink: #265e70;
+  --paper-width: 39rem;
+}
+
+* { box-sizing: border-box; }
+
+html { background: var(--wall); }
+
+body {
+  margin: 0;
+  min-width: 18rem;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 15% 20%, rgb(255 255 255 / 28%) 0 1px, transparent 2px),
+    linear-gradient(90deg, rgb(70 61 45 / 4%) 1px, transparent 1px),
+    var(--wall);
+  background-size: 19px 23px, 47px 100%;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.5;
+}
+
+.skip-link {
+  position: fixed;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 10;
+  padding: 0.65rem 0.8rem;
+  color: #fff;
+  background: var(--ink);
+  transform: translateY(-150%);
+}
+
+.skip-link:focus { transform: translateY(0); }
+
+.printer {
+  position: relative;
+  z-index: 2;
+  width: min(45rem, calc(100% - 1.5rem));
+  height: 5.4rem;
+  margin: 3rem auto -1.15rem;
+  border: 2px solid #242622;
+  border-radius: 0.55rem 0.55rem 0.2rem 0.2rem;
+  background: #3b3d38;
+  box-shadow: 0 1rem 2rem rgb(37 31 23 / 25%);
+}
+
+.printer__label {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  padding: 0.2rem 0.45rem;
+  color: #c9c5b8;
+  border: 1px solid #73756c;
+  font-size: 0.62rem;
+  letter-spacing: 0.14em;
+  transform: translateX(-50%);
+}
+
+.printer__light {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.4rem;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background: #9bdb6c;
+  box-shadow: 0 0 0.55rem #9bdb6c;
+}
+
+.printer__slot {
+  position: absolute;
+  right: 4%;
+  bottom: 0.65rem;
+  left: 4%;
+  height: 0.72rem;
+  border: 2px solid #171815;
+  border-radius: 50%;
+  background: #11120f;
+}
+
+.receipt {
+  position: relative;
+  z-index: 1;
+  width: min(var(--paper-width), calc(100% - 2rem));
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 4.6rem clamp(1.2rem, 5vw, 3.25rem) 2.6rem;
+  overflow: hidden;
+  background:
+    repeating-linear-gradient(0deg, transparent 0 4px, rgb(36 38 34 / 1.5%) 5px),
+    linear-gradient(90deg, rgb(73 65 49 / 4%), transparent 8%, transparent 92%, rgb(73 65 49 / 5%)),
+    var(--paper);
+  box-shadow: 0 1.3rem 2.8rem rgb(54 46 34 / 24%);
+  animation: feed-paper 700ms cubic-bezier(.2,.7,.25,1) both;
+}
+
+.receipt::before,
+.receipt::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  content: "";
+  background: rgb(52 54 49 / 8%);
+}
+
+.receipt::before { left: 0.55rem; }
+.receipt::after { right: 0.55rem; }
+
+.masthead { text-align: center; }
+
+.kicker {
+  margin: 0 0 1.25rem;
+  color: var(--faded-ink);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: clamp(3.3rem, 13vw, 6.2rem);
+  font-weight: 900;
+  line-height: 0.78;
+  letter-spacing: -0.045em;
+  text-transform: uppercase;
+}
+
+h1 span {
+  display: block;
+  color: var(--paper);
+  -webkit-text-stroke: 1.5px var(--ink);
+  text-shadow: 3px 3px 0 var(--signal);
+}
+
+.tagline {
+  max-width: 30rem;
+  margin: 1.7rem auto;
+  font-size: clamp(0.88rem, 2.5vw, 1.05rem);
+  font-weight: 700;
+}
+
+.receipt-meta {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.55rem 0;
+  border-block: 2px solid var(--ink);
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
+.intro { padding: 2.3rem 0 2rem; }
+
+.intro h2,
+.section-rule h2 {
+  margin: 0 0 0.7rem;
+  font: 900 0.76rem/1 "Courier New", monospace;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.intro p { margin: 0; font-size: 0.96rem; }
+
+.sample-notice {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.75rem;
+  padding: 0.9rem;
+  border: 2px dashed var(--signal);
+  color: #a52d1a;
+  font-size: 0.7rem;
+  transform: rotate(-0.5deg);
+}
+
+.sample-notice strong {
+  writing-mode: vertical-rl;
+  letter-spacing: 0.1em;
+}
+
+.section-rule {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 3rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 3px double var(--ink);
+}
+
+.section-rule h2 { margin: 0; }
+.section-rule span { color: var(--faded-ink); font-size: 0.62rem; }
+
+.dispatch {
+  position: relative;
+  padding: 2rem 0 2.25rem;
+  border-bottom: 1px dashed #88877e;
+  animation: ink-in 420ms calc(350ms + var(--print-order) * 90ms) ease-out both;
+}
+
+.dispatch__top {
+  display: flex;
+  min-height: 3rem;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.dispatch time {
+  color: var(--blue-ink);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.project-mark {
+  display: grid;
+  width: 3.4rem;
+  height: 2.6rem;
+  flex: 0 0 auto;
+  place-items: center;
+  overflow: hidden;
+  color: var(--signal);
+  border: 2px solid currentColor;
+  font-family: Arial, sans-serif;
+  font-size: 0.74rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  transform: rotate(4deg);
+  opacity: 0.88;
+}
+
+.project-mark img { max-width: 82%; max-height: 82%; object-fit: contain; }
+
+.dispatch__project {
+  margin: 0 0 0.55rem;
+  color: var(--faded-ink);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.example-label {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 0.05rem 0.3rem;
+  color: var(--paper);
+  background: var(--signal);
+  letter-spacing: 0.04em;
+}
+
+.dispatch h3 {
+  max-width: 29rem;
+  margin: 0;
+  font: 900 clamp(1.25rem, 4vw, 1.7rem)/1.12 Arial, Helvetica, sans-serif;
+  letter-spacing: -0.025em;
+}
+
+.dispatch__body { margin: 0.8rem 0 0; font-size: 0.9rem; }
+
+.dispatch__link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--blue-ink);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-underline-offset: 0.2em;
+}
+
+.dispatch__link::after { content: "  ↗"; }
+.dispatch__link[aria-disabled="true"] { cursor: not-allowed; opacity: 0.7; }
+
+.dispatch__number {
+  position: absolute;
+  right: 0;
+  bottom: 0.25rem;
+  color: rgb(32 34 31 / 30%);
+  font-size: 0.58rem;
+}
+
+.receipt-footer { padding: 3.3rem 0 1.2rem; text-align: center; }
+.receipt-footer p { font-weight: 700; }
+.end-mark { color: var(--signal); letter-spacing: 0.8em; }
+
+.receipt-footer a {
+  display: inline-block;
+  margin: 0.9rem 0 2.2rem;
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-underline-offset: 0.25em;
+}
+
+.receipt-footer small { display: block; color: var(--faded-ink); font-size: 0.58rem; letter-spacing: 0.13em; }
+
+.paper-end {
+  width: min(var(--paper-width), calc(100% - 2rem));
+  height: 1rem;
+  margin: 0 auto 5rem;
+  background: linear-gradient(135deg, var(--paper) 0.45rem, transparent 0) 0 0/0.9rem 100% repeat-x;
+  filter: drop-shadow(0 0.7rem 0.5rem rgb(54 46 34 / 16%));
+}
+
+.noscript-note { padding: 2rem 0; font-size: 0.85rem; }
+
+a:focus-visible { outline: 3px solid var(--signal); outline-offset: 4px; }
+
+@keyframes feed-paper {
+  from { clip-path: inset(0 0 95%); transform: translateY(-1.5rem); }
+  to { clip-path: inset(0); transform: translateY(0); }
+}
+
+@keyframes ink-in {
+  from { opacity: 0; filter: blur(1px); transform: translateY(-0.3rem); }
+  to { opacity: 1; filter: blur(0); transform: translateY(0); }
+}
+
+@media (max-width: 34rem) {
+  .printer { height: 4.5rem; margin-top: 1.25rem; }
+  .printer__label { display: none; }
+  .receipt { width: calc(100% - 1rem); padding-inline: 1.35rem; }
+  .paper-end { width: calc(100% - 1rem); }
+  .receipt-meta { font-size: 0.58rem; }
+  .sample-notice { grid-template-columns: 1fr; }
+  .sample-notice strong { writing-mode: initial; }
+  .section-rule { align-items: start; flex-direction: column; gap: 0.25rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+@media print {
+  body { background: #fff; }
+  .printer, .paper-end, .skip-link { display: none; }
+  .receipt { width: 100%; margin: 0; box-shadow: none; }
+}
