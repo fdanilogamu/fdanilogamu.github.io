@@ -2,7 +2,11 @@
   "use strict";
 
   const feed = document.getElementById("update-feed");
-  const updates = Array.isArray(window.NOOK_UPDATES) ? window.NOOK_UPDATES : [];
+  const updates = Array.isArray(window.NOOK_UPDATES)
+    ? window.NOOK_UPDATES.slice().sort(function (a, b) {
+        return `${b.date || ""}T${b.time || ""}`.localeCompare(`${a.date || ""}T${a.time || ""}`);
+      })
+    : [];
 
   function readableDate(date) {
     const parsed = new Date(`${date}T12:00:00`);
