@@ -109,19 +109,27 @@
   function startPrintAnimation() {
     const receipt = document.querySelector(".receipt");
     const printer = document.querySelector(".printer");
+    const paperEnd = document.querySelector(".paper-end");
     if (!receipt || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
     receipt.style.setProperty("--feed-duration", "25s");
+    if (paperEnd) {
+      const startingOffset = Math.round((receipt.offsetHeight * 0.96) + 24);
+      paperEnd.style.setProperty("--paper-start", `-${startingOffset}px`);
+      paperEnd.style.setProperty("--feed-duration", "25s");
+    }
 
     window.requestAnimationFrame(function () {
       receipt.classList.add("is-printing");
       printer?.classList.add("is-printing");
+      paperEnd?.classList.add("is-printing");
     });
 
     receipt.addEventListener("animationend", function finishPrinting(event) {
       if (event.animationName !== "feed-paper") return;
       receipt.classList.remove("is-printing");
       printer?.classList.remove("is-printing");
+      paperEnd?.classList.remove("is-printing");
       receipt.removeEventListener("animationend", finishPrinting);
     });
   }

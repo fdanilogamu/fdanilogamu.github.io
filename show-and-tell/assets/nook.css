@@ -298,11 +298,17 @@ h1 span {
 .receipt-footer small { display: block; color: var(--faded-ink); font-size: 0.58rem; letter-spacing: 0.13em; }
 
 .paper-end {
+  position: relative;
+  z-index: 2;
   width: min(var(--paper-width), calc(100% - 2rem));
   height: 1rem;
   margin: 0 auto 5rem;
   background: linear-gradient(135deg, var(--paper) 0.45rem, transparent 0) 0 0/0.9rem 100% repeat-x;
   filter: drop-shadow(0 0.7rem 0.5rem rgb(54 46 34 / 16%));
+}
+
+.paper-end.is-printing {
+  animation: follow-paper var(--feed-duration, 25s) linear both;
 }
 
 .noscript-note { padding: 2rem 0; font-size: 0.85rem; }
@@ -312,6 +318,11 @@ a:focus-visible { outline: 3px solid var(--signal); outline-offset: 4px; }
 @keyframes feed-paper {
   from { clip-path: inset(0 0 96%); transform: translateY(-1.5rem); }
   to { clip-path: inset(0); transform: translateY(0); }
+}
+
+@keyframes follow-paper {
+  from { transform: translateY(var(--paper-start, 0)); }
+  to { transform: translateY(0); }
 }
 
 @keyframes printer-rattle {
