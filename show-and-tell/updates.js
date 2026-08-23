@@ -9,6 +9,30 @@
 */
 window.NOOK_UPDATES = [
   {
+    id: "swipet-adoption-inquiries",
+    date: "2026-08-13",
+    project: "Swipet",
+    title: "Built the handoff from compatible matches to shelters",
+    body: "Added location-aware discovery and a structured adoption inquiry that sends readiness, consent, contact details, compatibility results, and match reasons into an administrative queue.",
+    mark: "SWP"
+  },
+  {
+    id: "swipet-operator-platform",
+    date: "2026-06-13",
+    project: "Swipet",
+    title: "Made Swipet bilingual and operator-managed",
+    body: "Added Spanish and English interfaces, persistent pet and user records, photo uploads, an administrative workspace, and a manual premium-activation workflow.",
+    mark: "SWP"
+  },
+  {
+    id: "swipet-product-identity",
+    date: "2026-05-15",
+    project: "Swipet",
+    title: "Turned a generic scaffold into Swipet",
+    body: "Built a branded mobile pet-adoption experience with lifestyle onboarding, explainable compatibility scoring, swipe discovery, saved matches, pet profiles, and a navy visual identity.",
+    mark: "SWP"
+  },
+  {
     id: "oei-identity-governance",
     date: "2026-08-21",
     project: "Operational Entropy Index",
