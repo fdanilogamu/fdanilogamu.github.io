@@ -111,9 +111,7 @@
     const printer = document.querySelector(".printer");
     if (!receipt || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
-    const paperLength = receipt.scrollHeight;
-    const duration = Math.round(Math.min(9000, Math.max(3200, paperLength * 0.9)));
-    receipt.style.setProperty("--feed-duration", `${duration}ms`);
+    receipt.style.setProperty("--feed-duration", "15s");
 
     window.requestAnimationFrame(function () {
       receipt.classList.add("is-printing");
