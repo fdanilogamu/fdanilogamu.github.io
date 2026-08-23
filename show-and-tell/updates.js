@@ -20,6 +20,36 @@ window.NOOK_PROJECTS = {
 
 window.NOOK_UPDATES = [
   {
+    id: "portfolio-operations-leadership",
+    date: "2025-11-16",
+    project: "The Stuff I Have Online",
+    title: "Rebuilt the portfolio around operations leadership",
+    body: "Moved beyond the earlier soft-skill portfolio and positioned my work around operations leadership, systems building, founder support, measurable impact, and a concrete COO offer.",
+    url: "/",
+    linkLabel: "Visit The Stuff I Have Online",
+    mark: "OPS"
+  },
+  {
+    id: "portfolio-playlist-archive",
+    date: "2025-07-20",
+    project: "The Stuff I Have Online",
+    title: "Made room for my never-ending playlist quest",
+    body: "Added the site's first Things I Do for Fun section and built a branching archive for playlist categories, individual mixes, notes, artwork, and listening links.",
+    url: "/0-things-i-do-for-fun/spotify/spotify.html",
+    linkLabel: "Explore the playlist archive",
+    mark: "MIX"
+  },
+  {
+    id: "portfolio-ideas-and-inventions",
+    date: "2025-05-08",
+    project: "The Stuff I Have Online",
+    title: "Made room for ideas and inventions",
+    body: "Expanded the professional portfolio with a public page for systems, shipped work, physical concepts, and ideas that had not yet become projects.",
+    url: "/0-about/ideas.html",
+    linkLabel: "See how the ideas page evolved",
+    mark: "IDEA"
+  },
+  {
     id: "fletcher-lite-knowledge-architect",
     date: "2026-08-21",
     project: "Fletcher Lite",
