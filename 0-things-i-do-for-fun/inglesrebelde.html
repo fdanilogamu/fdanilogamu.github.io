@@ -78,6 +78,35 @@
             text-align: center;
         }
 
+        .language-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 20;
+            min-width: 118px;
+            padding: 10px 16px;
+            border: 2px solid var(--neon-blue);
+            border-radius: 999px;
+            background: rgba(10, 14, 39, 0.92);
+            color: var(--white);
+            font: inherit;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            cursor: pointer;
+            box-shadow: 0 0 12px rgba(0, 212, 255, 0.35);
+            backdrop-filter: blur(8px);
+            transition: color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+        }
+
+        .language-toggle:hover,
+        .language-toggle:focus-visible {
+            color: var(--neon-green);
+            border-color: var(--neon-green);
+            transform: translateY(-1px);
+            outline: none;
+        }
+
         .logo {
             height: 150px;
             margin-bottom: 15px;
@@ -539,6 +568,14 @@
         }
 
         @media (max-width: 480px) {
+            .language-toggle {
+                top: 12px;
+                right: 12px;
+                min-width: 102px;
+                padding: 8px 12px;
+                font-size: 12px;
+            }
+
             h1 {
                 font-size: 36px;
             }
@@ -561,6 +598,7 @@
 </head>
 <body>
     <a class="standalone-return" href="/index.html">Return to The Stuff I Have Online</a>
+    <button class="language-toggle" type="button" aria-label="Read this page in English" aria-pressed="false">English</button>
     <header>
         <div class="container">
             <div class="logo-container">
@@ -751,5 +789,103 @@
             <p>&copy; 2026 Inglés Rebelde. Hecho con ganas de que aprendas.</p>
         </div>
     </footer>
+    <script>
+        const translations = {
+            'Aprende sin miedo': 'Learn without fear',
+            'La revolución de aprender inglés sin perder la valentía': 'A bold new way to learn English without losing your nerve',
+            '¿Por qué somos Rebeldes?': 'Why are we Rebels?',
+            'La mayoría de los cursos creen que la inmersión (es decir, utilizar 100% inglés durante clase) es la única forma "correcta" de aprender un idioma.': 'Most courses treat immersion—that is, using only English in class—as the one “right” way to learn a language.',
+            'Nosotros no.': 'We don’t.',
+            'Creemos que el español no es un obstáculo, sino una herramienta.': 'We believe Spanish is not an obstacle. It is a tool.',
+            'No creemos que entender menos produzca un mejor aprendizaje.': 'We don’t believe that understanding less helps you learn more.',
+            'Quiénes Somos': 'Who We Are',
+            'Soy Danilo': 'I’m Danilo',
+            'Profesor de inglés con más de 15 años de experiencia en operaciones y enseñanza. Mi misión es hacer que el aprendizaje del inglés sea accesible, divertido, y totalmente real para ti.': 'I’m an English teacher with more than 15 years of experience in operations and education. My mission is to make learning English accessible, enjoyable, and genuinely useful to you.',
+            'Creé Inglés Rebelde porque creo que aprender un idioma no tiene que ser aburrido ni sentirse como una obligación. Tiene que ser entretenido, práctico y alineado con quién tú eres.': 'I created Inglés Rebelde because learning a language should not be boring or feel like a chore. It should be engaging, practical, and suited to who you are.',
+            'Y porque siempre me pareció un error enseñar inglés en inglés. Si tu diccionario todavía está incompleto, no tiene sentido usarlo para explicarte las reglas del mismo idioma.': 'I have also always thought it was a mistake to teach English entirely in English. If your mental dictionary is still incomplete, it makes no sense to use it to explain the rules of that same language.',
+            'Soy Gale': 'I’m Gale',
+            'Escritor y profesor. Me interesa crear espacios de aprendizaje tranquilos, estimulantes y humanos, donde el inglés se explore desde la curiosidad, la conversación y la práctica real.': 'I’m a writer and teacher. I create calm, engaging, human learning spaces where we explore English through curiosity, conversation, and real practice.',
+            'A0 es una reintroducción suave al aprendizaje del inglés. Creo que la inmersión es accesible para todos y que aprender un idioma puede sentirse natural, creativo y conectado con la vida cotidiana.': 'A0 is a gentle reintroduction to learning English. I believe immersion can be accessible to everyone, and that language learning can feel natural, creative, and connected to everyday life.',
+            'Por Qué Hacemos Esto': 'Why We Do This',
+            'Toda nuestra filosofía parte de una idea que nos pareció obvia en cuanto la vimos: un idioma debe enseñarse en el idioma en el que ya tienes fluidez.': 'Our entire philosophy starts with an idea that felt obvious as soon as we saw it: a language should be taught through the language you already speak fluently.',
+            'Si estás aprendiendo inglés y tu diccionario mental todavía está incompleto, ¿qué sentido tiene que te expliquemos las reglas del inglés en inglés? Estamos usando palabras y estructuras que todavía te faltan para intentar que entiendas cosas sobre el idioma. No solo las palabras. Las reglas. La lógica. El cómo y el porqué.': 'If you are learning English and your mental dictionary is still incomplete, why explain English rules to you in English? That asks you to use words and structures you have not learned yet to understand how the language itself works—not just its vocabulary, but its rules, logic, and reasoning.',
+            'Eso está mal de una manera muy de fondo.': 'That approach is fundamentally flawed.',
+            'Por eso en Inglés Rebelde, las clases se hacen en inglés...los ejemplos, las estructuras, la práctica...pero las explicaciones son en español. Los porqués, los cómos, las pistas clave. Todo lo que necesitas entender sobre el idioma, te lo decimos en el idioma que ya dominas.': 'That is why Inglés Rebelde classes use English for examples, structures, and practice, while explanations are in Spanish. The reasons, the methods, and the key clues—everything you need to understand about English—is explained in the language you already command.',
+            'Así comenzamos, y poco a poco usamos menos español, porque con el tiempo, no lo vas a necesitar.': 'We begin there, then gradually use less Spanish because, in time, you will no longer need it.',
+            'Porque la rebeldía no es hacer las cosas al revés por capricho. Es hacerlas bien.': 'Being rebellious is not about doing things backward for the sake of it. It is about doing them well.',
+            'Qué Hacemos': 'What We Do',
+            'Clases Personalizadas': 'Classes Built Around You',
+            'Grupos pequeños organizados por tu nivel y disponibilidad. Aprendes a tu ritmo, con gente en tu mismo lugar.': 'Small groups matched by level and availability. You learn at your own pace alongside people at the same stage.',
+            'Enfoque Práctico': 'A Practical Approach',
+            'Nada de memorizar reglas sin sentido. Hablamos, practicamos, cometemos errores y aprendemos juntos en un ambiente de confianza.': 'No memorizing rules without context. We talk, practice, make mistakes, and learn together in a supportive environment.',
+            'Flexible y Accesible': 'Flexible and Accessible',
+            'De 2 a 12 sesiones por mes, según lo que necesites. Precios que funcionan para ti y descuentos si eres parte de un grupo de estudiantes.': 'Choose 2 to 12 sessions a month, depending on what you need. Fair pricing, with discounts for student groups.',
+            'Una Comunidad Real': 'A Real Community',
+            'No estás solo en esto. Aprenderás con otros que también quieren mejorar su inglés sin morir en el intento.': 'You are not doing this alone. You will learn with others who also want to improve their English without suffering through it.',
+            'Cómo aprenderás aquí': 'How You’ll Learn Here',
+            'Aprenderías usando inglés desde el primer día.': 'You will use English from day one.',
+            'Pero cuando aparezca una idea complicada, no vamos a fingir que no hablas español. Si hay una regla importante, o un error recurrente, la explicamos en español.': 'When a difficult idea comes up, we will not pretend you do not speak Spanish. Important rules and recurring mistakes are explained in Spanish.',
+            'Si una explicación en español puede ahorrarte diez minutos de confusión, la usamos.': 'If a Spanish explanation can save you ten minutes of confusion, we use it.',
+            'Sin embargo, a medida que avances en los niveles, el español irá desapareciendo poco a poco de nuestras clases, porque dejará de ser necesario.': 'As you advance, Spanish gradually fades from our classes because you simply stop needing it.',
+            'Elige Tu Estilo de Aprendizaje': 'Choose Your Learning Style',
+            'Traes tus preguntas, confusiones, puzzles y curiosidades del inglés que encontraste durante la semana. Yo armo la clase sobre la marcha, respondiendo exactamente lo que necesitas saber.': 'Bring the questions, puzzles, and curiosities about English that came up during your week. I shape the class around them and address exactly what you need to know.',
+            'Perfecto para: Gente curiosa, autodidacta, que aprende mejor cuando explora.': 'Ideal for: Curious, self-directed people who learn best through exploration.',
+            'Yo preparo las clases pensando en el orden que más te va a ayudar. Vengo con un plan claro y avanzamos juntos, construyendo tus habilidades paso a paso.': 'I prepare each class in the order that will help you most. We follow a clear plan and build your skills together, one step at a time.',
+            'Perfecto para: Gente que aprende mejor con estructura, que quiere saber el mapa antes de empezar.': 'Ideal for: People who learn best with structure and want to see the map before setting out.',
+            'Niveles': 'Levels',
+            'Principiante Absoluto': 'Absolute Beginner',
+            'Con Gale': 'With Gale',
+            '¿Cero inglés? Perfecto, es exactamente el punto de partida. En A0 construimos todo desde cero: saludos, presentaciones, vocabulario esencial y las primeras estructuras del idioma. Sin presión, sin vergüenza, a tu ritmo.': 'No English at all? Perfect—that is exactly where we begin. In A0 we build from the ground up: greetings, introductions, essential vocabulary, and your first language structures. No pressure or embarrassment, and always at your pace.',
+            'Elemental hasta Avanzado': 'Elementary to Advanced',
+            'Con Danilo': 'With Danilo',
+            'Desde tus primeras bases hasta dominio total del idioma. Danilo trabaja contigo en cada etapa del camino: elemental, intermedio, avanzado... usando analogías, escenarios reales y un enfoque que hace que la gramática tenga sentido de verdad.': 'From your first foundations to full command of the language, Danilo works with you at every stage—elementary, intermediate, and advanced—using analogies, real situations, and an approach that makes grammar genuinely click.',
+            'Cómo Comenzamos': 'How We Get Started',
+            'Conecta': 'Connect',
+            'Escríbeme por WhatsApp. Cuéntanos un poco sobre ti, qué quieres lograr y cuál es tu nivel.': 'Message us on WhatsApp. Tell us a little about yourself, your goals, and your current level.',
+            'Evalúa': 'Assess',
+            'Hacemos una entrevista opcional de ubicación de nivel para saber exactamente dónde estás. (Esto tiene un costo extra si lo necesitas.)': 'If you need it, we offer an optional placement interview to find your exact level for an additional fee.',
+            'Aprende': 'Learn',
+            'Empezamos las clases. 2 veces por semana es lo ideal, pero tú decides. Grupos por nivel y horario.': 'Classes begin. Twice a week is ideal, but you decide. Groups are organized by level and schedule.',
+            'Crece': 'Grow',
+            'Hablas, practicas, crecen tus habilidades. Y lo mejor: no sufres en el proceso.': 'You speak, practice, and build your skills—and best of all, you enjoy the process.',
+            'Conectemos': 'Let’s Connect',
+            '☎️ Llamar': '☎️ Call',
+            '© 2026 Inglés Rebelde. Hecho con ganas de que aprendas.': '© 2026 Inglés Rebelde. Made with a genuine desire to help you learn.'
+        };
+
+        const toggle = document.querySelector('.language-toggle');
+        const translatedElements = [...document.querySelectorAll('h1, h2, h3, p, a.btn')]
+            .filter((element) => translations[element.textContent.trim()])
+            .map((element) => ({
+                element,
+                spanish: element.innerHTML,
+                english: translations[element.textContent.trim()]
+            }));
+
+        function setLanguage(language) {
+            const english = language === 'en';
+            translatedElements.forEach(({ element, spanish, english: englishCopy }) => {
+                element.innerHTML = english ? englishCopy : spanish;
+            });
+            document.documentElement.lang = language;
+            document.title = english
+                ? 'Inglés Rebelde — Learn Without Fear'
+                : 'Inglés Rebelde - Aprende Divirtiéndote';
+            toggle.textContent = english ? 'Español' : 'English';
+            toggle.setAttribute('aria-label', english ? 'Leer esta página en español' : 'Read this page in English');
+            toggle.setAttribute('aria-pressed', String(english));
+            const whatsapp = document.querySelector('.btn-whatsapp');
+            whatsapp.href = english
+                ? 'https://wa.me/573106283490?text=Hi%20Danilo%2C%20I%20would%20like%20to%20learn%20more%20about%20Ingl%C3%A9s%20Rebelde'
+                : 'https://wa.me/573106283490?text=Hola%20Danilo%2C%20me%20interesa%20conocer%20más%20sobre%20Inglés%20Rebelde';
+            localStorage.setItem('ingles-rebelde-language', language);
+        }
+
+        toggle.addEventListener('click', () => {
+            setLanguage(document.documentElement.lang === 'es' ? 'en' : 'es');
+        });
+
+        setLanguage(localStorage.getItem('ingles-rebelde-language') === 'en' ? 'en' : 'es');
+    </script>
 </body>
 </html>
