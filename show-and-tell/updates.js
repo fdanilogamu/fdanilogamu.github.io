@@ -14,7 +14,10 @@
   The register display defaults to PROCESSING. To announce something specific,
   use: { mode: "queued", project: "Project name", text: "Short description" }
 */
-window.NOOK_NEXT = { mode: "processing" };
+window.NOOK_NEXT = {
+  mode: "queued",
+  text: "OEI STAFF SUITE"
+};
 
 window.NOOK_PROJECTS = {
   "Operational Entropy Index": { shortName: "OEI", stampColor: "#3D5368" },
