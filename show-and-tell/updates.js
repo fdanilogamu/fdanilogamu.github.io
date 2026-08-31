@@ -26,11 +26,57 @@ window.NOOK_PROJECTS = {
   "Inglés Rebelde": { shortName: "IR", stampColor: "#39ff14" },
   "Swipet": { shortName: "SWP", stampColor: "#2B3B8C" },
   "Fletcher Lite": { shortName: "FL", stampColor: "#d4a574" },
+  "Invisible Load": { shortName: "IL", stampColor: "#708090" },
   "Resident Inventor": { shortName: "RI" },
   "Show & Tell Nook": { shortName: "STN" }
 };
 
 window.NOOK_UPDATES = [
+  {
+    id: "invisible-load-desktop-app",
+    date: "2026-08-30",
+    project: "Invisible Load",
+    title: "Packaged Invisible Load as a Windows desktop app",
+    body: "Added a standalone Windows executable that opens in its own desktop window and stores history locally between sessions.",
+    url: "https://github.com/fdanilogamu/Invisible-Load/commit/72963fd90c05788ea1e8733b2162420fe68dd997",
+    linkLabel: "See the desktop packaging commit"
+  },
+  {
+    id: "oei-practitioner-certification-environment",
+    date: "2026-08-29",
+    project: "Operational Entropy Index",
+    title: "Moved OEI certification from method to practice",
+    body: "Turned Case 001 into an interactive local environment where candidates investigate evidence and assessors reconstruct and review their work.",
+    url: "https://github.com/fdanilogamu/OEI-staff/tree/main/OEI%20Practitioner%20Certification%20Environment",
+    linkLabel: "Explore the practitioner certification environment"
+  },
+  {
+    id: "ech-existing-employee-contribution-mapping",
+    date: "2026-08-28",
+    project: "Entropy Compatible Hiring",
+    title: "Expanded ECH to existing employees",
+    body: "ECH now pairs its candidate hiring instruments with an exploratory module for mapping how existing employees may help reduce operational entropy.",
+    url: "https://operationalentropy.com/entropy-compatible-hiring/",
+    linkLabel: "Explore Entropy Compatible Hiring"
+  },
+  {
+    id: "invisible-load-visual-language",
+    date: "2026-08-28",
+    project: "Invisible Load",
+    title: "Gave the two loads their own visual language",
+    body: "Added a blue and rust system that makes operational load, personal load, and their balance visible throughout the calculator.",
+    url: "https://github.com/fdanilogamu/Invisible-Load/commit/c6567e8a973ff8783befdc651c66387be83597ef",
+    linkLabel: "See the visual identity commit"
+  },
+  {
+    id: "invisible-load-local-app",
+    date: "2026-08-28",
+    project: "Invisible Load",
+    title: "Moved Invisible Load out of the spreadsheet",
+    body: "Turned the calculator into a local browser app with live scoring, persistent SQLite history, workbook imports, trend visualization, and tested parity with the original spreadsheet.",
+    url: "https://github.com/fdanilogamu/Invisible-Load/tree/a01581d90763058405ad101c0868c628a3d6dab9",
+    linkLabel: "See the spreadsheet migration snapshot"
+  },
   {
     id: "portfolio-operations-leadership",
     date: "2025-11-16",
